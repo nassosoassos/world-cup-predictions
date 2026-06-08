@@ -318,8 +318,10 @@ def main():
     data = build_data()
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = HTML.replace("__DATA__", payload)
-    with open("dashboard.html", "w") as f:
-        f.write(html)
+    # Write both: dashboard.html (local convention) and index.html (GitHub Pages root).
+    for name in ("dashboard.html", "index.html"):
+        with open(name, "w") as f:
+            f.write(html)
     s = data["summary"]
     n = sum(len(d["predictions"]) for d in data["days"])
     print(f"Wrote dashboard.html — {len(data['days'])} day(s), {n} prediction(s)"
