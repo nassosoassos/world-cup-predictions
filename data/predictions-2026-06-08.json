@@ -36,12 +36,13 @@
       "commence_time": "2026-06-12T19:00:00Z",
       "pick": "home",
       "scoreline": "2-1",
-      "confidence": 3,
+      "confidence": 2,
       "market": {"home": 0.5268, "draw": 0.264, "away": 0.2092},
-      "rationale": "Market favours Canada (53%) at a sold-out BMO Field, and intel backs it: Canada field Davies, Johnston, Eustaquio and focal point Jonathan David, with Opta giving them ~80% to progress. Confidence is capped at 3 because Bosnia carry real attacking quality in Demirovic, Tabakovic and veteran Dzeko, so a clean sheet is far from assured.",
+      "rationale": "Market favours Canada (53%) at a sold-out BMO Field, but a late blow significantly changes the picture: Alphonso Davies is not expected to start — coach Jesse Marsch confirmed on June 8 that the left back will likely not be ready for the opener. Davies is Canada's best creator and pressing engine; his absence (plus Bombito, Ali Ahmed and Shaffelburg also managing issues) thins an already-stretched squad. Jonathan David leads the line and the narrow home edge holds, but the slim market margin barely covers the Davies-shaped hole against a Bosnia side carrying Demirovic, Tabakovic and Dzeko.",
+      "disagreement": "Without Davies several tipsters have shifted to the draw as a live play; the 53% market may not have fully priced the depth of his impact.",
       "sources": [
-        {"title": "Sky Sports Group B guide", "url": "https://www.skysports.com/football/news/12098/13543085/world-cup-2026-group-b-guide-fixtures-schedule-standings-and-odds-for-canada-bosnia-herzegovina-qatar-and-switzerland"},
-        {"title": "Dimers: Canada vs Bosnia prediction", "url": "https://www.dimers.com/news/bosnia-and-herzegovina-vs-canada-updated-prediction-group-b-world-cup-2026-ac"}
+        {"title": "World Soccer Talk: Alphonso Davies injury update ahead of opener", "url": "https://worldsoccertalk.com/world-cup/alphonso-davies-provides-injury-update-ahead-of-canadas-2026-world-cup-debut-vs-bosnia-and-herzegovina/"},
+        {"title": "SI.com: Canada loses star player to injury on eve of 2026 World Cup", "url": "https://www.si.com/soccer/canada-loses-star-player-injury-eve-2026-world-cup"}
       ]
     },
     {
@@ -81,11 +82,11 @@
       "scoreline": "2-1",
       "confidence": 3,
       "market": {"home": 0.5754, "draw": 0.2493, "away": 0.1753},
-      "rationale": "Market backs Brazil at 58% and tipsters are unanimous on a Brazil win, most projecting 2-1 behind Vinicius and Raphinha. Genuine unpriced wrinkles cut Morocco's way though: Hakimi carried a thigh-injury doubt, Morocco have a brand-new coach (Ouahbi) and left out 2022 hero En-Nesyri, while Brazil endured a rough qualifying run. Quality gap keeps the favourite but caps confidence.",
-      "disagreement": "No tipster leans against Brazil, but previews stress Morocco's form (11 goals in last 3) and counter-attacking threat making this closer than the price.",
+      "rationale": "Market backs Brazil at 58% but the injury picture is now severe: Neymar is doubtful for the opener (grade-2 calf tear, MRI pending as of June 8; Ancelotti says he targets match 2 if not fit for match 1), and both Estêvão and Rodrygo are ruled out, stripping three of Brazil's planned wide-attacking trio. Vinícius Jr. and Raphinha must carry the attack alone. Morocco arrive sharp (1-1 draw with Norway in final friendly, no absences) and present a genuine counter-attacking threat. Brazil's residual quality gap justifies the pick, but confidence is capped firmly — this is materially closer than the 58% implies.",
+      "disagreement": "Multiple previews now treat this as close to a 50/50 given Brazil's injuries; Morocco could win if Vinícius and Raphinha are contained.",
       "sources": [
-        {"title": "ESPN: Morocco squad; En-Nesyri out", "url": "https://www.espn.com/espn/story/_/id/48883710/achraf-hakimi-brahim-diaz-headline-morocco-squad-fifa-world-cup-youssef-en-nesyri-out"},
-        {"title": "Al Jazeera: Morocco World Cup 2026 preview", "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"}
+        {"title": "Al Jazeera: Neymar set to miss Brazil World Cup opener", "url": "https://www.aljazeera.com/sports/2026/5/28/neymar-out-of-brazil-world-cup-opener-due-to-calf-injury"},
+        {"title": "Morocco World News: Morocco draws 1-1 with Norway before opener", "url": "https://www.moroccoworldnews.com/2026/06/316282/morocco-draws-1-1-with-norway-before-2026-world-cup-opener-against-brazil/"}
       ]
     },
     {
