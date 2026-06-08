@@ -7,6 +7,14 @@ predictions for upcoming 2026 World Cup matches by combining the betting market
 Today's date is provided by the environment. Work only with matches kicking off
 in the **next 7 days**.
 
+## Step 0 — Sync the repo (remote mode)
+If running remotely from a clone, start by pulling the latest so you build on
+prior days' data and never clobber history:
+
+```
+git pull --rebase --autostash || true
+```
+
 ## Step 1 — Market consensus (quantitative prior)
 Run the odds fetcher:
 
@@ -124,6 +132,19 @@ with `--futures` only while futures are still relevant. `WC_SMTP_PASSWORD` must 
 set in the environment (a Gmail App Password). If it is unset, the script exits with
 a clear message — report that in your summary rather than failing the whole run, and
 continue (the dashboard and files are already updated).
+
+## Step 8 — Commit & push artifacts (remote mode)
+Persist the day's outputs so they reach the user (this is the remote delivery
+channel alongside the email):
+
+```
+git add -A
+git commit -m "Daily run YYYY-MM-DD: predictions, scores, dashboard" || echo "nothing to commit"
+git push || echo "push failed — report in summary"
+```
+
+Never commit secrets (the `.gitignore` already excludes `.env`/`*.secret`; the
+API key and SMTP password live only in environment variables).
 
 ## Guardrails
 - The market beats almost everyone. Deviate from it only with a concrete reason.
