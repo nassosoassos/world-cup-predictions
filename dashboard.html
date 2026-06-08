@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Cup 2026 — Predictions</title>
+<style>
+  :root {
+    --bg:#0b0f1a; --card:#151b2e; --card2:#1c2438; --line:#26304a;
+    --txt:#e7ecf7; --muted:#8b96b0;
+    --home:#3b82f6; --draw:#94a3b8; --away:#f59e0b;
+    --win:#22c55e; --loss:#ef4444; --accent:#7c3aed;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--txt);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+  .wrap { max-width:1040px; margin:0 auto; padding:28px 20px 60px; }
+  header { display:flex; align-items:baseline; justify-content:space-between;
+    flex-wrap:wrap; gap:10px; margin-bottom:6px; }
+  h1 { font-size:26px; margin:0; letter-spacing:-.4px; }
+  h1 span { color:var(--accent); }
+  .gen { color:var(--muted); font-size:12px; }
+  .stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:12px; margin:20px 0 30px; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:14px 16px; }
+  .stat b { font-size:24px; display:block; }
+  .stat small { color:var(--muted); text-transform:uppercase; font-size:11px;
+    letter-spacing:.6px; }
+  .daysel { margin:0 0 18px; }
+  select { background:var(--card2); color:var(--txt); border:1px solid var(--line);
+    border-radius:8px; padding:8px 12px; font-size:14px; }
+  .match { background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:18px 20px; margin-bottom:14px; }
+  .mtop { display:flex; justify-content:space-between; align-items:center;
+    gap:12px; flex-wrap:wrap; }
+  .teams { font-size:18px; font-weight:600; }
+  .kick { color:var(--muted); font-size:12px; }
+  .pick { font-weight:700; padding:4px 10px; border-radius:999px; font-size:13px;
+    background:rgba(124,58,237,.18); color:#c4b5fd; border:1px solid #4c3a8a; }
+  .conf { color:var(--accent); letter-spacing:2px; font-size:14px; }
+  .bar { display:flex; height:26px; border-radius:7px; overflow:hidden;
+    margin:14px 0 6px; border:1px solid var(--line); }
+  .bar > div { display:flex; align-items:center; justify-content:center;
+    font-size:11px; font-weight:600; color:#0b0f1a; min-width:0; }
+  .bar .h { background:var(--home); } .bar .d { background:var(--draw); }
+  .bar .a { background:var(--away); }
+  .leg { display:flex; gap:16px; color:var(--muted); font-size:11px; margin-bottom:10px; }
+  .leg i { width:9px; height:9px; border-radius:2px; display:inline-block; margin-right:5px; }
+  .score { font-size:14px; color:var(--muted); }
+  .score b { color:var(--txt); }
+  .rat { color:#cdd5e6; margin:10px 0 0; }
+  .flag { margin-top:8px; font-size:13px; color:#fcd34d;
+    background:rgba(245,158,11,.08); border-left:3px solid var(--away);
+    padding:6px 10px; border-radius:0 6px 6px 0; }
+  .badge { font-weight:700; padding:3px 9px; border-radius:6px; font-size:12px; }
+  .hit { background:rgba(34,197,94,.16); color:#86efac; border:1px solid #2f6b46; }
+  .miss { background:rgba(239,68,68,.16); color:#fca5a5; border:1px solid #7f3838; }
+  .src { margin-top:10px; font-size:12px; }
+  .src a { color:#93b4ff; text-decoration:none; margin-right:12px; }
+  .empty { text-align:center; color:var(--muted); padding:60px 20px;
+    border:1px dashed var(--line); border-radius:14px; }
+  .sec { font-size:13px; text-transform:uppercase; letter-spacing:1px;
+    color:var(--muted); margin:30px 0 12px; border-bottom:1px solid var(--line);
+    padding-bottom:6px; }
+  .lock { color:var(--away); font-weight:600; text-transform:none; letter-spacing:0; }
+  .futgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:10px; }
+  .fut { background:var(--card); border:1px solid var(--line); border-radius:11px;
+    padding:12px 14px; }
+  .fut .q { color:var(--muted); font-size:12px; }
+  .fut .p { font-size:16px; font-weight:700; margin:3px 0; }
+  .fut .c { color:var(--accent); font-size:12px; letter-spacing:2px; }
+  .fut .n { color:#aab4c8; font-size:12px; margin-top:5px; }
+  .fut .res { margin-top:7px; }
+</style></head>
+<body><div class="wrap">
+  <header>
+    <h1>🏆 World Cup 2026 <span>Predictions</span></h1>
+    <div class="gen" id="gen"></div>
+  </header>
+  <div class="stats" id="stats"></div>
+  <div id="futures"></div>
+  <div class="sec" style="margin-top:34px">Match predictions</div>
+  <div class="daysel"><label>Matchday: <select id="day"></select></label></div>
+  <div id="cards"></div>
+</div>
+<script>
+const DATA = {"generated_at": "2026-06-08 14:18 UTC", "days": [{"date": "2026-06-08", "predictions": [{"home_team": "Mexico", "away_team": "South Africa", "commence_time": "2026-06-11T19:00:00Z", "pick": "home", "scoreline": "2-0", "confidence": 4, "market": {"home": 0.6719, "draw": 0.2168, "away": 0.1113}, "rationale": "Market reads Mexico as heavy favourites (67%) and intel agrees: El Tri are unbeaten in their 2026 friendlies, play a sold-out Azteca at ~2,250m altitude, and own a strong World Cup home record. South Africa arrive in weak form (no win in five) and are missing wingers Morena and Nkota. Multiple tipsters lean Mexico clean sheet, supporting 2-0.", "disagreement": "Some tipsters question Mexico's attacking depth beyond Raul Jimenez and favour a tighter 1-0, but still side with Mexico.", "sources": [{"title": "ESPN: Mexico vs South Africa team news", "url": "https://www.espn.com/espn/story/_/id/48998339/mexico-vs-south-africa-kick-team-news-how-watch-fifa-world-cup-opener"}, {"title": "Sky Sports Group A guide", "url": "https://www.skysports.com/football/news/12098/13540670/world-cup-2026-group-a-guide-fixtures-schedule-standings-and-odds-for-mexico-south-africa-south-korea-and-czech-republic"}], "actual": null}, {"home_team": "South Korea", "away_team": "Czech Republic", "commence_time": "2026-06-12T02:00:00Z", "pick": "draw", "scoreline": "1-1", "confidence": 2, "market": {"home": 0.3602, "draw": 0.3054, "away": 0.3344}, "rationale": "Market sees a near coin-flip: South Korea nominally ahead (36%) but Czechia level (33%) and a high draw probability (31%). Korea's low-scoring profile and Czech long-haul travel into altitude both cap goals, while Czechia carry playoff grit and Schick's aerial threat. Son gives Korea the quality edge, but the stalemate is the value lean.", "disagreement": "Bookmaker price has Korea marginally favoured; tipster consensus instead calls the 1-1 draw the value play.", "sources": [{"title": "Goal.com: South Korea vs Czech Republic preview", "url": "https://www.goal.com/en-us/news/south-korea-czech-republic-world-cup-preview/bltc5df400bcedf8307"}, {"title": "Squawka: South Korea vs Czech Republic predictions", "url": "https://www.squawka.com/us/news/world-cup/match-preview-south-korea-vs-czech-republic-06-11-26-world-cup-2026/"}], "actual": null}, {"home_team": "Canada", "away_team": "Bosnia & Herzegovina", "commence_time": "2026-06-12T19:00:00Z", "pick": "home", "scoreline": "2-1", "confidence": 3, "market": {"home": 0.5268, "draw": 0.264, "away": 0.2092}, "rationale": "Market favours Canada (53%) at a sold-out BMO Field, and intel backs it: Canada field Davies, Johnston, Eustaquio and focal point Jonathan David, with Opta giving them ~80% to progress. Confidence is capped at 3 because Bosnia carry real attacking quality in Demirovic, Tabakovic and veteran Dzeko, so a clean sheet is far from assured.", "sources": [{"title": "Sky Sports Group B guide", "url": "https://www.skysports.com/football/news/12098/13543085/world-cup-2026-group-b-guide-fixtures-schedule-standings-and-odds-for-canada-bosnia-herzegovina-qatar-and-switzerland"}, {"title": "Dimers: Canada vs Bosnia prediction", "url": "https://www.dimers.com/news/bosnia-and-herzegovina-vs-canada-updated-prediction-group-b-world-cup-2026-ac"}], "actual": null}, {"home_team": "USA", "away_team": "Paraguay", "commence_time": "2026-06-13T01:00:00Z", "pick": "home", "scoreline": "1-0", "confidence": 3, "market": {"home": 0.4807, "draw": 0.2809, "away": 0.2384}, "rationale": "Market makes the USA a modest home favourite (48%) at SoFi, and tipsters align on a low-scoring USA win — Paraguay conceded only 10 in 18 CONMEBOL qualifiers under Alfaro. The live unpriced risk is first-choice CB Chris Richards (ankle ligament injury, still a doubt), which weakens the back line against a disciplined Albirroja. USA won the November friendly 2-1.", "disagreement": "Paraguay's elite defensive record makes the draw a reasonable contrarian play; if Richards is ruled out the USA edge narrows further.", "sources": [{"title": "Goal.com: USA vs Paraguay preview", "url": "https://www.goal.com/en-us/news/usa-paraguay-world-cup-preview/blt6d2779c2ca4a708f"}, {"title": "ESPN: Richards out of final tuneup", "url": "https://www.espn.com/soccer/story/_/id/48976577/usa-world-cup-chris-richards-injury-mauricio-pochettino-germany"}], "actual": null}, {"home_team": "Qatar", "away_team": "Switzerland", "commence_time": "2026-06-13T19:00:00Z", "pick": "away", "scoreline": "0-2", "confidence": 5, "market": {"home": 0.0734, "draw": 0.1502, "away": 0.7764}, "rationale": "Market is emphatic at 78% for Switzerland and the intel agrees with no counter-signal. The Swiss went unbeaten in qualifying with four clean sheets and carry a healthy experienced core (Xhaka, Embolo, Akanji) with no fresh injuries, while Qatar lost five qualifiers and a warm-up to Ireland. Nothing unpriced points toward an upset.", "sources": [{"title": "ESPN: Xhaka to captain Switzerland, squad revealed", "url": "https://www.espn.com/soccer/story/_/id/48818354/granit-xhaka-captain-switzerland-world-cup-squad"}, {"title": "Footy Accumulators: Qatar vs Switzerland tips", "url": "https://footyaccumulators.com/predictions/wc-2026/qatar-vs-switzerland-preview-prediction-and-betting-tips"}], "actual": null}, {"home_team": "Brazil", "away_team": "Morocco", "commence_time": "2026-06-13T22:00:00Z", "pick": "home", "scoreline": "2-1", "confidence": 3, "market": {"home": 0.5754, "draw": 0.2493, "away": 0.1753}, "rationale": "Market backs Brazil at 58% and tipsters are unanimous on a Brazil win, most projecting 2-1 behind Vinicius and Raphinha. Genuine unpriced wrinkles cut Morocco's way though: Hakimi carried a thigh-injury doubt, Morocco have a brand-new coach (Ouahbi) and left out 2022 hero En-Nesyri, while Brazil endured a rough qualifying run. Quality gap keeps the favourite but caps confidence.", "disagreement": "No tipster leans against Brazil, but previews stress Morocco's form (11 goals in last 3) and counter-attacking threat making this closer than the price.", "sources": [{"title": "ESPN: Morocco squad; En-Nesyri out", "url": "https://www.espn.com/espn/story/_/id/48883710/achraf-hakimi-brahim-diaz-headline-morocco-squad-fifa-world-cup-youssef-en-nesyri-out"}, {"title": "Al Jazeera: Morocco World Cup 2026 preview", "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"}], "actual": null}, {"home_team": "Haiti", "away_team": "Scotland", "commence_time": "2026-06-14T01:00:00Z", "pick": "away", "scoreline": "0-2", "confidence": 4, "market": {"home": 0.1452, "draw": 0.2173, "away": 0.6375}, "rationale": "Market favours Scotland at 64% and tipsters lean firmly the same way on the back of strong warm-ups (4-1 Curacao, 4-0 Bolivia) and a midfield edge through McTominay and McGinn versus debutants Haiti. Scotland did lose Billy Gilmour to injury and Hanley has a knee doubt, but their European-league depth still clearly outclasses the 83rd-ranked Haitians.", "sources": [{"title": "ESPN: Scotland World Cup squad announced", "url": "https://www.espn.com/soccer/story/_/id/48814281/scotland-world-cup-squad-announced-scott-mctominay-ross-stewart"}, {"title": "Footy Accumulators: Haiti vs Scotland tips", "url": "https://footyaccumulators.com/predictions/wc-2026/haiti-vs-scotland-preview-prediction-and-betting-tips"}], "actual": null}, {"home_team": "Australia", "away_team": "Turkey", "commence_time": "2026-06-14T04:00:00Z", "pick": "away", "scoreline": "1-2", "confidence": 3, "market": {"home": 0.198, "draw": 0.2632, "away": 0.5388}, "rationale": "Market and tipsters both favour Turkey (54%) on the strength of Guler, Yildiz, Calhanoglu and a strong recent run including a draw with Spain. An unpriced negative for Australia reinforces it: Riley McGree is out for the whole tournament (hamstring) and Irvine is only just back from a long layoff, thinning the Socceroos' midfield. Australia's set-piece threat keeps confidence moderate.", "disagreement": "Some tipsters flag Australia at long odds as the best value despite picking Turkey, viewing the favourite as slightly short.", "sources": [{"title": "Dimers: Australia vs Turkey prediction", "url": "https://www.dimers.com/news/turkiye-vs-australia-updated-prediction-group-d-world-cup-2026-ac"}, {"title": "Yahoo Sports: World Cup injuries/squads tracker", "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-news-live-tracker-injuries-squads-storylines-and-updates-as-the-tournament-looms-200000653.html"}], "actual": null}, {"home_team": "Germany", "away_team": "Curaçao", "commence_time": "2026-06-14T17:00:00Z", "pick": "home", "scoreline": "4-0", "confidence": 5, "market": {"home": 0.8993, "draw": 0.0684, "away": 0.0323}, "rationale": "Market is emphatic at 90% and the intel fully backs it: Germany ride a nine-match winning run (4-0 Finland, 2-1 USA) versus World Cup debutants Curacao, ranked 82nd. The only wrinkle, Neuer's calf, is resolved with Nagelsmann confirming the keeper starts; nothing argues against a comfortable multi-goal home win.", "sources": [{"title": "Germany vs Curacao preview & team news", "url": "https://onefootball.com/en/news/germany-vs-curacao-preview-team-news-and-predicted-lineups-42980647"}, {"title": "Sky Sports Group E guide", "url": "https://www.skysports.com/football/news/12098/13543089/world-cup-2026-group-e-guide-fixtures-schedule-standings-and-odds-for-germany-curacao-ivory-coast-and-ecuador"}], "actual": null}, {"home_team": "Netherlands", "away_team": "Japan", "commence_time": "2026-06-14T20:00:00Z", "pick": "home", "scoreline": "2-1", "confidence": 4, "market": {"home": 0.4771, "draw": 0.2645, "away": 0.2584}, "rationale": "Market makes the Netherlands a clear favourite at 48% with the draw and Japan level at 26%, and the key unpriced intel strengthens the Dutch: Japan lost talisman winger Kaoru Mitoma to a hamstring injury (confirmed omission) having earlier lost Minamino to an ACL tear, gutting their attacking threat. Backing the home favourite is justified, though Japan's organisation keeps the draw live.", "sources": [{"title": "ESPN: Mitoma ruled out of World Cup", "url": "https://www.espn.com/football/story/_/id/48775615/kaoru-mitoma-ruled-world-cup-injury-takehiro-tomiyasu-recalled-japan-squad"}, {"title": "Goal.com: Netherlands vs Japan preview", "url": "https://www.goal.com/en/news/netherlands-japan-world-cup-preview/blt48135779b5e280e4"}], "actual": null}, {"home_team": "Ivory Coast", "away_team": "Ecuador", "commence_time": "2026-06-14T23:00:00Z", "pick": "draw", "scoreline": "1-1", "confidence": 2, "market": {"home": 0.2659, "draw": 0.3364, "away": 0.3976}, "rationale": "Market is genuinely split: Ecuador nominal favourite (40%) but the draw close behind (34%), reflecting a cagey opener neither side can afford to lose. Ecuador kept the best CONMEBOL qualifying defence (5 goals in 18) and have Caicedo available after an amnesty overturned his ban. With both defences organised and away/draw nearly tied, the draw offers the best value over the slim Ecuador edge.", "disagreement": "Market's single most likely outcome is an Ecuador win (40%); tipsters and the cagey-opener profile lean draw/under-2.5, so I take the draw.", "sources": [{"title": "Opta Analyst: World Cup 2026 Group E predictions", "url": "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview"}, {"title": "FourFourTwo: Caicedo eligibility for opener", "url": "https://www.fourfourtwo.com/person/player/decision-made-on-moises-caicedos-eligibility-for-world-cup-2026-report"}], "actual": null}, {"home_team": "Sweden", "away_team": "Tunisia", "commence_time": "2026-06-15T02:00:00Z", "pick": "home", "scoreline": "2-1", "confidence": 3, "market": {"home": 0.4949, "draw": 0.2805, "away": 0.2247}, "rationale": "Market favours Sweden at 49% on the strength of the Gyokeres-Isak forward line, the clearest source of quality in this tie. The caveat is real: Isak endured an injury-hit season and Tunisia, under new coach Lamouchi, conceded zero goals across WC qualifying and are well-drilled defensively, pointing to a tight match the home side edges via a single moment.", "disagreement": "Some previews frame this as Tunisia's best chance to take points given their clean-sheet record, nudging toward the draw, but Sweden's superior attack keeps the home pick.", "sources": [{"title": "OneFootball: Sweden name Isak and Gyokeres", "url": "https://onefootball.com/en/news/sweden-name-alexander-isak-and-viktor-gyoekeres-in-2026-world-cup-squad-42862294"}, {"title": "FIFA: Lamouchi names Tunisia squad", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-squad-named-sabri-lamouchi"}], "actual": null}]}], "summary": {"graded": 0, "correct": 0, "hit_rate": null, "exact": 0, "conf_right": null, "conf_wrong": null}, "futures": {"lock_deadline": "2026-06-11T22:00:00", "generated_at": "2026-06-08", "markets": [{"key": "champion", "question": "World Champion", "pick": "Spain", "confidence": 3, "note": "Leads both the market (~+475) and Opta (16.1%); only side rated >50% to reach the QF.", "alternatives": ["France (+500)", "England (+700)", "Argentina (+900)", "Brazil (+900)"], "result": null}, {"key": "top_scorer_team", "question": "Top scorer's team", "pick": "France (Mbappé)", "confidence": 3, "note": "Mbappé shortest Golden Boot price (+600) AND on a deep-running team = the volume edge.", "alternatives": ["England (Kane +700)", "Argentina (Messi +1600)", "Spain (Yamal/Oyarzabal)"], "result": null}, {"key": "group_a", "question": "Group A winner", "pick": "Mexico", "confidence": 4, "field": ["Mexico", "South Korea", "Czechia", "South Africa"], "note": "Host, three home games; Opta ~48%. Threat: Czechia.", "result": null}, {"key": "group_b", "question": "Group B winner", "pick": "Switzerland", "confidence": 2, "field": ["Canada", "Switzerland", "Qatar", "Bosnia & Herzegovina"], "note": "Narrow favourite (-135) over host Canada — tight. Threat: Canada.", "result": null}, {"key": "group_c", "question": "Group C winner", "pick": "Brazil", "confidence": 5, "field": ["Brazil", "Morocco", "Scotland", "Haiti"], "note": "-350, Opta ~60%. Threat: Morocco (for 2nd).", "result": null}, {"key": "group_d", "question": "Group D winner", "pick": "USA", "confidence": 2, "field": ["USA", "Paraguay", "Türkiye", "Australia"], "note": "Host edge in the most open group (+140, Opta ~33%). Threat: Türkiye.", "result": null}, {"key": "group_e", "question": "Group E winner", "pick": "Germany", "confidence": 4, "field": ["Germany", "Ecuador", "Ivory Coast", "Curaçao"], "note": "Clear class gap (-250). Threat: Ecuador.", "result": null}, {"key": "group_f", "question": "Group F winner", "pick": "Netherlands", "confidence": 2, "field": ["Netherlands", "Japan", "Sweden", "Tunisia"], "note": "Most talent but only -125. Threat: Japan.", "result": null}, {"key": "group_g", "question": "Group G winner", "pick": "Belgium", "confidence": 2, "field": ["Belgium", "Egypt", "Iran", "New Zealand"], "note": "Softest top-seed number (Opta 51.9%). Threat: Egypt/Salah.", "result": null}, {"key": "group_h", "question": "Group H winner", "pick": "Spain", "confidence": 5, "field": ["Spain", "Uruguay", "Cape Verde", "Saudi Arabia"], "note": "Opta 75.6%, strongest top seed. Threat: Uruguay.", "result": null}, {"key": "group_i", "question": "Group I winner", "pick": "France", "confidence": 3, "field": ["France", "Senegal", "Norway", "Iraq"], "note": "Favourite (~-215) but hardest group. Threat: Norway/Haaland, Senegal.", "result": null}, {"key": "group_j", "question": "Group J winner", "pick": "Argentina", "confidence": 4, "field": ["Argentina", "Algeria", "Austria", "Jordan"], "note": "Opta 72%, comfortable gap. Threat: Austria.", "result": null}, {"key": "group_k", "question": "Group K winner", "pick": "Portugal", "confidence": 3, "field": ["Portugal", "Colombia", "DR Congo", "Uzbekistan"], "note": "-200, Opta 59%. Threat: Colombia (live upset).", "result": null}, {"key": "group_l", "question": "Group L winner", "pick": "England", "confidence": 4, "field": ["England", "Croatia", "Ghana", "Panama"], "note": "Opta 67.5%, 3rd-likeliest group winner overall. Threat: Croatia.", "result": null}, {"key": "semifinalists", "question": "Reach the semi-finals", "pick": "Spain, France, England, Argentina", "confidence": 3, "note": "The four shortest 'to reach SF' prices; match Opta's top semifinalists. Brazil the main swap-in.", "alternatives": ["Brazil (for England)", "Portugal"], "result": null}]}};
+const PICK = {home:"Home win", draw:"Draw", away:"Away win"};
+const pct = x => Math.round((x||0)*100);
+const stars = c => "●".repeat(c||0) + "○".repeat(Math.max(0,5-(c||0)));
+
+function renderStats(s){
+  const el = document.getElementById("stats");
+  if(!s.graded){ el.innerHTML =
+    '<div class="stat"><b>—</b><small>No graded matches yet</small></div>'; return; }
+  const cells = [
+    ["Hit rate", s.hit_rate!=null ? s.hit_rate+"%" : "—"],
+    ["Correct picks", s.correct+" / "+s.graded],
+    ["Exact scores", s.exact],
+    ["Avg conf · right", s.conf_right ?? "—"],
+    ["Avg conf · wrong", s.conf_wrong ?? "—"],
+  ];
+  el.innerHTML = cells.map(([k,v]) =>
+    `<div class="stat"><b>${v}</b><small>${k}</small></div>`).join("");
+}
+
+function matchCard(p){
+  const m = p.market || {};
+  const h=pct(m.home), d=pct(m.draw), a=pct(m.away);
+  const kick = p.commence_time ? new Date(p.commence_time).toLocaleString() : "";
+  let actual = "";
+  if(p.actual){
+    const b = p.actual.pick_hit ? '<span class="badge hit">PICK ✓</span>'
+                                : '<span class="badge miss">PICK ✗</span>';
+    const sb = p.actual.score_hit ? ' <span class="badge hit">EXACT ✓</span>' : '';
+    actual = `<div class="score" style="margin-top:10px">Final: <b>${p.actual.final_score}</b>
+      (${PICK[p.actual.result]||""}) &nbsp; ${b}${sb}</div>`;
+  }
+  const flag = p.disagreement ? `<div class="flag">⚠︎ ${p.disagreement}</div>` : "";
+  const src = (p.sources||[]).map(s =>
+    `<a href="${s.url}" target="_blank">${s.title||"source"}↗</a>`).join("");
+  return `<div class="match">
+    <div class="mtop">
+      <div><div class="teams">${p.home_team} vs ${p.away_team}</div>
+        <div class="kick">${kick}</div></div>
+      <div style="text-align:right">
+        <div class="pick">${PICK[p.pick]||p.pick||"—"}${p.scoreline?" · "+p.scoreline:""}</div>
+        <div class="conf" title="confidence ${p.confidence}/5">${stars(p.confidence)}</div></div>
+    </div>
+    <div class="bar">
+      <div class="h" style="width:${h}%">${h?h+"%":""}</div>
+      <div class="d" style="width:${d}%">${d?d+"%":""}</div>
+      <div class="a" style="width:${a}%">${a?a+"%":""}</div>
+    </div>
+    <div class="leg"><span><i class="h" style="background:var(--home)"></i>Home ${p.home_team}</span>
+      <span><i style="background:var(--draw)"></i>Draw</span>
+      <span><i style="background:var(--away)"></i>Away ${p.away_team}</span></div>
+    ${p.rationale ? `<p class="rat">${p.rationale}</p>` : ""}
+    ${flag}${actual}
+    ${src ? `<div class="src">${src}</div>` : ""}
+  </div>`;
+}
+
+function renderDay(date){
+  const day = DATA.days.find(d => d.date===date);
+  document.getElementById("cards").innerHTML =
+    day && day.predictions.length
+      ? day.predictions.map(matchCard).join("")
+      : '<div class="empty">No predictions for this day yet.</div>';
+}
+
+function renderFutures(f){
+  const el = document.getElementById("futures");
+  if(!f || !f.markets || !f.markets.length){ el.innerHTML=""; return; }
+  const lock = f.lock_deadline
+    ? ` <span class="lock">· lock by ${f.lock_deadline.replace("T"," ")}</span>` : "";
+  const cards = f.markets.map(m => {
+    let res = "";
+    if(m.result){
+      const hit = m.result.correct;
+      res = `<div class="res"><span class="badge ${hit?'hit':'miss'}">`
+        + `${hit?'✓':'✗'} ${m.result.actual||''}</span></div>`;
+    }
+    return `<div class="fut">
+      <div class="q">${m.question}</div>
+      <div class="p">${m.pick}</div>
+      <div class="c" title="confidence ${m.confidence}/5">${stars(m.confidence)}</div>
+      ${m.note?`<div class="n">${m.note}</div>`:""}
+      ${res}
+    </div>`;
+  }).join("");
+  el.innerHTML = `<div class="sec">🏆 Tournament futures${lock}</div>
+    <div class="futgrid">${cards}</div>`;
+}
+
+document.getElementById("gen").textContent = "updated " + (DATA.generated_at||"");
+renderStats(DATA.summary||{});
+renderFutures(DATA.futures||{});
+const sel = document.getElementById("day");
+if(!DATA.days.length){
+  document.getElementById("cards").innerHTML =
+    '<div class="empty">No predictions yet. Run the daily agent to populate this dashboard.</div>';
+  sel.parentElement.style.display="none";
+} else {
+  DATA.days.forEach(d => { const o=document.createElement("option");
+    o.value=d.date; o.textContent=d.date; sel.appendChild(o); });
+  sel.onchange = e => renderDay(e.target.value);
+  renderDay(DATA.days[0].date);
+}
+</script></body></html>

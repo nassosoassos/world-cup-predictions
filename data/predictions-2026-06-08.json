@@ -1,0 +1,179 @@
+{
+  "predictions": [
+    {
+      "home_team": "Mexico",
+      "away_team": "South Africa",
+      "commence_time": "2026-06-11T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.6719, "draw": 0.2168, "away": 0.1113},
+      "rationale": "Market reads Mexico as heavy favourites (67%) and intel agrees: El Tri are unbeaten in their 2026 friendlies, play a sold-out Azteca at ~2,250m altitude, and own a strong World Cup home record. South Africa arrive in weak form (no win in five) and are missing wingers Morena and Nkota. Multiple tipsters lean Mexico clean sheet, supporting 2-0.",
+      "disagreement": "Some tipsters question Mexico's attacking depth beyond Raul Jimenez and favour a tighter 1-0, but still side with Mexico.",
+      "sources": [
+        {"title": "ESPN: Mexico vs South Africa team news", "url": "https://www.espn.com/espn/story/_/id/48998339/mexico-vs-south-africa-kick-team-news-how-watch-fifa-world-cup-opener"},
+        {"title": "Sky Sports Group A guide", "url": "https://www.skysports.com/football/news/12098/13540670/world-cup-2026-group-a-guide-fixtures-schedule-standings-and-odds-for-mexico-south-africa-south-korea-and-czech-republic"}
+      ]
+    },
+    {
+      "home_team": "South Korea",
+      "away_team": "Czech Republic",
+      "commence_time": "2026-06-12T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {"home": 0.3602, "draw": 0.3054, "away": 0.3344},
+      "rationale": "Market sees a near coin-flip: South Korea nominally ahead (36%) but Czechia level (33%) and a high draw probability (31%). Korea's low-scoring profile and Czech long-haul travel into altitude both cap goals, while Czechia carry playoff grit and Schick's aerial threat. Son gives Korea the quality edge, but the stalemate is the value lean.",
+      "disagreement": "Bookmaker price has Korea marginally favoured; tipster consensus instead calls the 1-1 draw the value play.",
+      "sources": [
+        {"title": "Goal.com: South Korea vs Czech Republic preview", "url": "https://www.goal.com/en-us/news/south-korea-czech-republic-world-cup-preview/bltc5df400bcedf8307"},
+        {"title": "Squawka: South Korea vs Czech Republic predictions", "url": "https://www.squawka.com/us/news/world-cup/match-preview-south-korea-vs-czech-republic-06-11-26-world-cup-2026/"}
+      ]
+    },
+    {
+      "home_team": "Canada",
+      "away_team": "Bosnia & Herzegovina",
+      "commence_time": "2026-06-12T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.5268, "draw": 0.264, "away": 0.2092},
+      "rationale": "Market favours Canada (53%) at a sold-out BMO Field, and intel backs it: Canada field Davies, Johnston, Eustaquio and focal point Jonathan David, with Opta giving them ~80% to progress. Confidence is capped at 3 because Bosnia carry real attacking quality in Demirovic, Tabakovic and veteran Dzeko, so a clean sheet is far from assured.",
+      "sources": [
+        {"title": "Sky Sports Group B guide", "url": "https://www.skysports.com/football/news/12098/13543085/world-cup-2026-group-b-guide-fixtures-schedule-standings-and-odds-for-canada-bosnia-herzegovina-qatar-and-switzerland"},
+        {"title": "Dimers: Canada vs Bosnia prediction", "url": "https://www.dimers.com/news/bosnia-and-herzegovina-vs-canada-updated-prediction-group-b-world-cup-2026-ac"}
+      ]
+    },
+    {
+      "home_team": "USA",
+      "away_team": "Paraguay",
+      "commence_time": "2026-06-13T01:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 3,
+      "market": {"home": 0.4807, "draw": 0.2809, "away": 0.2384},
+      "rationale": "Market makes the USA a modest home favourite (48%) at SoFi, and tipsters align on a low-scoring USA win — Paraguay conceded only 10 in 18 CONMEBOL qualifiers under Alfaro. The live unpriced risk is first-choice CB Chris Richards (ankle ligament injury, still a doubt), which weakens the back line against a disciplined Albirroja. USA won the November friendly 2-1.",
+      "disagreement": "Paraguay's elite defensive record makes the draw a reasonable contrarian play; if Richards is ruled out the USA edge narrows further.",
+      "sources": [
+        {"title": "Goal.com: USA vs Paraguay preview", "url": "https://www.goal.com/en-us/news/usa-paraguay-world-cup-preview/blt6d2779c2ca4a708f"},
+        {"title": "ESPN: Richards out of final tuneup", "url": "https://www.espn.com/soccer/story/_/id/48976577/usa-world-cup-chris-richards-injury-mauricio-pochettino-germany"}
+      ]
+    },
+    {
+      "home_team": "Qatar",
+      "away_team": "Switzerland",
+      "commence_time": "2026-06-13T19:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 5,
+      "market": {"home": 0.0734, "draw": 0.1502, "away": 0.7764},
+      "rationale": "Market is emphatic at 78% for Switzerland and the intel agrees with no counter-signal. The Swiss went unbeaten in qualifying with four clean sheets and carry a healthy experienced core (Xhaka, Embolo, Akanji) with no fresh injuries, while Qatar lost five qualifiers and a warm-up to Ireland. Nothing unpriced points toward an upset.",
+      "sources": [
+        {"title": "ESPN: Xhaka to captain Switzerland, squad revealed", "url": "https://www.espn.com/soccer/story/_/id/48818354/granit-xhaka-captain-switzerland-world-cup-squad"},
+        {"title": "Footy Accumulators: Qatar vs Switzerland tips", "url": "https://footyaccumulators.com/predictions/wc-2026/qatar-vs-switzerland-preview-prediction-and-betting-tips"}
+      ]
+    },
+    {
+      "home_team": "Brazil",
+      "away_team": "Morocco",
+      "commence_time": "2026-06-13T22:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.5754, "draw": 0.2493, "away": 0.1753},
+      "rationale": "Market backs Brazil at 58% and tipsters are unanimous on a Brazil win, most projecting 2-1 behind Vinicius and Raphinha. Genuine unpriced wrinkles cut Morocco's way though: Hakimi carried a thigh-injury doubt, Morocco have a brand-new coach (Ouahbi) and left out 2022 hero En-Nesyri, while Brazil endured a rough qualifying run. Quality gap keeps the favourite but caps confidence.",
+      "disagreement": "No tipster leans against Brazil, but previews stress Morocco's form (11 goals in last 3) and counter-attacking threat making this closer than the price.",
+      "sources": [
+        {"title": "ESPN: Morocco squad; En-Nesyri out", "url": "https://www.espn.com/espn/story/_/id/48883710/achraf-hakimi-brahim-diaz-headline-morocco-squad-fifa-world-cup-youssef-en-nesyri-out"},
+        {"title": "Al Jazeera: Morocco World Cup 2026 preview", "url": "https://www.aljazeera.com/sports/2026/6/3/morocco-world-cup-2026-preview-players-to-watch-group-and-squad-list"}
+      ]
+    },
+    {
+      "home_team": "Haiti",
+      "away_team": "Scotland",
+      "commence_time": "2026-06-14T01:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {"home": 0.1452, "draw": 0.2173, "away": 0.6375},
+      "rationale": "Market favours Scotland at 64% and tipsters lean firmly the same way on the back of strong warm-ups (4-1 Curacao, 4-0 Bolivia) and a midfield edge through McTominay and McGinn versus debutants Haiti. Scotland did lose Billy Gilmour to injury and Hanley has a knee doubt, but their European-league depth still clearly outclasses the 83rd-ranked Haitians.",
+      "sources": [
+        {"title": "ESPN: Scotland World Cup squad announced", "url": "https://www.espn.com/soccer/story/_/id/48814281/scotland-world-cup-squad-announced-scott-mctominay-ross-stewart"},
+        {"title": "Footy Accumulators: Haiti vs Scotland tips", "url": "https://footyaccumulators.com/predictions/wc-2026/haiti-vs-scotland-preview-prediction-and-betting-tips"}
+      ]
+    },
+    {
+      "home_team": "Australia",
+      "away_team": "Turkey",
+      "commence_time": "2026-06-14T04:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.198, "draw": 0.2632, "away": 0.5388},
+      "rationale": "Market and tipsters both favour Turkey (54%) on the strength of Guler, Yildiz, Calhanoglu and a strong recent run including a draw with Spain. An unpriced negative for Australia reinforces it: Riley McGree is out for the whole tournament (hamstring) and Irvine is only just back from a long layoff, thinning the Socceroos' midfield. Australia's set-piece threat keeps confidence moderate.",
+      "disagreement": "Some tipsters flag Australia at long odds as the best value despite picking Turkey, viewing the favourite as slightly short.",
+      "sources": [
+        {"title": "Dimers: Australia vs Turkey prediction", "url": "https://www.dimers.com/news/turkiye-vs-australia-updated-prediction-group-d-world-cup-2026-ac"},
+        {"title": "Yahoo Sports: World Cup injuries/squads tracker", "url": "https://sports.yahoo.com/soccer/live/2026-world-cup-news-live-tracker-injuries-squads-storylines-and-updates-as-the-tournament-looms-200000653.html"}
+      ]
+    },
+    {
+      "home_team": "Germany",
+      "away_team": "Curaçao",
+      "commence_time": "2026-06-14T17:00:00Z",
+      "pick": "home",
+      "scoreline": "4-0",
+      "confidence": 5,
+      "market": {"home": 0.8993, "draw": 0.0684, "away": 0.0323},
+      "rationale": "Market is emphatic at 90% and the intel fully backs it: Germany ride a nine-match winning run (4-0 Finland, 2-1 USA) versus World Cup debutants Curacao, ranked 82nd. The only wrinkle, Neuer's calf, is resolved with Nagelsmann confirming the keeper starts; nothing argues against a comfortable multi-goal home win.",
+      "sources": [
+        {"title": "Germany vs Curacao preview & team news", "url": "https://onefootball.com/en/news/germany-vs-curacao-preview-team-news-and-predicted-lineups-42980647"},
+        {"title": "Sky Sports Group E guide", "url": "https://www.skysports.com/football/news/12098/13543089/world-cup-2026-group-e-guide-fixtures-schedule-standings-and-odds-for-germany-curacao-ivory-coast-and-ecuador"}
+      ]
+    },
+    {
+      "home_team": "Netherlands",
+      "away_team": "Japan",
+      "commence_time": "2026-06-14T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 4,
+      "market": {"home": 0.4771, "draw": 0.2645, "away": 0.2584},
+      "rationale": "Market makes the Netherlands a clear favourite at 48% with the draw and Japan level at 26%, and the key unpriced intel strengthens the Dutch: Japan lost talisman winger Kaoru Mitoma to a hamstring injury (confirmed omission) having earlier lost Minamino to an ACL tear, gutting their attacking threat. Backing the home favourite is justified, though Japan's organisation keeps the draw live.",
+      "sources": [
+        {"title": "ESPN: Mitoma ruled out of World Cup", "url": "https://www.espn.com/football/story/_/id/48775615/kaoru-mitoma-ruled-world-cup-injury-takehiro-tomiyasu-recalled-japan-squad"},
+        {"title": "Goal.com: Netherlands vs Japan preview", "url": "https://www.goal.com/en/news/netherlands-japan-world-cup-preview/blt48135779b5e280e4"}
+      ]
+    },
+    {
+      "home_team": "Ivory Coast",
+      "away_team": "Ecuador",
+      "commence_time": "2026-06-14T23:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {"home": 0.2659, "draw": 0.3364, "away": 0.3976},
+      "rationale": "Market is genuinely split: Ecuador nominal favourite (40%) but the draw close behind (34%), reflecting a cagey opener neither side can afford to lose. Ecuador kept the best CONMEBOL qualifying defence (5 goals in 18) and have Caicedo available after an amnesty overturned his ban. With both defences organised and away/draw nearly tied, the draw offers the best value over the slim Ecuador edge.",
+      "disagreement": "Market's single most likely outcome is an Ecuador win (40%); tipsters and the cagey-opener profile lean draw/under-2.5, so I take the draw.",
+      "sources": [
+        {"title": "Opta Analyst: World Cup 2026 Group E predictions", "url": "https://theanalyst.com/articles/world-cup-2026-group-e-predictions-preview"},
+        {"title": "FourFourTwo: Caicedo eligibility for opener", "url": "https://www.fourfourtwo.com/person/player/decision-made-on-moises-caicedos-eligibility-for-world-cup-2026-report"}
+      ]
+    },
+    {
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "commence_time": "2026-06-15T02:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4949, "draw": 0.2805, "away": 0.2247},
+      "rationale": "Market favours Sweden at 49% on the strength of the Gyokeres-Isak forward line, the clearest source of quality in this tie. The caveat is real: Isak endured an injury-hit season and Tunisia, under new coach Lamouchi, conceded zero goals across WC qualifying and are well-drilled defensively, pointing to a tight match the home side edges via a single moment.",
+      "disagreement": "Some previews frame this as Tunisia's best chance to take points given their clean-sheet record, nudging toward the draw, but Sweden's superior attack keeps the home pick.",
+      "sources": [
+        {"title": "OneFootball: Sweden name Isak and Gyokeres", "url": "https://onefootball.com/en/news/sweden-name-alexander-isak-and-viktor-gyoekeres-in-2026-world-cup-squad-42862294"},
+        {"title": "FIFA: Lamouchi names Tunisia squad", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/tunisia-squad-named-sabri-lamouchi"}
+      ]
+    }
+  ]
+}
