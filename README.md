@@ -57,8 +57,9 @@ concrete, plausibly-unpriced reason (late team news). Tipster blogs supply the
   winners, semi-finalists); rendered in the dashboard's Futures panel.
 
 ## Email
-The daily run sends a summary via `scripts/send_email.py` (from/to nkatsam@gmail.com
-by default). One-time setup — create a Gmail **App Password**
+The daily run sends a **short digest** via `scripts/send_email.py` (from/to
+nkatsam@gmail.com by default) — a link to the dashboard plus what changed since the
+previous day (it diffs the `data/*.json` files); it does not dump the full report. One-time setup — create a Gmail **App Password**
 (https://myaccount.google.com/apppasswords, needs 2-Step Verification) and export it:
 ```
 echo 'export WC_SMTP_PASSWORD="abcd efgh ijkl mnop"' >> ~/.zshrc && source ~/.zshrc

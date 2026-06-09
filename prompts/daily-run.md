@@ -118,20 +118,19 @@ python3 scripts/build_dashboard.py
 This bakes predictions + market bars + actual scores + the accuracy panel into
 `dashboard.html`. Mention in your summary that the user can `open dashboard.html`.
 
-## Step 7 — Email the daily summary
-Send the summary to the configured recipient (defaults to nkatsam@gmail.com):
+## Step 7 — Email the daily digest
+Send the SHORT digest (a link to the dashboard + what changed since the previous day):
 
 ```
-python3 scripts/send_email.py --report reports/YYYY-MM-DD.md \
-    --futures $(ls -t data/futures-*.json >/dev/null 2>&1 && ls -t reports/futures-*.md 2>/dev/null | head -1) \
-    --subject "World Cup predictions — YYYY-MM-DD"
+python3 scripts/send_email.py
 ```
 
-Simplest robust form: pass today's match report; include the latest futures report
-with `--futures` only while futures are still relevant. `WC_SMTP_PASSWORD` must be
-set in the environment (a Gmail App Password). If it is unset, the script exits with
-a clear message — report that in your summary rather than failing the whole run, and
-continue (the dashboard and files are already updated).
+It auto-detects today's date (UTC) and diffs `data/predictions-*.json` and
+`data/futures-*.json` against the most recent earlier files, then emails a concise
+summary to nkatsam@gmail.com via SMTP. It deliberately does NOT dump the full report
+— the dashboard holds the detail. `WC_SMTP_PASSWORD` must be set (a Gmail App
+Password); if it is unset the script exits with a clear message — note that in your
+summary and continue (the dashboard and files are already updated).
 
 ## Step 8 — Commit & push artifacts (remote mode)
 Persist the day's outputs so they reach the user (this is the remote delivery
