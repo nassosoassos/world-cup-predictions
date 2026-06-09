@@ -86,6 +86,9 @@ def diff_predictions(today_path, prev_path) -> tuple[list[str], int]:
         if o is None:
             lines.append(f"  + NEW  {name} — {PICK_LABEL.get(p.get('pick'), p.get('pick'))} "
                          f"{p.get('scoreline','')} ({stars(p.get('confidence'))})")
+            if p.get("rationale"):
+                lines.append(f"        ↳ {p['rationale']}")
+            lines.append("")
             continue
         deltas = []
         if p.get("pick") != o.get("pick"):
@@ -97,6 +100,9 @@ def diff_predictions(today_path, prev_path) -> tuple[list[str], int]:
             deltas.append(f"conf {o.get('confidence')}→{p.get('confidence')}")
         if deltas:
             lines.append(f"  • {name} — {', '.join(deltas)}")
+            if p.get("rationale"):
+                lines.append(f"        ↳ {p['rationale']}")
+            lines.append("")
     return lines, len(cur)
 
 
@@ -115,6 +121,9 @@ def diff_futures(today_path, prev_path) -> list[str]:
             deltas.append(f"conf {o.get('confidence')}→{m.get('confidence')}")
         if deltas:
             lines.append(f"  • {m.get('question', key)} — {', '.join(deltas)}")
+            if m.get("note"):
+                lines.append(f"        ↳ {m['note']}")
+            lines.append("")
     return lines
 
 
@@ -145,7 +154,9 @@ def build_body(today: str, dashboard: str) -> tuple[str, int]:
 
     match_changes, n_matches = diff_predictions(p_today, p_prev) if p_today else ([], 0)
     fut_changes = diff_futures(f_today, f_prev)
-    n_changes = len(match_changes) + len(fut_changes)
+    # count actual changes (bullet/NEW lines), not the explanation/blank lines
+    count = lambda ls: sum(1 for l in ls if l.lstrip()[:1] in ("•", "+"))
+    n_changes = count(match_changes) + count(fut_changes)
 
     prev_date = None
     if p_prev:
