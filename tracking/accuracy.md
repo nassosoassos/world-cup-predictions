@@ -3,14 +3,14 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 0
-- Correct picks (1X2): 0
-- Hit rate: —
-- Exact scoreline hits: 0
-- Avg confidence of correct picks: —
+- Matches predicted: 1
+- Correct picks (1X2): 1
+- Hit rate: 100% (1/1)
+- Exact scoreline hits: 1
+- Avg confidence of correct picks: 4.0
 - Avg confidence of wrong picks: —
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
 |------|-------|------|-------------|------|--------|-----------|------------|
-| _example_ | _A vs B_ | _Home_ | _2-1_ | _4_ | _—_ | _—_ | _—_ |
+| 2026-06-11 | Mexico vs South Africa | Home | 2-0 | 4 | 2-0 (home) | ✓ | ✓ |
