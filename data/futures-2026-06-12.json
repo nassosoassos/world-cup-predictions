@@ -1,0 +1,213 @@
+{
+  "lock_deadline": "2026-06-11T22:00:00",
+  "generated_at": "2026-06-12",
+  "markets": [
+    {
+      "key": "champion",
+      "question": "World Champion",
+      "pick": "Spain",
+      "confidence": 3,
+      "note": "Leads both the market (~+475) and Opta (16.1%); only side rated >50% to reach the QF. Yamal expected fit for the opener, Rodri fit — squad on track.",
+      "alternatives": [
+        "France (+500)",
+        "England (+700)",
+        "Argentina (+900)",
+        "Brazil (+900)"
+      ],
+      "result": null
+    },
+    {
+      "key": "top_scorer_team",
+      "question": "Top scorer's team",
+      "pick": "France (Mbappé)",
+      "confidence": 3,
+      "note": "Mbappé shortest Golden Boot price (+600) AND on a deep-running team = the volume edge.",
+      "alternatives": [
+        "England (Kane +700)",
+        "Argentina (Messi +1600)",
+        "Spain (Yamal/Oyarzabal)"
+      ],
+      "result": null
+    },
+    {
+      "key": "group_a",
+      "question": "Group A winner",
+      "pick": "Mexico",
+      "confidence": 4,
+      "field": [
+        "Mexico",
+        "South Korea",
+        "Czechia",
+        "South Africa"
+      ],
+      "note": "Host, three home games; Opta ~48%. Threat: Czechia.",
+      "result": null
+    },
+    {
+      "key": "group_b",
+      "question": "Group B winner",
+      "pick": "Switzerland",
+      "confidence": 2,
+      "field": [
+        "Canada",
+        "Switzerland",
+        "Qatar",
+        "Bosnia & Herzegovina"
+      ],
+      "note": "Narrow favourite (-135) over host Canada — tight. Threat: Canada (Davies out for the opener but back later in the group).",
+      "result": null
+    },
+    {
+      "key": "group_c",
+      "question": "Group C winner",
+      "pick": "Brazil",
+      "confidence": 4,
+      "field": [
+        "Brazil",
+        "Morocco",
+        "Scotland",
+        "Haiti"
+      ],
+      "note": "-350, Opta ~60%. Threat: Morocco (for 2nd). Note: Neymar not anticipated for the opener (calf, targets the Haiti game); Estêvão + Rodrygo also out — Brazil remain heavy favourites over the full group slate but the opener vs Morocco is materially narrower.",
+      "result": null
+    },
+    {
+      "key": "group_d",
+      "question": "Group D winner",
+      "pick": "USA",
+      "confidence": 2,
+      "field": [
+        "USA",
+        "Paraguay",
+        "Türkiye",
+        "Australia"
+      ],
+      "note": "Host edge in the most open group (+140, Opta ~33%). Threat: Türkiye.",
+      "result": null
+    },
+    {
+      "key": "group_e",
+      "question": "Group E winner",
+      "pick": "Germany",
+      "confidence": 4,
+      "field": [
+        "Germany",
+        "Ecuador",
+        "Ivory Coast",
+        "Curaçao"
+      ],
+      "note": "Clear class gap (-250). Threat: Ecuador.",
+      "result": null
+    },
+    {
+      "key": "group_f",
+      "question": "Group F winner",
+      "pick": "Netherlands",
+      "confidence": 2,
+      "field": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "note": "Most talent but only -125. Threat: Japan (weakened by Mitoma + Minamino injuries).",
+      "result": null
+    },
+    {
+      "key": "group_g",
+      "question": "Group G winner",
+      "pick": "Belgium",
+      "confidence": 2,
+      "field": [
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ],
+      "note": "Softest top-seed number (Opta 51.9%) but sharp form — 5-0 warm-up rout of Tunisia. Threat: Egypt/Salah (Opta gives Egypt 20% to top the group).",
+      "result": null
+    },
+    {
+      "key": "group_h",
+      "question": "Group H winner",
+      "pick": "Spain",
+      "confidence": 5,
+      "field": [
+        "Spain",
+        "Uruguay",
+        "Cape Verde",
+        "Saudi Arabia"
+      ],
+      "note": "Opta 75.6%, strongest top seed. Threat: Uruguay.",
+      "result": null
+    },
+    {
+      "key": "group_i",
+      "question": "Group I winner",
+      "pick": "France",
+      "confidence": 3,
+      "field": [
+        "France",
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ],
+      "note": "Favourite (~-215) but hardest group. Threat: Norway/Haaland, Senegal.",
+      "result": null
+    },
+    {
+      "key": "group_j",
+      "question": "Group J winner",
+      "pick": "Argentina",
+      "confidence": 4,
+      "field": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
+      ],
+      "note": "Opta 72%, comfortable gap. Threat: Austria.",
+      "result": null
+    },
+    {
+      "key": "group_k",
+      "question": "Group K winner",
+      "pick": "Portugal",
+      "confidence": 3,
+      "field": [
+        "Portugal",
+        "Colombia",
+        "DR Congo",
+        "Uzbekistan"
+      ],
+      "note": "-200, Opta 59%. Threat: Colombia (live upset).",
+      "result": null
+    },
+    {
+      "key": "group_l",
+      "question": "Group L winner",
+      "pick": "England",
+      "confidence": 4,
+      "field": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "note": "Opta 67.5%, 3rd-likeliest group winner overall. Threat: Croatia.",
+      "result": null
+    },
+    {
+      "key": "semifinalists",
+      "question": "Reach the semi-finals",
+      "pick": "Spain, France, England, Argentina",
+      "confidence": 3,
+      "note": "The four shortest 'to reach SF' prices; match Opta's top semifinalists. Brazil the main swap-in.",
+      "alternatives": [
+        "Brazil (for England)",
+        "Portugal"
+      ],
+      "result": null
+    }
+  ]
+}
