@@ -1,0 +1,686 @@
+{
+  "predictions": [
+    {
+      "home_team": "Germany",
+      "away_team": "Curaçao",
+      "commence_time": "2026-06-14T17:00:00Z",
+      "pick": "home",
+      "scoreline": "3-0",
+      "confidence": 5,
+      "market": {
+        "home": 0.92,
+        "draw": 0.05,
+        "away": 0.02
+      },
+      "rationale": "Market is emphatic (92% home) and the floor is solid: Germany are near full strength under Nagelsmann with Wirtz, Musiala and Havertz available against tournament debutants Curaçao. Opta's supercomputer sims a Germany win ~91% of the time. The only live question is the margin, not the result.",
+      "sources": [
+        {
+          "title": "ESPN preview",
+          "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "Opta/The Analyst",
+          "url": "https://theanalyst.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Netherlands",
+      "away_team": "Japan",
+      "commence_time": "2026-06-14T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.47,
+        "draw": 0.27,
+        "away": 0.26
+      },
+      "rationale": "The market is nearly a coin-flip (47/27/26) because both sides are depleted: the Dutch are without Xavi Simons and Schouten (ACL) and Timber, with Verbruggen a hip doubt, while Japan miss Mitoma, the retired Endō and Minamino. We lean to the Dutch on home-tier talent but confidence is low in an open game.",
+      "sources": [
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/"
+        },
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        }
+      ],
+      "disagreement": "A real minority of tipsters back Japan or a Japan/draw double chance, citing Japan's defensive prep against a patched-up Dutch side."
+    },
+    {
+      "home_team": "Ivory Coast",
+      "away_team": "Ecuador",
+      "commence_time": "2026-06-14T23:00:00Z",
+      "pick": "away",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.29,
+        "draw": 0.33,
+        "away": 0.38
+      },
+      "rationale": "The market makes Ecuador a slight favourite (38% away vs 33% draw) despite Ivory Coast's bigger attacking names, and Ivory Coast lose centre-back Evan Ndicka (thigh). Two of the tournament's best young defences meet, so expect a low-scoring, tight game — the goal line sits around two.",
+      "sources": [
+        {
+          "title": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/"
+        },
+        {
+          "title": "Oddspedia",
+          "url": "https://oddspedia.com/"
+        }
+      ],
+      "disagreement": "Tipsters side with the market on Ecuador; BTTS-Yes is a popular community pick, cutting against the clean-sheet narrative."
+    },
+    {
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "commence_time": "2026-06-15T02:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.5,
+        "draw": 0.28,
+        "away": 0.23
+      },
+      "rationale": "Market backs Sweden (50% home) and the Isak–Gyökeres front pair carries clear individual quality, with Gyökeres in scoring form. A squad sickness bug is a minor selection worry, and Tunisia's organised 4-2-3-1 low block should keep it uncomfortable for a while, so we expect a narrow Sweden win rather than a blowout.",
+      "sources": [
+        {
+          "title": "Sports Illustrated",
+          "url": "https://www.si.com/soccer"
+        },
+        {
+          "title": "CBS Sports",
+          "url": "https://www.cbssports.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Cape Verde",
+      "commence_time": "2026-06-15T16:00:00Z",
+      "pick": "home",
+      "scoreline": "3-0",
+      "confidence": 5,
+      "market": {
+        "home": 0.88,
+        "draw": 0.08,
+        "away": 0.04
+      },
+      "rationale": "Overwhelming market favourite (88% home) and the team news improves it: Lamine Yamal and Nico Williams are both back and available for the reigning Euro champions. Cape Verde will sit deep on debut, so Spain's chance volume should tell decisively.",
+      "sources": [
+        {
+          "title": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/"
+        },
+        {
+          "title": "Squawka",
+          "url": "https://www.squawka.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "commence_time": "2026-06-15T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 3,
+      "market": {
+        "home": 0.59,
+        "draw": 0.24,
+        "away": 0.17
+      },
+      "rationale": "Market favours Belgium (59% home) with De Bruyne, Lukaku and Courtois starting and Doku back in training. The swing factor is Mohamed Salah, who is nursing a late-April hamstring and managed only 45 minutes against Brazil on June 6; if he is below full sharpness Egypt's threat narrows considerably.",
+      "sources": [
+        {
+          "title": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/"
+        },
+        {
+          "title": "Goal.com",
+          "url": "https://www.goal.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
+      "commence_time": "2026-06-15T22:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.12,
+        "draw": 0.22,
+        "away": 0.67
+      },
+      "rationale": "Market is firmly on Uruguay (67% away) and they have the class to win comfortably, but the team news is double-edged: both first-choice centre-backs, Giménez and Araújo, are missing. We still back Uruguay strongly given Saudi Arabia's poor form (one win in six), while flagging clean-sheet risk.",
+      "sources": [
+        {
+          "title": "Football Whispers",
+          "url": "https://www.footballwhispers.com/"
+        },
+        {
+          "title": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/"
+        }
+      ],
+      "disagreement": "Tipsters back Uruguay but lean to BTTS-Yes given the missing centre-back pair, and note Saudi's 2022 upset pedigree."
+    },
+    {
+      "home_team": "Iran",
+      "away_team": "New Zealand",
+      "commence_time": "2026-06-16T01:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.52,
+        "draw": 0.28,
+        "away": 0.2
+      },
+      "rationale": "Market makes Iran a modest favourite (52% home), with Taremi leading the line. Two concrete worries temper it: Sardar Azmoun is unavailable and Iran's domestic league has been suspended since March, leaving home-based players short of sharpness, while New Zealand welcome back a fit Chris Wood. We expect a tight, low-scoring Iran win.",
+      "sources": [
+        {
+          "title": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/soccer/"
+        },
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "France",
+      "away_team": "Senegal",
+      "commence_time": "2026-06-16T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.65,
+        "draw": 0.22,
+        "away": 0.13
+      },
+      "rationale": "Market favours France (65% home) with Mbappé expected to captain and Olise in form after a warm-up hat-trick. Senegal are one of the strongest African sides in the field and carry real underdog value (history: they beat champions France on opening day in 2002), so we expect France to win but not comfortably.",
+      "sources": [
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "FIFA",
+          "url": "https://www.fifa.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Iraq",
+      "away_team": "Norway",
+      "commence_time": "2026-06-16T22:00:00Z",
+      "pick": "away",
+      "scoreline": "0-3",
+      "confidence": 5,
+      "market": {
+        "home": 0.06,
+        "draw": 0.13,
+        "away": 0.8
+      },
+      "rationale": "Market is emphatic for Norway (80% away) and the team news confirms it: Haaland (16 qualifying goals) and captain Ødegaard both start, with Aursnes bolstering midfield. Iraq qualified via playoff and face the toughest possible opener; the lean is a comfortable Norway win to a clean sheet.",
+      "sources": [
+        {
+          "title": "Stats Zone",
+          "url": "https://www.statszone.com/"
+        },
+        {
+          "title": "Goal.com",
+          "url": "https://www.goal.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Algeria",
+      "commence_time": "2026-06-17T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.69,
+        "draw": 0.21,
+        "away": 0.11
+      },
+      "rationale": "Market backs the holders heavily (69% home). Messi is expected to start after shaking off a minor hamstring issue and Emi Martínez returns in goal after a finger fracture. Algeria's threat is Mahrez on the break, but Argentina's midfield control should make this the most defensible favourite on the card.",
+      "sources": [
+        {
+          "title": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/"
+        },
+        {
+          "title": "World Soccer Talk",
+          "url": "https://worldsoccertalk.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "commence_time": "2026-06-17T04:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.72,
+        "draw": 0.18,
+        "away": 0.1
+      },
+      "rationale": "Market favours Austria (72% home), who arrive in form (four of last five won, including 5-1 over Ghana) under Rangnick. Jordan, World Cup debutants, are without top scorer Yazan Al-Naimat — a player the manager says 'cannot be replaced' — which thins an already limited attack.",
+      "sources": [
+        {
+          "title": "Goal.com",
+          "url": "https://www.goal.com/"
+        },
+        {
+          "title": "Dimers",
+          "url": "https://www.dimers.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "DR Congo",
+      "commence_time": "2026-06-17T17:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.74,
+        "draw": 0.17,
+        "away": 0.09
+      },
+      "rationale": "Market backs Portugal (74% home) with Bruno Fernandes in elite form and Ronaldo expected to start. DR Congo are a physical, transition-minded side (they beat Nigeria in qualifying) and carry genuine set-piece threat, but Portugal's possession quality should see them through with room to spare.",
+      "sources": [
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        },
+        {
+          "title": "Goal.com",
+          "url": "https://www.goal.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "Croatia",
+      "commence_time": "2026-06-17T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.56,
+        "draw": 0.25,
+        "away": 0.19
+      },
+      "rationale": "Market favours England (56% home) and Croatia's spine is fitness-compromised: Modrić had cheekbone surgery pre-tournament, Kovačić is back from Achilles surgery and Gvardiol is recovering from a leg fracture. With England near full strength under Tuchel, that unpriced fragility supports the favourite, though Croatia's quality keeps the draw live.",
+      "sources": [
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        },
+        {
+          "title": "Oddschecker",
+          "url": "https://www.oddschecker.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Ghana",
+      "away_team": "Panama",
+      "commence_time": "2026-06-17T23:00:00Z",
+      "pick": "home",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.44,
+        "draw": 0.28,
+        "away": 0.27
+      },
+      "rationale": "This is a genuine coin-flip (44/28/27) and the underlying signals argue against leaning on Ghana: they are winless in seven with no clean sheet, while Panama are trending up (4-2 over the Dominican Republic, a draw with Bosnia). We nominally take the home side but rate the draw very live and hold confidence low.",
+      "sources": [
+        {
+          "title": "Squawka",
+          "url": "https://www.squawka.com/"
+        },
+        {
+          "title": "Dimers",
+          "url": "https://www.dimers.com/"
+        }
+      ],
+      "disagreement": "Dimers' modal scoreline is a 1-1 draw and Captain AI has Panama essentially level with the draw — models lean off Ghana despite the market edge."
+    },
+    {
+      "home_team": "Uzbekistan",
+      "away_team": "Colombia",
+      "commence_time": "2026-06-18T02:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.11,
+        "draw": 0.2,
+        "away": 0.69
+      },
+      "rationale": "Market is firmly on Colombia (69% away), built around an in-form Luis Díaz. Uzbekistan are at their first ever World Cup and this European-laden Colombia side is their toughest draw; the one mitigant is altitude at the Azteca, which suits Uzbekistan's disciplined low block and could narrow the margin.",
+      "sources": [
+        {
+          "title": "Tribuna",
+          "url": "https://tribuna.com/"
+        },
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Czech Republic",
+      "away_team": "South Africa",
+      "commence_time": "2026-06-18T16:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.54,
+        "draw": 0.25,
+        "away": 0.21
+      },
+      "rationale": "Market favours the Czechs (54% home) and the team news widens the gap: South Africa had Zwane and Sithole sent off against Mexico and both are suspended, on top of an opening loss. With Schick and the wing-backs the Czechs' route to goal against a depleted side, this is a strong home lean in a near must-win.",
+      "sources": [
+        {
+          "title": "Goal.com",
+          "url": "https://www.goal.com/"
+        },
+        {
+          "title": "Squawka",
+          "url": "https://www.squawka.com/"
+        }
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Bosnia & Herzegovina",
+      "commence_time": "2026-06-18T19:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 3,
+      "market": {
+        "home": 0.61,
+        "draw": 0.24,
+        "away": 0.16
+      },
+      "rationale": "Market backs Switzerland (61% home), whose defensive structure was elite in qualifying (two goals conceded in six). Bosnia are a credible challenger rather than a passive underdog, so we expect a controlled, fairly low-scoring Swiss win anchored by Xhaka's midfield grip.",
+      "sources": [
+        {
+          "title": "Oddschecker",
+          "url": "https://www.oddschecker.com/"
+        },
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "commence_time": "2026-06-18T22:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.75,
+        "draw": 0.17,
+        "away": 0.08
+      },
+      "rationale": "Market is strong on co-hosts Canada (75% home), at home in Vancouver with Jonathan David and Eustáquio. Qatar are the group's weakest side and arrive in dismal form — six games without a win — so a comfortable Canada win that pushes them toward qualification is the lean.",
+      "sources": [
+        {
+          "title": "DK Network",
+          "url": "https://dknetwork.draftkings.com/"
+        },
+        {
+          "title": "Sky Sports",
+          "url": "https://www.skysports.com/football"
+        }
+      ]
+    },
+    {
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "commence_time": "2026-06-19T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.48,
+        "draw": 0.29,
+        "away": 0.23
+      },
+      "rationale": "Effectively a group decider with both sides on three points, and the market is tight (48/29/23). Mexico get home advantage and altitude in Guadalajara, but a fit Son Heung-min and a Korea side that showed comeback resilience make this a low-confidence home lean.",
+      "sources": [
+        {
+          "title": "Squawka",
+          "url": "https://www.squawka.com/"
+        },
+        {
+          "title": "Bleacher Report",
+          "url": "https://bleacherreport.com/"
+        }
+      ],
+      "disagreement": "Market spread (~50/28/26) leaves the draw and South Korea live; no tipster calls the upset outright but value sits on the underdog/draw."
+    },
+    {
+      "home_team": "USA",
+      "away_team": "Australia",
+      "commence_time": "2026-06-19T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 3,
+      "market": {
+        "home": 0.61,
+        "draw": 0.22,
+        "away": 0.17
+      },
+      "rationale": "Market favours the co-hosts USA (61% home), who are flying after a 4-1 demolition of Paraguay (3-0 at half) under Pochettino. Australia did win their opener 2-0, but their attacking output has been thin, and a restored USA midfield (Adams, Antonee Robinson) should suppress them further.",
+      "sources": [
+        {
+          "title": "BetMGM",
+          "url": "https://sports.betmgm.com/"
+        },
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "commence_time": "2026-06-19T22:00:00Z",
+      "pick": "away",
+      "scoreline": "0-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.2,
+        "draw": 0.27,
+        "away": 0.54
+      },
+      "rationale": "Market is firmly on Morocco (54% away) and the line drifted further their way. Both sides are injury-hit — Morocco miss Hakimi, El Khannouss and Igamane, while Scotland are without Gilmour, Souttar, Christie and Doak — so Morocco's edge narrows but holds. McTominay is Scotland's set-piece-driven route to an upset.",
+      "sources": [
+        {
+          "title": "ESPN Scotland",
+          "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "Sky Sports",
+          "url": "https://www.skysports.com/football"
+        }
+      ],
+      "disagreement": "Tipsters note Morocco's injury list narrows the gap and keep Scotland live for a draw, but none flip off the favourite."
+    },
+    {
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "commence_time": "2026-06-20T01:00:00Z",
+      "pick": "home",
+      "scoreline": "3-0",
+      "confidence": 5,
+      "market": {
+        "home": 0.86,
+        "draw": 0.09,
+        "away": 0.04
+      },
+      "rationale": "Market is emphatic for Brazil (86% home) and goal difference matters under the 48-team format, so Ancelotti's side will keep pushing against a low Haiti block. Expect rotation up top among Cunha, Endrick and Neymar; the interest is the margin, not the result.",
+      "sources": [
+        {
+          "title": "Sports Mole",
+          "url": "https://www.sportsmole.co.uk/"
+        },
+        {
+          "title": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Turkey",
+      "away_team": "Paraguay",
+      "commence_time": "2026-06-20T03:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.47,
+        "draw": 0.29,
+        "away": 0.24
+      },
+      "rationale": "Market gives Turkey a modest edge (47% home) on creative quality through Güler, Aktürkoğlu and Çalhanoğlu. Paraguay are the most disciplined CONMEBOL defensive unit and will look to frustrate and counter, so we take Turkey narrowly while rating a low-scoring draw a real possibility.",
+      "sources": [
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        },
+        {
+          "title": "Oddschecker",
+          "url": "https://www.oddschecker.com/"
+        }
+      ],
+      "disagreement": "Tipsters flag Paraguay's solidity as live for a low-scoring draw, with value on unders / Paraguay double chance."
+    },
+    {
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "commence_time": "2026-06-20T17:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "rationale": "Market favours the Netherlands (58% home), but their defensive balance is dented with Timber and Xavi Simons out and keeper Verbruggen a day-to-day doubt after a friendly injury. Sweden's Viktor Gyökeres is a physical aerial threat tailor-made to exploit any Dutch keeper uncertainty, so confidence is capped.",
+      "sources": [
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "Oddschecker",
+          "url": "https://www.oddschecker.com/"
+        }
+      ],
+      "disagreement": "Verbruggen's fitness plus Gyökeres make Sweden a popular BTTS / +handicap angle; no outright flip to Sweden."
+    },
+    {
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "commence_time": "2026-06-20T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.61,
+        "draw": 0.22,
+        "away": 0.17
+      },
+      "rationale": "Market backs Germany (61% home) but this is the group's tightest tie. Germany carry a long injury list (Burkardt, Amiri, Baku, Ouédraogo and others out, Musiala and Wirtz below their best), while Ivory Coast report no unavailable players and have genuine quality in attack. We take Germany but not as a comfortable favourite.",
+      "sources": [
+        {
+          "title": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/soccer/"
+        },
+        {
+          "title": "Bleacher Report",
+          "url": "https://bleacherreport.com/"
+        }
+      ],
+      "disagreement": "Tipsters flag Ivory Coast as a live underdog/draw given Germany's absences — not a comfortable favourite play."
+    },
+    {
+      "home_team": "Ecuador",
+      "away_team": "Curaçao",
+      "commence_time": "2026-06-21T00:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.79,
+        "draw": 0.14,
+        "away": 0.07
+      },
+      "rationale": "Market is strong on Ecuador (79% home), whose elite defensive spine of Pacho and Hincapié faces tournament debutants Curaçao. Opta's model gives Ecuador ~87% here and goal difference matters, so the question is how many they score against a low block, not whether they win.",
+      "sources": [
+        {
+          "title": "Opta/The Analyst",
+          "url": "https://theanalyst.com/"
+        },
+        {
+          "title": "RotoWire",
+          "url": "https://www.rotowire.com/soccer/"
+        }
+      ]
+    },
+    {
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "commence_time": "2026-06-21T04:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.18,
+        "draw": 0.26,
+        "away": 0.56
+      },
+      "rationale": "Market favours Japan (56% away) on technical quality, but the team news is material: Japan are without keeper Zion Suzuki, holding midfielder Wataru Endō and Junya Itō, which dents their defensive solidity. Tunisia are organised and physical, so we back Japan but expect a tighter game than the line implies.",
+      "sources": [
+        {
+          "title": "ESPN",
+          "url": "https://www.espn.com/soccer/"
+        },
+        {
+          "title": "Yahoo Sports",
+          "url": "https://sports.yahoo.com/soccer/"
+        }
+      ],
+      "disagreement": "Tipsters favour Japan but flag the injuries plus Tunisia's discipline as a case for a tight, low-scoring game (under 2.5 / draw value)."
+    }
+  ]
+}
