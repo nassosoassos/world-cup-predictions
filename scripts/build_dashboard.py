@@ -33,14 +33,21 @@ def load_json(path: str) -> dict:
 
 
 def latest_scores() -> dict:
-    """Most recent scores file -> {home|away: {...}}."""
-    files = sorted(glob.glob("data/scores-*.json"))
-    if not files:
-        return {}
-    data = load_json(files[-1])
+    """Merge every scores file (oldest -> newest) -> {home|away: {...}}.
+
+    fetch_scores.py only writes a rolling window (--days-from), so the newest
+    file drops matches that finished a few days ago (e.g. the WC openers). We
+    merge across all files so completed results persist, and never let a later
+    not-yet-completed snapshot clobber an already-completed result.
+    """
     out = {}
-    for m in data.get("matches", []):
-        out[f"{m.get('home_team')}|{m.get('away_team')}"] = m
+    for path in sorted(glob.glob("data/scores-*.json")):
+        for m in load_json(path).get("matches", []):
+            key = f"{m.get('home_team')}|{m.get('away_team')}"
+            prev = out.get(key)
+            if prev and prev.get("completed") and not m.get("completed"):
+                continue
+            out[key] = m
     return out
 
 
