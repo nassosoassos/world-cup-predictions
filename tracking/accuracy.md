@@ -3,12 +3,12 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 12
+- Matches predicted: 16
 - Correct picks (1X2): 5
-- Hit rate: 42% (5/12)
+- Hit rate: 31% (5/16)
 - Exact scoreline hits: 1
 - Avg confidence of correct picks: 3.6
-- Avg confidence of wrong picks: 2.4
+- Avg confidence of wrong picks: 2.8
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
@@ -25,3 +25,7 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-14 | Netherlands vs Japan | Home | 2-1 | 2 | 2-2 (draw) | ✗ | ✗ |
 | 2026-06-14 | Ivory Coast vs Ecuador | Away | 1-0 | 2 | 1-0 (home) | ✗ | ✗ |
 | 2026-06-14 | Sweden vs Tunisia | Home | 2-1 | 3 | 5-1 (home) | ✓ | ✗ |
+| 2026-06-15 | Spain vs Cape Verde | Home | 3-0 | 5 | 0-0 (draw) | ✗ | ✗ |
+| 2026-06-15 | Belgium vs Egypt | Home | 2-0 | 3 | 1-1 (draw) | ✗ | ✗ |
+| 2026-06-15 | Saudi Arabia vs Uruguay | Away | 0-2 | 4 | 1-1 (draw) | ✗ | ✗ |
+| 2026-06-16 | Iran vs New Zealand | Home | 1-0 | 2 | 2-2 (draw) | ✗ | ✗ |
