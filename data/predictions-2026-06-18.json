@@ -107,7 +107,7 @@
       "away_team": "Morocco",
       "commence_time": "2026-06-19T22:00:00Z",
       "pick": "away",
-      "scoreline": "1-0",
+      "scoreline": "0-1",
       "confidence": 3,
       "market": {
         "home": 0.18,
@@ -228,7 +228,7 @@
       "away_team": "Japan",
       "commence_time": "2026-06-21T04:00:00Z",
       "pick": "away",
-      "scoreline": "2-0",
+      "scoreline": "0-2",
       "confidence": 4,
       "market": {
         "home": 0.14,
@@ -308,7 +308,7 @@
       "away_team": "Egypt",
       "commence_time": "2026-06-22T01:00:00Z",
       "pick": "away",
-      "scoreline": "1-0",
+      "scoreline": "0-1",
       "confidence": 3,
       "market": {
         "home": 0.17,
@@ -388,7 +388,7 @@
       "away_team": "Algeria",
       "commence_time": "2026-06-23T03:00:00Z",
       "pick": "away",
-      "scoreline": "2-0",
+      "scoreline": "0-2",
       "confidence": 3,
       "market": {
         "home": 0.16,
@@ -448,7 +448,7 @@
       "away_team": "Croatia",
       "commence_time": "2026-06-23T23:00:00Z",
       "pick": "away",
-      "scoreline": "2-1",
+      "scoreline": "1-2",
       "confidence": 3,
       "market": {
         "home": 0.14,
@@ -530,7 +530,7 @@
       "away_team": "Brazil",
       "commence_time": "2026-06-24T22:00:00Z",
       "pick": "away",
-      "scoreline": "2-1",
+      "scoreline": "1-2",
       "confidence": 3,
       "market": {
         "home": 0.14,
@@ -570,7 +570,7 @@
       "away_team": "Mexico",
       "commence_time": "2026-06-25T01:00:00Z",
       "pick": "away",
-      "scoreline": "2-1",
+      "scoreline": "1-2",
       "confidence": 3,
       "market": {
         "home": 0.21,
@@ -590,7 +590,7 @@
       "away_team": "South Korea",
       "commence_time": "2026-06-25T01:00:00Z",
       "pick": "away",
-      "scoreline": "2-0",
+      "scoreline": "0-2",
       "confidence": 3,
       "market": {
         "home": 0.17,
