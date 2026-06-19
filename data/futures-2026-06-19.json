@@ -1,0 +1,213 @@
+{
+  "lock_deadline": "2026-06-11T22:00:00",
+  "generated_at": "2026-06-19",
+  "markets": [
+    {
+      "key": "champion",
+      "question": "World Champion",
+      "pick": "Spain",
+      "confidence": 3,
+      "note": "Leads both the market (~+475) and Opta (16.1%); only side rated >50% to reach the QF. Spain stumbled to a 0-0 vs Cape Verde in Matchday 1 — a concern but not a pick-change at this stage. Yamal and Rodri both fit.",
+      "alternatives": [
+        "France (+500)",
+        "England (+700)",
+        "Argentina (+900)",
+        "Brazil (+900)"
+      ],
+      "result": null
+    },
+    {
+      "key": "top_scorer_team",
+      "question": "Top scorer's team",
+      "pick": "France (Mbappé)",
+      "confidence": 3,
+      "note": "Mbappé shortest Golden Boot price (+600) AND on a deep-running team = the volume edge. France beat Senegal 3-1 in Matchday 1 — Mbappé tracking well.",
+      "alternatives": [
+        "England (Kane +700)",
+        "Argentina (Messi +1600)",
+        "Spain (Yamal/Oyarzabal)"
+      ],
+      "result": null
+    },
+    {
+      "key": "group_a",
+      "question": "Group A winner",
+      "pick": "Mexico",
+      "confidence": 4,
+      "field": [
+        "Mexico",
+        "South Korea",
+        "Czechia",
+        "South Africa"
+      ],
+      "note": "Mexico beat South Africa 2-0 (Matchday 1). South Korea also won (2-1 vs Czech Republic) — both top the group on 3 pts. Mexico's home advantage and Opta ~48% keep the pick. Matchday 2 (Mexico vs South Korea) will be decisive.",
+      "result": null
+    },
+    {
+      "key": "group_b",
+      "question": "Group B winner",
+      "pick": "Switzerland",
+      "confidence": 2,
+      "field": [
+        "Canada",
+        "Switzerland",
+        "Qatar",
+        "Bosnia & Herzegovina"
+      ],
+      "note": "All four sides level on 1pt after Matchday 1 — the tightest group at the tournament. Switzerland drew 1-1 with Qatar; Canada drew 1-1 with Bosnia. Pick unchanged but confidence remains low.",
+      "result": null
+    },
+    {
+      "key": "group_c",
+      "question": "Group C winner",
+      "pick": "Brazil",
+      "confidence": 4,
+      "field": [
+        "Brazil",
+        "Morocco",
+        "Scotland",
+        "Haiti"
+      ],
+      "note": "Brazil drew Morocco 1-1 in Matchday 1 — tighter than expected. Scotland beat Haiti 1-0. Morocco showing their quality as 2nd-seed threat. Brazil remain the pick at -350/Opta ~60%; Neymar targets the Haiti Matchday 2 game.",
+      "result": null
+    },
+    {
+      "key": "group_d",
+      "question": "Group D winner",
+      "pick": "USA",
+      "confidence": 2,
+      "field": [
+        "USA",
+        "Paraguay",
+        "Türkiye",
+        "Australia"
+      ],
+      "note": "USA beat Paraguay 4-1 and lead the group; Türkiye beat Australia 2-0. Both now on 3 pts. USA remain the pick with home advantage (+140, Opta ~33%). Next: Türkiye vs Paraguay, USA vs Australia.",
+      "result": null
+    },
+    {
+      "key": "group_e",
+      "question": "Group E winner",
+      "pick": "Germany",
+      "confidence": 4,
+      "field": [
+        "Germany",
+        "Ecuador",
+        "Ivory Coast",
+        "Curaçao"
+      ],
+      "note": "Germany beat Curaçao 7-1. Ivory Coast beat Ecuador 1-0 (90th min). Matchday 2 is Germany vs Ivory Coast — a win would all but seal the group for Germany. Pick unchanged at -250.",
+      "result": null
+    },
+    {
+      "key": "group_f",
+      "question": "Group F winner",
+      "pick": "Netherlands",
+      "confidence": 2,
+      "field": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "note": "Sweden lead Group F (3 pts, +4 GD) after thrashing Tunisia 5-1. Netherlands drew Japan 2-2. Sweden's strong start puts pressure on this pick — confidence reduced from 2 but pick unchanged as Netherlands have superior long-run talent. Matchday 2: Netherlands vs Sweden is the key match.",
+      "result": null
+    },
+    {
+      "key": "group_g",
+      "question": "Group G winner",
+      "pick": "Belgium",
+      "confidence": 2,
+      "field": [
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ],
+      "note": "Belgium drew Egypt 1-1; Iran drew New Zealand 2-2. All four sides on 1 pt — remarkably open group. Belgium remain the narrow pick (Opta 51.9%) but this is the tournament's most unpredictable group heading into Matchday 2.",
+      "result": null
+    },
+    {
+      "key": "group_h",
+      "question": "Group H winner",
+      "pick": "Spain",
+      "confidence": 5,
+      "field": [
+        "Spain",
+        "Uruguay",
+        "Cape Verde",
+        "Saudi Arabia"
+      ],
+      "note": "Spain drew 0-0 with Cape Verde in a shock Matchday 1 result. Uruguay drew Saudi Arabia 1-1. Spain remain the pick (Opta 75.6%) but a second dropped-points result would raise serious questions. Confidence reduced to 4.",
+      "result": null
+    },
+    {
+      "key": "group_i",
+      "question": "Group I winner",
+      "pick": "France",
+      "confidence": 4,
+      "field": [
+        "France",
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ],
+      "note": "France beat Senegal 3-1 (Matchday 1); Norway beat Iraq 4-1. France lead the group and look convincing. Pick and confidence both strengthened post-Matchday 1.",
+      "result": null
+    },
+    {
+      "key": "group_j",
+      "question": "Group J winner",
+      "pick": "Argentina",
+      "confidence": 5,
+      "field": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
+      ],
+      "note": "Argentina beat Algeria 3-0; Austria beat Jordan 3-1. Argentina look sharp and lead the group. Their quality gap is evident — confidence upgraded to 5. Matchday 2: Argentina vs Austria is the remaining challenge.",
+      "result": null
+    },
+    {
+      "key": "group_k",
+      "question": "Group K winner",
+      "pick": "Portugal",
+      "confidence": 3,
+      "field": [
+        "Portugal",
+        "Colombia",
+        "DR Congo",
+        "Uzbekistan"
+      ],
+      "note": "-200, Opta 59%. Portugal open today vs DR Congo. Colombia face Uzbekistan. Pick unchanged — Colombia remain the live challenge for group leadership.",
+      "result": null
+    },
+    {
+      "key": "group_l",
+      "question": "Group L winner",
+      "pick": "England",
+      "confidence": 4,
+      "field": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "note": "Opta 67.5%. England open today vs Croatia. Partey's Canadian visa denial weakens Ghana significantly — England's path to top spot is smoother. Pick unchanged.",
+      "result": null
+    },
+    {
+      "key": "semifinalists",
+      "question": "Reach the semi-finals",
+      "pick": "Spain, France, England, Argentina",
+      "confidence": 3,
+      "note": "Spain stumbled vs Cape Verde but remain the market's top semifinalist candidate. France look convincing after beating Senegal. Argentina impressive in Matchday 1. England face their first test today vs Croatia. Pick unchanged.",
+      "alternatives": [
+        "Brazil (for England)",
+        "Portugal"
+      ],
+      "result": null
+    }
+  ]
+}
