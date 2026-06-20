@@ -8,6 +8,10 @@ earlier ones:
     data/predictions-YYYY-MM-DD.json   (pick / scoreline / confidence per match)
     data/futures-YYYY-MM-DD.json       (outright picks)
 
+If the agent wrote a funny Greek round-up for the day at
+    data/digest-el-YYYY-MM-DD.md
+it is embedded in the digest under a "Το αγωνιστικό μενού της ημέρας" heading.
+
 Sends via SMTP (Gmail by default). Configure with environment variables:
     WC_SMTP_PASSWORD   (required) — a Gmail App Password for the FROM account
     WC_EMAIL_FROM      (default: nkatsam@gmail.com)
@@ -65,6 +69,25 @@ def pick_today_and_prev(prefix: str, today: str) -> tuple[str | None, str | None
         today, today_path = files[-1]
     prev = [p for d, p in files if d < today]
     return today_path, (prev[-1] if prev else None)
+
+
+def greek_blurb(today: str) -> str | None:
+    """The agent's funny Greek round-up for the day, if it wrote one.
+
+    Reads data/digest-el-YYYY-MM-DD.{md,txt} for *today's* date only — the blurb
+    is date-specific prose about that day's fixtures, so we never fall back to an
+    earlier day's text. Returns the trimmed text, or None if today's file is absent.
+    """
+    for ext in (".md", ".txt"):
+        path = f"data/digest-el-{today}{ext}"
+        try:
+            with open(path) as f:
+                text = f.read().strip()
+        except OSError:
+            continue
+        if text:
+            return text
+    return None
 
 
 def stars(c) -> str:
@@ -176,6 +199,10 @@ def build_body(today: str, dashboard: str) -> tuple[str, int]:
             parts += ["", "Matches:"] + match_changes
         if fut_changes:
             parts += ["", "Tournament futures:"] + fut_changes
+
+    blurb = greek_blurb(today)
+    if blurb:
+        parts += ["", "🇬🇷 Το αγωνιστικό μενού της ημέρας:", "", blurb]
 
     nxt = next_match(p_today) if p_today else None
     if nxt:

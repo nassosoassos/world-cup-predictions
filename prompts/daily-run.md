@@ -118,6 +118,25 @@ python3 scripts/build_dashboard.py
 This bakes predictions + market bars + actual scores + the accuracy panel into
 `dashboard.html`. Mention in your summary that the user can `open dashboard.html`.
 
+## Step 6b — Write the funny Greek round-up (for the email)
+Write a short, genuinely funny paragraph **in Greek** that previews *today's*
+matches, drawing on the rationales/intel you just produced. Save it to
+`data/digest-el-YYYY-MM-DD.md` (plain text/markdown, today's date).
+
+Guidelines:
+- **Greek language**, light and witty — playful jabs, football clichés subverted,
+  a wink at the underdogs. Keep it tasteful, never mean.
+- 4–8 sentences total. Cover each of today's matches in a clause or two: name the
+  teams, your pick, and the funniest/most telling nugget from its analysis
+  (the leaky defence, the in-form striker, the dead rubber, the line movement).
+- Weave in the score guess or confidence where it lands a joke. Don't list a table
+  — write flowing prose a friend would actually enjoy reading.
+- End with a one-line tongue-in-cheek disclaimer that these are προβλέψεις για
+  πλάκα, όχι στοίχημα.
+
+`send_email.py` (next step) auto-detects this file and embeds it in the digest, so
+write it **before** sending. If you skip it, the email simply omits the section.
+
 ## Step 7 — Email the daily digest
 Send the SHORT digest (a link to the dashboard + what changed since the previous day):
 
@@ -128,7 +147,8 @@ python3 scripts/send_email.py
 It auto-detects today's date (UTC) and diffs `data/predictions-*.json` and
 `data/futures-*.json` against the most recent earlier files, then emails a concise
 summary to nkatsam@gmail.com via SMTP. It deliberately does NOT dump the full report
-— the dashboard holds the detail. `WC_SMTP_PASSWORD` must be set (a Gmail App
+— the dashboard holds the detail. It also embeds the funny Greek round-up from Step 6b
+if present. `WC_SMTP_PASSWORD` must be set (a Gmail App
 Password); if it is unset the script exits with a clear message — note that in your
 summary and continue (the dashboard and files are already updated).
 
