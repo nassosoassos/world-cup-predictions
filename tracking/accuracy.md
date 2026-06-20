@@ -3,11 +3,11 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 28
-- Correct picks (1X2): 14
-- Hit rate: 50% (14/28)
-- Exact scoreline hits: 1
-- Avg confidence of correct picks: 3.5
+- Matches predicted: 32
+- Correct picks (1X2): 17
+- Hit rate: 53% (17/32)
+- Exact scoreline hits: 4
+- Avg confidence of correct picks: 3.6
 - Avg confidence of wrong picks: 2.9
 
 ## Log
@@ -41,3 +41,7 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-18 | Switzerland vs Bosnia & Herzegovina | Home | 2-0 | 4 | 4-1 (home) | ✓ | ✗ |
 | 2026-06-18 | Canada vs Qatar | Home | 2-0 | 4 | 6-0 (home) | ✓ | ✗ |
 | 2026-06-19 | Mexico vs South Korea | Home | 2-1 | 2 | 1-0 (home) | ✓ | ✗ |
+| 2026-06-19 | USA vs Australia | Home | 2-0 | 3 | 2-0 (home) | ✓ | ✓ |
+| 2026-06-19 | Scotland vs Morocco | Away | 0-1 | 3 | 0-1 (away) | ✓ | ✓ |
+| 2026-06-20 | Brazil vs Haiti | Home | 3-0 | 5 | 3-0 (home) | ✓ | ✓ |
+| 2026-06-20 | Turkey vs Paraguay | Home | 2-1 | 2 | 0-1 (away) | ✗ | ✗ |
