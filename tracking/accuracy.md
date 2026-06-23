@@ -3,10 +3,10 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 40
-- Correct picks (1X2): 22
-- Hit rate: 55% (22/40)
-- Exact scoreline hits: 5
+- Matches predicted: 44
+- Correct picks (1X2): 26
+- Hit rate: 59% (26/44)
+- Exact scoreline hits: 7
 - Avg confidence of correct picks: 3.5
 - Avg confidence of wrong picks: 2.9
 
@@ -53,3 +53,7 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-21 | Belgium vs Iran | Home | 2-1 | 3 | 0-0 (draw) | ✗ | ✗ |
 | 2026-06-21 | Uruguay vs Cape Verde | Home | 1-0 | 3 | 2-2 (draw) | ✗ | ✗ |
 | 2026-06-22 | New Zealand vs Egypt | Away | 0-1 | 3 | 1-3 (away) | ✓ | ✗ |
+| 2026-06-22 | Argentina vs Austria | Home | 2-0 | 4 | 2-0 (home) | ✓ | ✓ |
+| 2026-06-22 | France vs Iraq | Home | 3-0 | 5 | 3-0 (home) | ✓ | ✓ |
+| 2026-06-23 | Norway vs Senegal | Home | 2-1 | 2 | 3-2 (home) | ✓ | ✗ |
+| 2026-06-23 | Jordan vs Algeria | Away | 0-2 | 3 | 1-2 (away) | ✓ | ✗ |

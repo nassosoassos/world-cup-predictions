@@ -1,0 +1,617 @@
+{
+  "predictions": [
+    {
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "commence_time": "2026-06-23T17:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.836,
+        "draw": 0.1153,
+        "away": 0.0487
+      },
+      "rationale": "Market makes Portugal overwhelming favourites (84%) and they MUST win to revive a campaign that stalled with a shock 1-1 opener against DR Congo. Ronaldo is confirmed to start despite a quiet first game, and Portugal's overall quality dwarfs the WC-debutant Uzbeks, who will sit deep. Pressure plus class points to a controlled home win.",
+      "sources": [
+        {
+          "title": "ESPN: Portugal vs Uzbekistan preview",
+          "url": "https://www.espn.co.uk/football/story/_/id/49135037/fifa-world-cup-2026-portugal-vs-uzbekistan-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Al Jazeera preview",
+          "url": "https://www.aljazeera.com/sports/2026/6/23/portugal-vs-uzbekistan-world-cup-ronaldo-prediction-kickoff-team-news"
+        }
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "Ghana",
+      "commence_time": "2026-06-23T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.8055,
+        "draw": 0.1352,
+        "away": 0.0593
+      },
+      "rationale": "England are firm market favourites (81%) and arrive on a high after a 4-2 demolition of Croatia, with Kane and Bellingham in form and Saka/Rashford/Rice all trained and available. Ghana ground out a 1-0 win over Panama and have Thomas Partey back to anchor midfield, but the quality gap is wide. Opta's model has England near 79%.",
+      "sources": [
+        {
+          "title": "Opta/The Analyst preview",
+          "url": "https://theanalyst.com/articles/england-vs-ghana-prediction-world-cup-2026-match-preview"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-ghana-prediction-team-news-lineups_599721.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Panama",
+      "away_team": "Croatia",
+      "commence_time": "2026-06-23T23:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.1424,
+        "draw": 0.2228,
+        "away": 0.6348
+      },
+      "rationale": "The market backs Croatia (63%) and Dalic can call on Modric, a refreshed Kovacic, Perisic and Gvardiol. Both sides lost their openers, and Croatia's ageing midfield faded badly in a second-half collapse against England, so Panama's energetic 3-4-3 press is a live threat. Croatia's class should still tell, but a nervy margin.",
+      "sources": [
+        {
+          "title": "Sports Mole: Panama vs Croatia",
+          "url": "https://www.sportsmole.co.uk/football/panama/world-cup-2026/preview/panama-vs-croatia-prediction-team-news-lineups_599736.html"
+        },
+        {
+          "title": "Opta/The Analyst preview",
+          "url": "https://theanalyst.com/articles/panama-vs-croatia-prediction-world-cup-2026-match-preview"
+        }
+      ],
+      "disagreement": "Panama's intensity and Croatia's late-game fade vs England make an upset/draw more plausible than the price implies."
+    },
+    {
+      "home_team": "Colombia",
+      "away_team": "DR Congo",
+      "commence_time": "2026-06-24T02:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.6183,
+        "draw": 0.2387,
+        "away": 0.143
+      },
+      "rationale": "Colombia lead Group K and are favourites (62%) after a convincing 3-1 win over Uzbekistan, with James Rodriguez pulling strings and the same XI expected. DR Congo earned a historic point against Portugal and will defend deep with Wissa a counter-attacking threat behind Colombia's high full-backs. Colombia should win but may concede.",
+      "sources": [
+        {
+          "title": "ESPN: Colombia vs DR Congo preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49135872/fifa-world-cup-2026-colombia-vs-congo-dr-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/colombia/world-cup-2026/preview/colombia-vs-congo-dr-prediction-team-news-lineups_599761.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Bosnia & Herzegovina",
+      "away_team": "Qatar",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.6769,
+        "draw": 0.1901,
+        "away": 0.133
+      },
+      "rationale": "Market favours Bosnia (68%) in a do-or-die group finale with both sides on a single point. Qatar were thumped 6-0 by Canada and lose two players to suspension (Madibo, El-Amin), leaving a depleted, demoralised back line. Bosnia have Dzeko and superior depth despite Muharemovic's suspension.",
+      "sources": [
+        {
+          "title": "ESPN: Bosnia vs Qatar preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49138188/bosnia-herzegovina-qatar-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/bosnia-herzegovina/world-cup-2026/preview/bosnia-hvina-vs-qatar-prediction-team-news-lineups_599838.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Canada",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.3983,
+        "draw": 0.3132,
+        "away": 0.2886
+      },
+      "rationale": "The market is genuinely split (Swiss 40 / draw 31 / Canada 29) in a group decider. Both sit on 4 points but Canada top the group on goal difference, so a draw clinches first place and keeps their next game in Vancouver — lowering their urgency. Switzerland have the midfield edge (Xhaka, Freuler) but Canada are content to manage it, and Canada have lost Kone to injury.",
+      "sources": [
+        {
+          "title": "ESPN: Switzerland vs Canada preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49141389/fifa-world-cup-2026-switzerland-vs-canada-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Racing Post preview",
+          "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/switzerland-vs-canada-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-a3SeE5N0GPTV/"
+        }
+      ],
+      "disagreement": "Sharp money leans Switzerland; the cagey game-state argument is what nudges this to a draw call."
+    },
+    {
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.1198,
+        "draw": 0.1855,
+        "away": 0.6947
+      },
+      "rationale": "Brazil are heavy favourites (69%) and top the group, but they have looked unconvincing and lose Raphinha to a hamstring injury, with Neymar not expected to start. Scotland need only a draw to be near-certain to qualify (Opta ~99.8% on 4 points), which fuels a highly motivated, front-foot display. Brazil's depth should still edge it, but an upset is live.",
+      "sources": [
+        {
+          "title": "ESPN: Scotland vs Brazil preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49137398/scotland-brazil-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html"
+        }
+      ],
+      "disagreement": "Scotland's draw-suffices motivation plus Raphinha's absence make the Brazil price look short."
+    },
+    {
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.8092,
+        "draw": 0.1332,
+        "away": 0.0577
+      },
+      "rationale": "Morocco are strong favourites (81%) and control their bid to top the group, with no fresh injuries and Hakimi driving from right-back. Haiti are already eliminated after two defeats and offer only sporadic transition threat via Isidor. The 2022 semi-finalists should win comfortably.",
+      "sources": [
+        {
+          "title": "ESPN: Morocco vs Haiti preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49141508/fifa-world-cup-2026-morocco-vs-haiti-tv-channel-how-watch-kick-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/morocco/world-cup-2026/preview/morocco-vs-haiti-prediction-team-news-lineups_599775.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Czech Republic",
+      "away_team": "Mexico",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.254,
+        "draw": 0.2484,
+        "away": 0.4977
+      },
+      "rationale": "Market leans Mexico (50%), who are already through with the best defence in the group (0 conceded) and Montes available again after suspension. But Aguirre is likely to rotate with qualification secured, which adds variance against a Czech side that must win. Mexico's quality edge holds, but rotation keeps confidence low.",
+      "sources": [
+        {
+          "title": "ESPN: Czechia vs Mexico preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49142462/czechia-vs-mexico-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/czech-republic/world-cup-2026/preview/czech-republic-vs-mexico-prediction-team-news-lineups_599786.html"
+        }
+      ]
+    },
+    {
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "pick": "away",
+      "scoreline": "0-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.1727,
+        "draw": 0.2478,
+        "away": 0.5795
+      },
+      "rationale": "South Korea are favoured (58%) and need only a draw to reach the knockouts, with Son and Lee Kang-in carrying the attack. South Africa must win and lose Mokoena to suspension, forcing them forward and opening space for Korea's transitions. Korea's quality and asymmetric stakes point away.",
+      "sources": [
+        {
+          "title": "ESPN: South Africa vs South Korea preview",
+          "url": "https://www.espn.com/soccer/story/_/id/49144478/fifa-world-cup-2026-south-africa-vs-south-korea-channel-how-watch-kickoff-live-stream-referee-predicted-line-ups"
+        },
+        {
+          "title": "Sports Mole preview",
+          "url": "https://www.sportsmole.co.uk/football/south-africa/world-cup-2026/preview/south-africa-vs-south-korea-prediction-team-news-lineups_599815.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Curaçao",
+      "away_team": "Ivory Coast",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.0534,
+        "draw": 0.1161,
+        "away": 0.8305
+      },
+      "rationale": "The market makes Ivory Coast overwhelming favourites (83%) and the talent gap is enormous — Haller, Kessie, Amad Diallo and a fit squad against the smallest nation ever at a World Cup. Curacao's only route is the rope-a-dope that earned a 0-0 against Ecuador, leaning on keeper Eloy Room. Quality should overwhelm a low block.",
+      "sources": [
+        {
+          "title": "Goal: Curacao vs Ivory Coast preview",
+          "url": "https://www.goal.com/en-us/news/curacao-ivory-coast-world-cup-preview/bltaf6ced75ec6c319b"
+        }
+      ]
+    },
+    {
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.255,
+        "draw": 0.2424,
+        "away": 0.5026
+      },
+      "rationale": "Germany topped the group scoring nine and are favoured (50%), while Ecuador failed to score in their group despite a stubborn defence. Nagelsmann may rotate, and Ecuador's excellent back line (Hincapie, Caicedo) can keep this tight. Germany's edge in quality should win it, but a low-margin game is likely.",
+      "sources": [
+        {
+          "title": "Goal: Ecuador vs Germany preview",
+          "url": "https://www.goal.com/en/news/ecuador-germany-world-cup-preview/bltbed893fcfca000eb"
+        }
+      ]
+    },
+    {
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.4931,
+        "draw": 0.2785,
+        "away": 0.2284
+      },
+      "rationale": "Japan are slight favourites (49%) and arrive flying after a 4-0 rout of Tunisia, while Sweden were thrashed 5-1 by the Netherlands and have not kept a clean sheet under Potter. Japan's fast, direct front line (Kubo, Doan, Ueda) targets exactly the wide and transitional spaces Sweden have leaked. Expect goals, with Japan ahead.",
+      "sources": [
+        {
+          "title": "Goal: Japan vs Sweden preview",
+          "url": "https://www.goal.com/en/news/japan-sweden-world-cup-preview/blt8a938f12b12022e4"
+        },
+        {
+          "title": "OneFootball preview",
+          "url": "https://onefootball.com/en/news/japan-vs-sweden-prediction-world-cup-2026-preview-best-bets-43041515"
+        }
+      ]
+    },
+    {
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.0439,
+        "draw": 0.1066,
+        "away": 0.8495
+      },
+      "rationale": "The Netherlands are heavy favourites (85%) on the back of a 5-1 win over Sweden and look in full flow, with Gakpo and Dumfries overloading the right. Tunisia are winless in five and have been outscored 9-1 in the group. The price and the form align for a comfortable Dutch win.",
+      "sources": [
+        {
+          "title": "Goal: Tunisia vs Netherlands preview",
+          "url": "https://www.goal.com/en-us/news/tunisia-netherlands-world-cup-preview/bltb895dd8baa22d968"
+        }
+      ]
+    },
+    {
+      "home_team": "Paraguay",
+      "away_team": "Australia",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.3326,
+        "draw": 0.4243,
+        "away": 0.2431
+      },
+      "rationale": "The market actually makes the draw the most likely result (42%) in a group decider between two disciplined, low-scoring sides. Paraguay's Almiron is the creative hub (suspension status worth a late check) while Australia shield through Irvine and O'Neill. Chances will be scarce; a tight, cagey stalemate is the value read.",
+      "sources": [
+        {
+          "title": "Goal: Paraguay vs Australia preview",
+          "url": "https://www.goal.com/en/news/paraguay-australia-world-cup-preview/blt9c01b7bae1a3bfbd"
+        }
+      ],
+      "disagreement": "Tipsters split between an Australia edge and the under/draw; the model agrees the draw is live."
+    },
+    {
+      "home_team": "Turkey",
+      "away_team": "USA",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.2667,
+        "draw": 0.2363,
+        "away": 0.497
+      },
+      "rationale": "The market leans USA (50%), who topped the group with wins over Paraguay and Australia and Balogun in form. Turkey have the individual class (Guler, Yildiz, Calhanoglu) to punish but their final third has misfired, and Pulisic's calf is worth monitoring for the USA. A narrow USA win, but Turkey are a genuine upset threat.",
+      "sources": [
+        {
+          "title": "ESPN: USMNT rotation dilemma vs Turkiye",
+          "url": "https://www.espn.com/soccer/story/_/id/49140112/usmnt-faces-world-cup-dilemma-vs-turkiye-rotate-squad-keep-same-xi"
+        }
+      ],
+      "disagreement": "Turkey's attacking talent makes them a higher-variance live underdog if they finally click."
+    },
+    {
+      "home_team": "Norway",
+      "away_team": "France",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.2055,
+        "draw": 0.2322,
+        "away": 0.5623
+      },
+      "rationale": "France are favoured (56%) and have cruised through with maximum points, but with qualification secured Deschamps is likely to rotate. Norway are red-hot, with Haaland scoring freely (a brace in a 3-2 win over Senegal), and both teams are already through, which can loosen the contest. France's depth edges it, but Haaland keeps Norway live.",
+      "sources": [
+        {
+          "title": "Wikipedia: 2026 World Cup Group I",
+          "url": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_Group_I"
+        }
+      ],
+      "disagreement": "Mutual qualification plus France rotation and Haaland's form make a Norway result more plausible than the price."
+    },
+    {
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.7652,
+        "draw": 0.1548,
+        "away": 0.0801
+      },
+      "rationale": "Senegal are strong favourites (77%, line firmed +4pp) with the deeper, more athletic squad and Idrissa Gueye controlling transitions. Iraq rely on the spirit and finishing of Aymen Hussein but were outclassed 3-0 by France. Senegal should dominate and win to advance.",
+      "sources": [
+        {
+          "title": "Goal: Senegal vs Iraq preview",
+          "url": "https://www.goal.com/en-ng/news/senegal-iraq-world-cup-preview/bltd9cd15e8559290bf"
+        }
+      ]
+    },
+    {
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.403,
+        "draw": 0.2735,
+        "away": 0.3234
+      },
+      "rationale": "A near coin-flip with Cape Verde marginally favoured (40 / 27 / 32). The tournament debutants have overperformed — holding Spain 0-0 and drawing 2-2 with Uruguay — while Saudi Arabia looked toothless in a 4-0 loss to Spain. Expect a tight, low-scoring affair where Cape Verde's organisation gives them a slight edge.",
+      "sources": [
+        {
+          "title": "ESPN: Uruguay vs Cape Verde (group context)",
+          "url": "https://www.espn.com/soccer/story/_/id/49138051/uruguay-cape-verde-live-world-cup-2026-latest-updates-commentary-score-result"
+        }
+      ]
+    },
+    {
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.1355,
+        "draw": 0.2236,
+        "away": 0.6409
+      },
+      "rationale": "Spain are clear favourites (64%) and in ruthless form after a 4-0 win over Saudi Arabia, with Yamal starring (Fermin Lopez remains a pre-tournament absentee). Uruguay are gritty but unconvincing (2-2 vs Cape Verde) and carry questions at centre-back. Spain's quality should win it, though Uruguay's physical, set-piece edge keeps it competitive.",
+      "sources": [
+        {
+          "title": "Goal: Uruguay vs Spain preview",
+          "url": "https://www.goal.com/en/news/uruguay-spain-world-cup-preview/blt108f73be6b25d09d"
+        }
+      ]
+    },
+    {
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.0686,
+        "draw": 0.1397,
+        "away": 0.7917
+      },
+      "rationale": "Belgium are heavy favourites (79%) despite a stuttering campaign of back-to-back draws under Garcia, with De Bruyne only recently back from surgery. New Zealand drew with Iran but lost 3-1 to Egypt and lack the firepower to trouble Belgium's talent. The gap in quality points to a Belgium win.",
+      "sources": [
+        {
+          "title": "Sky Sports: Group G guide",
+          "url": "https://www.skysports.com/football/news/12098/13543098/world-cup-2026-group-g-guide-fixtures-schedule-standings-and-odds-for-belgium-egypt-iran-and-new-zealand"
+        }
+      ]
+    },
+    {
+      "home_team": "Egypt",
+      "away_team": "Iran",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.3928,
+        "draw": 0.3512,
+        "away": 0.256
+      },
+      "rationale": "Egypt are narrow favourites (39 / 35 / 26) with Salah in form (a goal and assist in a 3-1 win over New Zealand). Iran are defensively disciplined, having drawn 0-0 with Belgium, so this projects as a tight, low-scoring game where the draw is very live. Egypt's edge is Salah's quality unlocking a stubborn block.",
+      "sources": [
+        {
+          "title": "Al Jazeera: Egypt vs New Zealand / Salah",
+          "url": "https://www.aljazeera.com/sports/2026/6/21/egypt-coach-denies-salah-rift-before-world-cup-match-against-new-zealand"
+        }
+      ],
+      "disagreement": "The market rates the draw almost as highly as an Egypt win; a stalemate would not surprise."
+    },
+    {
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.5813,
+        "draw": 0.2558,
+        "away": 0.1629
+      },
+      "rationale": "Croatia are favoured (58%) with Modric recovered and Gvardiol back, and their midfield control should be decisive. But their defence leaked four against England, and Ghana's pace on the break makes this live. Croatia's class edges a game with goals in it.",
+      "sources": [
+        {
+          "title": "World Soccer Talk: Croatia preview",
+          "url": "https://worldsoccertalk.com/world-cup/croatia-2026-world-cup-preview-squad-breakdown-key-player-and-tactical-analysis/"
+        }
+      ]
+    },
+    {
+      "home_team": "Panama",
+      "away_team": "England",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.0774,
+        "draw": 0.1393,
+        "away": 0.7833
+      },
+      "rationale": "England are overwhelming favourites (78%) and in excellent form after a 4-2 win over Croatia, with Kane and Bellingham firing. Rice and Rashford carry minor injury concerns but England's depth covers it, while Panama offer little attacking threat after a 1-0 loss to Ghana. A comfortable England win.",
+      "sources": [
+        {
+          "title": "Sports Mole: England injury/suspension latest",
+          "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-saka-rashford-latest-england-injury-suspension-list-vs-ghana_599679.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.2616,
+        "draw": 0.2737,
+        "away": 0.4647
+      },
+      "rationale": "The market still leans Portugal (46 / 27 / 26) but this is close to a coin-flip. Portugal have misfired — a shock 1-1 against DR Congo with Ronaldo off-colour — while Colombia are in good rhythm after beating Uzbekistan 3-1. Portugal's ceiling gives them the edge, but Colombia's form makes them a genuine threat.",
+      "sources": [
+        {
+          "title": "Al Jazeera: Portugal form/Ronaldo",
+          "url": "https://www.aljazeera.com/sports/2026/6/23/portugal-vs-uzbekistan-world-cup-ronaldo-prediction-kickoff-team-news"
+        }
+      ],
+      "disagreement": "Colombia's form versus Portugal's struggles make the home side and the draw both live; low confidence on the favourite."
+    },
+    {
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.4581,
+        "draw": 0.2626,
+        "away": 0.2793
+      },
+      "rationale": "DR Congo are slight favourites (46 / 26 / 28) after a creditable 1-1 draw with Portugal showed their defensive organisation, with Wissa a threat. Uzbekistan, World Cup debutants, lost 3-1 to Colombia. Both are inexperienced at this stage, so a tight, low-scoring DR Congo win is the lean.",
+      "sources": [
+        {
+          "title": "MLSsoccer: Group K preview",
+          "url": "https://www.mlssoccer.com/news/2026-fifa-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-colombia"
+        }
+      ]
+    },
+    {
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.251,
+        "draw": 0.3944,
+        "away": 0.3546
+      },
+      "rationale": "The market makes the draw the most likely outcome (25 / 39 / 35) in a tight group game. Algeria have an injury concern over Amoura (the line has drifted ~6pp against them) which thins their attack, while Austria looked organised in a 3-1 win over Jordan. Evenly matched sides plus Algeria's absence point to a share of the spoils.",
+      "sources": [
+        {
+          "title": "Sports Mole: Jordan vs Algeria (Algeria context)",
+          "url": "https://www.sportsmole.co.uk/football/jordan/world-cup-2026/preview/jordan-vs-algeria-prediction-team-news-lineups_599697.html"
+        }
+      ],
+      "disagreement": "Books split three ways with the draw on top; Amoura's fitness is the swing factor."
+    },
+    {
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.0704,
+        "draw": 0.1427,
+        "away": 0.7869
+      },
+      "rationale": "Argentina are overwhelming favourites (79%) with Messi in record-breaking form (a hat-trick and a brace already, now the all-time World Cup top scorer) and the key men confirmed fit. Jordan are already eliminated and face a vast quality gap. A comfortable Argentina win to close the group.",
+      "sources": [
+        {
+          "title": "ESPN: Argentina fitness/Messi",
+          "url": "https://www.espn.com/soccer/story/_/id/49075716/argentina-calm-lionel-messi-emiliano-martinez-julian-alvarez-fit-ahead-algeria"
+        }
+      ]
+    }
+  ]
+}
