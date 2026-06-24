@@ -3,12 +3,12 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 44
-- Correct picks (1X2): 26
-- Hit rate: 59% (26/44)
+- Matches predicted: 48
+- Correct picks (1X2): 29
+- Hit rate: 60% (29/48)
 - Exact scoreline hits: 7
-- Avg confidence of correct picks: 3.5
-- Avg confidence of wrong picks: 2.9
+- Avg confidence of correct picks: 3.4
+- Avg confidence of wrong picks: 3.0
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
@@ -57,3 +57,7 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-22 | France vs Iraq | Home | 3-0 | 5 | 3-0 (home) | ✓ | ✓ |
 | 2026-06-23 | Norway vs Senegal | Home | 2-1 | 2 | 3-2 (home) | ✓ | ✗ |
 | 2026-06-23 | Jordan vs Algeria | Away | 0-2 | 3 | 1-2 (away) | ✓ | ✗ |
+| 2026-06-23 | Portugal vs Uzbekistan | Home | 2-0 | 4 | 5-0 (home) | ✓ | ✗ |
+| 2026-06-23 | England vs Ghana | Home | 2-0 | 4 | 0-0 (draw) | ✗ | ✗ |
+| 2026-06-23 | Panama vs Croatia | Away | 1-2 | 3 | 0-1 (away) | ✓ | ✗ |
+| 2026-06-24 | Colombia vs DR Congo | Home | 2-1 | 3 | 1-0 (home) | ✓ | ✗ |

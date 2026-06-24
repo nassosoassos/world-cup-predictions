@@ -1,0 +1,492 @@
+{
+  "predictions": [
+    {
+      "home_team": "Bosnia & Herzegovina",
+      "away_team": "Qatar",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.68,
+        "draw": 0.19,
+        "away": 0.13
+      },
+      "rationale": "Market makes Bosnia clear favourites (68%) and Opta concurs (66%) in a must-win Group B finale where the loser is out. Bosnia have attacking volume (Dzeko/Demirovic) while Qatar arrive off a 6-0 mauling by Canada and are missing two suspended starters (Madibo, Elamin). Bosnia also miss CB Muharemovic to suspension, but the gulf in form and stakes favours them.",
+      "sources": [
+        {
+          "title": "The Analyst — Bosnia vs Qatar preview",
+          "url": "https://theanalyst.com/articles/bosnia-herzegovina-vs-qatar-prediction-world-cup-2026-match-preview"
+        }
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Canada",
+      "commence_time": "2026-06-24T19:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.41,
+        "draw": 0.31,
+        "away": 0.29
+      },
+      "rationale": "The market is near a three-way coin-flip (Swiss 41% / draw 31% / Canada 29%) for the Group B decider. Canada need only a draw to top the group on goal difference and may play controlled, while Switzerland (full strength) must win for first place; Canada miss Kone (broken leg) and Davies is bench-only. With both sides motivated to avoid defeat, a tight 1-1 is the value read.",
+      "disagreement": "Books make Switzerland slim favourites; we lean draw on Canada's qualification incentive to play safe.",
+      "sources": [
+        {
+          "title": "ESPN — Switzerland vs Canada",
+          "url": "https://www.espn.com/soccer/story/_/id/49141389/"
+        }
+      ]
+    },
+    {
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.81,
+        "draw": 0.13,
+        "away": 0.06
+      },
+      "rationale": "Heavy market and Opta favourites (both ~81%): Morocco are unbeaten in the group (held Brazil, beat Scotland) with Hakimi recovered and Saibari in form. Haiti sit in a deep 5-4-1, are winless across both WC appearances and chase a first-ever point. Morocco's width and finishing should break the block for a comfortable win.",
+      "sources": [
+        {
+          "title": "The Analyst — Morocco vs Haiti preview",
+          "url": "https://theanalyst.com/articles/morocco-vs-haiti-prediction-world-cup-2026-match-preview"
+        }
+      ]
+    },
+    {
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "commence_time": "2026-06-24T22:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.1,
+        "draw": 0.18,
+        "away": 0.72
+      },
+      "rationale": "Market (Brazil 72%) and Opta (68%) both make Brazil strong favourites in the Group C finale. Brazil are without Raphinha (hamstring) but Cunha, Vinícius and Rayan provide ample quality, and Scotland — who must win to survive — will have to over-commit, opening counters. Scotland have never beaten Brazil; expect a controlled away win.",
+      "sources": [
+        {
+          "title": "The Analyst — Scotland vs Brazil preview",
+          "url": "https://theanalyst.com/articles/scotland-vs-brazil-prediction-world-cup-2026-match-preview"
+        }
+      ]
+    },
+    {
+      "home_team": "Czech Republic",
+      "away_team": "Mexico",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.26,
+        "draw": 0.25,
+        "away": 0.49
+      },
+      "rationale": "Market leans Mexico (49%) even though they have already won Group A and are set to rotate heavily, likely resting Jiménez. Czechia must win to survive and lose Jurasek (thigh) for the tournament. Mexico's depth and 3-0-0 group record still tilt it their way, but the rotation makes this closer than the favourites' tag.",
+      "disagreement": "Heavy Mexico rotation plus Czech must-win urgency could open the door to a draw or Czech win.",
+      "sources": [
+        {
+          "title": "The Analyst — Czechia vs Mexico",
+          "url": "https://theanalyst.com/articles/czechia-vs-mexico-prediction-world-cup-2026-match-preview"
+        }
+      ]
+    },
+    {
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "commence_time": "2026-06-25T01:00:00Z",
+      "pick": "away",
+      "scoreline": "0-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.18,
+        "draw": 0.25,
+        "away": 0.57
+      },
+      "rationale": "Market favours South Korea (57%) in the Group A finale. Korea need only a draw to advance and carry the quality edge (Son, Kim Min-jae, Lee Kang-in), while South Africa must win and are without suspended Mokoena and Zwane. Korea should have enough control to win or at minimum secure the point they need.",
+      "sources": [
+        {
+          "title": "ESPN — South Africa vs South Korea",
+          "url": "https://www.espn.com/soccer/story/_/id/49144478/"
+        }
+      ]
+    },
+    {
+      "home_team": "Curaçao",
+      "away_team": "Ivory Coast",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.05,
+        "draw": 0.12,
+        "away": 0.83
+      },
+      "rationale": "Lopsided market (Ivory Coast 83%). Ivory Coast win to guarantee top-two in Group E; Curaçao need a win plus help and rode 15 saves from Room to a 0-0 vs Ecuador. The talent gap (Diallo, Bonny, Kessié) against a deep Curaçao block points to a clear Ivorian win once they break through.",
+      "sources": [
+        {
+          "title": "ESPN — Curaçao vs Ivory Coast",
+          "url": "https://www.espn.com/soccer/story/_/id/49141629/"
+        }
+      ]
+    },
+    {
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "commence_time": "2026-06-25T20:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.25,
+        "draw": 0.24,
+        "away": 0.51
+      },
+      "rationale": "Market favours Germany (51%) despite them being already through and set to rotate heavily, with Schlotterbeck out for the tournament. Ecuador must win and hope, but have scored zero goals across two games. Even a second-string Germany carries more cutting edge, so the away lean holds — at low confidence given the rotation.",
+      "disagreement": "Germany's heavy rotation could let a must-win Ecuador snatch a draw.",
+      "sources": [
+        {
+          "title": "RotoWire — Ecuador vs Germany preview",
+          "url": "https://www.rotowire.com/soccer/article/ecuador-vs-germany-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-e-119485"
+        }
+      ]
+    },
+    {
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.5,
+        "draw": 0.27,
+        "away": 0.22
+      },
+      "rationale": "Market (Japan 50%) and Opta (~64%) favour Japan in the Group F finale. Japan are well-organised and dangerous in transition; Sweden were hammered 5-1 by the Netherlands and lean on the Gyökeres-Isak front two. Kubo is a knee doubt for Japan, but their midfield control should edge an open game.",
+      "sources": [
+        {
+          "title": "Sports Mole — Japan vs Sweden",
+          "url": "https://www.sportsmole.co.uk/football/japan/world-cup-2026/preview/japan-vs-sweden-prediction-team-news-lineups_599879.html"
+        }
+      ]
+    },
+    {
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "commence_time": "2026-06-25T23:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.04,
+        "draw": 0.11,
+        "away": 0.85
+      },
+      "rationale": "Heavy market (Netherlands 85%). The Dutch top Group F with nine goals in two games and chase top spot on GD, so Koeman is likely to field a strong side rather than rotate. Tunisia are already eliminated and play for pride. Expect a comfortable Dutch win.",
+      "sources": [
+        {
+          "title": "ESPN — Tunisia vs Netherlands",
+          "url": "https://www.espn.com/soccer/story/_/id/49141579/"
+        }
+      ]
+    },
+    {
+      "home_team": "Paraguay",
+      "away_team": "Australia",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.33,
+        "draw": 0.43,
+        "away": 0.24
+      },
+      "rationale": "The market's most-likely outcome is a draw (43%) in this Group D winner-takes-progression clash, both on three points. Paraguay lose top scorer Almirón to suspension, blunting an already low-scoring attack, while Australia are unbeaten in six historical meetings. A cagey, low-scoring stalemate is the central read.",
+      "disagreement": "Sports Mole leans Australia 0-1; books make Paraguay slight favourites — signals are split.",
+      "sources": [
+        {
+          "title": "Al Jazeera — Almirón suspended",
+          "url": "https://www.aljazeera.com/sports/2026/6/23/paraguays-almiron-suspended-for-one-game-after-red-card-for-covering-mouth"
+        }
+      ]
+    },
+    {
+      "home_team": "Turkey",
+      "away_team": "USA",
+      "commence_time": "2026-06-26T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.26,
+        "draw": 0.24,
+        "away": 0.5
+      },
+      "rationale": "Market favours the USA (50%), but Pochettino is set to make wholesale changes — the USA have already topped Group D and will rest yellow-card risks, with Pulisic not guaranteed to start. Turkey are eliminated but field a full-strength side around Yıldız and Güler at home. A rotated USA against a motivated Turkey points to a draw.",
+      "disagreement": "We fade the away market: heavy USA rotation plus Turkey's full-strength home XI levels this out.",
+      "sources": [
+        {
+          "title": "ESPN — USMNT rotation dilemma vs Türkiye",
+          "url": "https://www.espn.com/soccer/story/_/id/49140112/"
+        }
+      ]
+    },
+    {
+      "home_team": "Norway",
+      "away_team": "France",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.2,
+        "draw": 0.22,
+        "away": 0.58
+      },
+      "rationale": "Market (France 58%) and Opta (60% to win the group) favour France in the Group I top-spot decider. France need only a draw on GD and may manage Kanté/Tchouaméni, but Mbappé starts; Norway must win and have Haaland in red-hot form (4 goals). Expect an open, goals-friendly game that France's class edges.",
+      "disagreement": "Norway's must-win urgency plus Haaland's form make this more open than the price suggests.",
+      "sources": [
+        {
+          "title": "The Analyst — Opta supercomputer",
+          "url": "https://theanalyst.com/articles/who-will-win-2026-fifa-world-cup-predictions-opta-supercomputer"
+        }
+      ]
+    },
+    {
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "commence_time": "2026-06-26T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 4,
+      "market": {
+        "home": 0.78,
+        "draw": 0.14,
+        "away": 0.08
+      },
+      "rationale": "Heavy market favourites (Senegal 78%). Senegal's quality (Mané, Sarr, Jackson) far outstrips an Iraq side that shipped seven goals in two games, and Senegal must win to keep slim hopes alive. The caveat is keeper Mendy ruled out (knee), with Diaw deputising behind a leaky line — hence a goal conceded in the scoreline.",
+      "sources": [
+        {
+          "title": "ESPN — Mendy ruled out",
+          "url": "https://www.espn.com/espn/story/_/id/49160006/senegal-goalkeeper-edouard-mendy-ruled-fifa-world-cup-decider-iraq"
+        }
+      ]
+    },
+    {
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.39,
+        "draw": 0.28,
+        "away": 0.33
+      },
+      "rationale": "A tight market (Cape Verde 39% / draw 28% / Saudi 33%) for the Group H finale, with Cape Verde slight favourites (~+135). Cape Verde are unbeaten (held Spain, drew Uruguay) and a win sends them to the R32; Saudi were crushed 4-0 by Spain and must win. Cape Verde's momentum and stakes give a narrow edge.",
+      "sources": [
+        {
+          "title": "Squawka — Cape Verde vs Saudi Arabia",
+          "url": "https://www.squawka.com/ca/news/world-cup/match-preview-cape-verde-vs-saudi-arabia-world-cup-2026/"
+        }
+      ]
+    },
+    {
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "commence_time": "2026-06-27T00:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {
+        "home": 0.13,
+        "draw": 0.23,
+        "away": 0.64
+      },
+      "rationale": "Market favours Spain (64%) for top spot in Group H. Spain are without suspended Pedri but have ample midfield depth (Rodri, Fabián) and came off a clinical 4-0; Uruguay need only a point and may sit deep behind a Bielsa block. Spain's quality and motivation for first place should tell, though Uruguay's counter (Núñez) keeps it competitive.",
+      "sources": [
+        {
+          "title": "Squawka — Uruguay vs Spain",
+          "url": "https://www.squawka.com/us/news/world-cup/match-preview-uruguay-vs-spain-06-26-26-world-cup-2026/"
+        }
+      ]
+    },
+    {
+      "home_team": "Egypt",
+      "away_team": "Iran",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.39,
+        "draw": 0.36,
+        "away": 0.25
+      },
+      "rationale": "A tight market (Egypt 39% / draw 36% / Iran 25%) for the Group G finale. Egypt need only a draw to reach a first-ever knockout berth, defend superbly (zero conceded in CAF qualifying) and counter through Salah/Marmoush; Iran must win. Egypt's tactical identity and draw-is-enough cushion edge it, likely via a low-scoring win or stalemate.",
+      "sources": [
+        {
+          "title": "Goal — Egypt vs Iran preview",
+          "url": "https://www.goal.com/en/news/egypt-iran-world-cup-preview/bltbce2e5fc24897843"
+        }
+      ]
+    },
+    {
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "commence_time": "2026-06-27T03:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.06,
+        "draw": 0.13,
+        "away": 0.8
+      },
+      "rationale": "Heavy market (Belgium 80%). Belgium need a win to secure the R32 and have the firepower (De Bruyne, Lukaku, Trossard) despite an underwhelming group; CB Ngoy is suspended but Theate deputises. New Zealand are bottom, leak goals (lost 3-1 to Egypt) and would need a historic result. Comfortable Belgian win expected.",
+      "sources": [
+        {
+          "title": "Goal — New Zealand vs Belgium preview",
+          "url": "https://www.goal.com/en-us/news/new-zealand-belgium-world-cup-preview/blt15910be7a6f8f7b9"
+        }
+      ]
+    },
+    {
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {
+        "home": 0.54,
+        "draw": 0.28,
+        "away": 0.17
+      },
+      "rationale": "Market favours Croatia (54%) in the Group L finale. Croatia rebounded with a 1-0 win over Panama after losing to England, and their experience and midfield (Modrić) edge a Ghana side that drew 0-0 with England. Both still have something to play for, so expect goals but a Croatian win.",
+      "sources": [
+        {
+          "title": "Sky Sports — Group L guide",
+          "url": "https://www.skysports.com/football/news/12098/13543108/"
+        }
+      ]
+    },
+    {
+      "home_team": "Panama",
+      "away_team": "England",
+      "commence_time": "2026-06-27T21:00:00Z",
+      "pick": "away",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {
+        "home": 0.06,
+        "draw": 0.12,
+        "away": 0.81
+      },
+      "rationale": "Heavy market (England 81%). England need a win to top Group L after a flat 0-0 with Ghana, and the class gap to an already-eliminated Panama is large. Rice is managing a knock but no absence is confirmed. Expect a professional England win against opponents playing spoiler.",
+      "sources": [
+        {
+          "title": "NBC — World Cup live updates",
+          "url": "https://www.nbcnews.com/sports/soccer/live-blog/fifa-world-cup-games-2026-june-23-live-updates-rcna351348"
+        }
+      ]
+    },
+    {
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {
+        "home": 0.24,
+        "draw": 0.26,
+        "away": 0.5
+      },
+      "rationale": "Market favours Portugal (50%) in the Group K decider, with Colombia (24%) a clear second. Portugal (5 pts) win to top the group and Ronaldo — fresh off a brace — is expected to start; Colombia (6 pts) lead but will be wary in front of a partisan Miami crowd. Portugal's edge on the day is slim, hence low confidence.",
+      "disagreement": "Colombia top the group and enjoy heavy crowd support — a draw or Colombia win is very live.",
+      "sources": [
+        {
+          "title": "RotoWire — Group K preview",
+          "url": "https://www.rotowire.com/soccer/article/2026-world-cup-group-k-preview-portugal-dr-congo-uzbekistan-and-colombia-lineups-odds-predictions-and-tactics-113000"
+        }
+      ]
+    },
+    {
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "commence_time": "2026-06-27T23:30:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 2,
+      "market": {
+        "home": 0.53,
+        "draw": 0.24,
+        "away": 0.23
+      },
+      "rationale": "Market makes DR Congo slight favourites (53%) in the Group K finale, firming from yesterday. DR Congo defend well (Desabre's side conceded little in qualifying) but miss Bongonda (injury); Uzbekistan, WC debutants, miss Ashurmatov. A low-scoring, tight game points to a narrow Congo win.",
+      "sources": [
+        {
+          "title": "FotMob — DR Congo vs Uzbekistan",
+          "url": "https://www.fotmob.com/matches/dr-congo-vs-uzbekistan/1v6daf"
+        }
+      ]
+    },
+    {
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "pick": "draw",
+      "scoreline": "1-1",
+      "confidence": 2,
+      "market": {
+        "home": 0.25,
+        "draw": 0.41,
+        "away": 0.34
+      },
+      "rationale": "The market's most-likely outcome is a draw (41%) in this Group J shootout for the R32. Austria need only a draw and have Rangnick's suffocating press; Algeria must win but their key forward Amoura is an injury doubt. With a draw potentially suiting both, a tight stalemate is the central read.",
+      "disagreement": "A draw may quietly suit both sides' qualification math — note the perverse incentive.",
+      "sources": [
+        {
+          "title": "Goal — Algeria vs Austria preview",
+          "url": "https://www.goal.com/en/news/algeria-austria-world-cup-preview/bltd61a8ee4bb405624"
+        }
+      ]
+    },
+    {
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "commence_time": "2026-06-28T02:00:00Z",
+      "pick": "away",
+      "scoreline": "0-2",
+      "confidence": 4,
+      "market": {
+        "home": 0.07,
+        "draw": 0.13,
+        "away": 0.8
+      },
+      "rationale": "Heavy market (Argentina 80%). Argentina have already topped Group J and will likely rotate, but their depth dwarfs an eliminated Jordan side that has lost four of its last five. Messi was excellent against Austria; even a managed Argentina XI should win comfortably.",
+      "sources": [
+        {
+          "title": "Goal — Jordan vs Argentina preview",
+          "url": "https://www.goal.com/en/news/jordan-argentina-world-cup-preview/blt464b280eb210ce6f"
+        }
+      ]
+    }
+  ]
+}
