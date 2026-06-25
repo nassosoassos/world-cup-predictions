@@ -3,9 +3,9 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 48
-- Correct picks (1X2): 29
-- Hit rate: 60% (29/48)
+- Matches predicted: 54
+- Correct picks (1X2): 33
+- Hit rate: 61% (33/54)
 - Exact scoreline hits: 7
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 3.0
@@ -61,3 +61,9 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-23 | England vs Ghana | Home | 2-0 | 4 | 0-0 (draw) | ✗ | ✗ |
 | 2026-06-23 | Panama vs Croatia | Away | 1-2 | 3 | 0-1 (away) | ✓ | ✗ |
 | 2026-06-24 | Colombia vs DR Congo | Home | 2-1 | 3 | 1-0 (home) | ✓ | ✗ |
+| 2026-06-24 | Bosnia & Herzegovina vs Qatar | Home | 2-0 | 4 | 3-1 (home) | ✓ | ✗ |
+| 2026-06-24 | Switzerland vs Canada | Draw | 1-1 | 2 | 2-1 (home) | ✗ | ✗ |
+| 2026-06-24 | Morocco vs Haiti | Home | 2-0 | 4 | 4-2 (home) | ✓ | ✗ |
+| 2026-06-24 | Scotland vs Brazil | Away | 0-2 | 4 | 0-3 (away) | ✓ | ✗ |
+| 2026-06-24 | Czech Republic vs Mexico | Away | 1-2 | 2 | 0-3 (away) | ✓ | ✗ |
+| 2026-06-24 | South Africa vs South Korea | Away | 0-1 | 3 | 1-0 (home) | ✗ | ✗ |
