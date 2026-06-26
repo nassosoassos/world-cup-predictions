@@ -3,10 +3,10 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 54
-- Correct picks (1X2): 33
-- Hit rate: 61% (33/54)
-- Exact scoreline hits: 7
+- Matches predicted: 60
+- Correct picks (1X2): 36
+- Hit rate: 60% (36/60)
+- Exact scoreline hits: 8
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 3.0
 
@@ -67,3 +67,9 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-24 | Scotland vs Brazil | Away | 0-2 | 4 | 0-3 (away) | ✓ | ✗ |
 | 2026-06-24 | Czech Republic vs Mexico | Away | 1-2 | 2 | 0-3 (away) | ✓ | ✗ |
 | 2026-06-24 | South Africa vs South Korea | Away | 0-1 | 3 | 1-0 (home) | ✗ | ✗ |
+| 2026-06-25 | Curaçao vs Ivory Coast | Away | 0-2 | 4 | 0-2 (away) | ✓ | ✓ |
+| 2026-06-25 | Ecuador vs Germany | Away | 1-2 | 3 | 2-1 (home) | ✗ | ✗ |
+| 2026-06-25 | Japan vs Sweden | Home | 2-1 | 3 | 1-1 (draw) | ✗ | ✗ |
+| 2026-06-25 | Tunisia vs Netherlands | Away | 0-2 | 4 | 1-3 (away) | ✓ | ✗ |
+| 2026-06-25 | Paraguay vs Australia | Draw | 1-1 | 2 | 0-0 (draw) | ✓ | ✗ |
+| 2026-06-25 | Turkey vs USA | Draw | 1-1 | 2 | 3-2 (home) | ✗ | ✗ |
