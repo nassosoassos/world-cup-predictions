@@ -3,12 +3,12 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 60
-- Correct picks (1X2): 36
-- Hit rate: 60% (36/60)
-- Exact scoreline hits: 8
+- Matches predicted: 72
+- Correct picks (1X2): 45
+- Hit rate: 63% (45/72)
+- Exact scoreline hits: 10
 - Avg confidence of correct picks: 3.4
-- Avg confidence of wrong picks: 3.0
+- Avg confidence of wrong picks: 2.9
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
@@ -73,3 +73,15 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-25 | Tunisia vs Netherlands | Away | 0-2 | 4 | 1-3 (away) | ✓ | ✗ |
 | 2026-06-25 | Paraguay vs Australia | Draw | 1-1 | 2 | 0-0 (draw) | ✓ | ✗ |
 | 2026-06-25 | Turkey vs USA | Draw | 1-1 | 2 | 3-2 (home) | ✗ | ✗ |
+| 2026-06-26 | Norway vs France | Away | 1-2 | 3 | 1-4 (away) | ✓ | ✗ |
+| 2026-06-26 | Senegal vs Iraq | Home | 2-0 | 4 | 5-0 (home) | ✓ | ✗ |
+| 2026-06-27 | Cape Verde vs Saudi Arabia | Home | 1-0 | 2 | 0-0 (draw) | ✗ | ✗ |
+| 2026-06-27 | Uruguay vs Spain | Away | 1-2 | 3 | 0-1 (away) | ✓ | ✗ |
+| 2026-06-27 | Egypt vs Iran | Home | 1-0 | 2 | 1-1 (draw) | ✗ | ✗ |
+| 2026-06-27 | New Zealand vs Belgium | Away | 0-2 | 4 | 1-5 (away) | ✓ | ✗ |
+| 2026-06-27 | Croatia vs Ghana | Home | 2-1 | 3 | 2-1 (home) | ✓ | ✓ |
+| 2026-06-27 | Panama vs England | Away | 0-2 | 4 | 0-2 (away) | ✓ | ✓ |
+| 2026-06-27 | Colombia vs Portugal | Away | 1-2 | 2 | 0-0 (draw) | ✗ | ✗ |
+| 2026-06-27 | DR Congo vs Uzbekistan | Home | 2-0 | 3 | 3-1 (home) | ✓ | ✗ |
+| 2026-06-28 | Algeria vs Austria | Draw | 1-1 | 2 | 3-3 (draw) | ✓ | ✗ |
+| 2026-06-28 | Jordan vs Argentina | Away | 0-2 | 4 | 1-3 (away) | ✓ | ✗ |

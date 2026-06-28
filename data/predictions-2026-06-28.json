@@ -1,0 +1,232 @@
+{
+  "predictions": [
+    {
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "commence_time": "2026-06-28T19:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.164, "draw": 0.257, "away": 0.579},
+      "rationale": "Knockout (Round of 32): market favours co-hosts Canada (away ~58%) at SoFi Stadium, and Opta gives them a 66% chance to advance. Jonathan David has three tournament goals and Alphonso Davies is set for his first World Cup minutes, while South Africa are organised but blunt (two goals in three games) and miss suspended Themba Zwane, though Mokoena returns. Lean Canada on the 90-minute call, with real penalty-shootout risk in a tight knockout.",
+      "sources": [
+        {"title": "Sports Illustrated preview", "url": "https://www.si.com/soccer/south-africa-vs-canada-world-cup-preview-predictions-lineups-6-28-26"},
+        {"title": "Football365 preview", "url": "https://www.football365.com/match-preview/south-africa-v-canada-prediction-preview"}
+      ]
+    },
+    {
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "commence_time": "2026-06-29T17:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.567, "draw": 0.251, "away": 0.182},
+      "rationale": "Knockout (Round of 32): market makes Brazil clear favourites (home ~57%) after a 3-0 win over Scotland sealed top spot in Group C. Vinícius, Neymar and Cunha are available though Raphinha remains out with a hamstring injury, while Japan came through a brutal Group F unbeaten and will sit in a compact mid-block. Brazil's attacking depth should tell, but disciplined Japan should make them sweat and likely score; penalty risk if they frustrate.",
+      "sources": [
+        {"title": "ESPN: Japan's Brazil test", "url": "https://www.espn.com/soccer/story/_/id/49181978/if-japan-dreaming-world-cup-brazil-test-key"},
+        {"title": "Goal.com preview", "url": "https://www.goal.com/en/news/brazil-japan-world-cup-preview/bltfacb1acd696ead12"}
+      ]
+    },
+    {
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "commence_time": "2026-06-29T20:30:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.702, "draw": 0.191, "away": 0.107},
+      "rationale": "Knockout (Round of 32): market strongly favours Germany (home ~70%) at Foxborough; their 1-2 loss to Ecuador came with top spot already secured and heavy rotation. Nico Schlotterbeck is out for the tournament (knee) with Rüdiger deputising, while a reorganised, conservative Paraguay kept two clean sheets to reach the last 32 but lose suspended Miguel Almirón. Germany's quality should break a deep block, even if Paraguay make it patient.",
+      "sources": [
+        {"title": "ESPN preview", "url": "https://www.espn.com/soccer/story/_/id/49197785/germany-vs-paraguay-fifa-world-cup-2026-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"},
+        {"title": "Goal.com preview", "url": "https://www.goal.com/en-us/news/germany-paraguay-world-cup-preview/blt69845ea4b54b1ac0"}
+      ]
+    },
+    {
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "commence_time": "2026-06-30T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.445, "draw": 0.303, "away": 0.252},
+      "rationale": "Knockout (Round of 32): the standout R32 tie, with the Netherlands only slight favourites (home ~45%) over an unbeaten Morocco that finished runner-up to Brazil. The Dutch are a major set-piece threat through Van Dijk and Dumfries, while Morocco's discipline, shape and Hakimi's drive make them a live underdog. Lean Oranje on the 90-minute call, but this is close to a coin-flip with high penalty-shootout risk.",
+      "sources": [
+        {"title": "Sports Mole preview", "url": "https://www.sportsmole.co.uk/football/netherlands/world-cup-2026/preview/netherlands-vs-morocco-prediction-team-news-lineups_600222.html"},
+        {"title": "Squawka preview", "url": "https://www.squawka.com/us/news/world-cup/match-preview-netherlands-vs-morocco-06-29-26-world-cup-2026-round-of-32/"}
+      ],
+      "disagreement": "Several tipsters (incl. Sports Mole) tip unbeaten Morocco to win outright; market drift has nudged toward the draw/Morocco since yesterday."
+    },
+    {
+      "home_team": "Ivory Coast",
+      "away_team": "Norway",
+      "commence_time": "2026-06-30T17:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.259, "draw": 0.272, "away": 0.469},
+      "rationale": "Knockout (Round of 32): market favours Norway (away ~47%) in Arlington. Solbakken rested Erling Haaland and Antonio Nusa for the dead-rubber loss to France, so his big hitters are fresh, and Haaland already has four group-stage goals. Ivory Coast reached a first knockout via Pépé and teenage flyer Yan Diomande and have the pace to threaten, but Norway's firepower edges it; penalty risk in a tight one.",
+      "sources": [
+        {"title": "Goal.com preview", "url": "https://www.goal.com/en-us/news/ivory-coast-norway-world-cup-preview/bltc20cf346c3521000"},
+        {"title": "SI: why Haaland sat vs France", "url": "https://www.si.com/soccer/why-erling-haaland-isnt-playing-norway-vs-france-2026-world-cup"}
+      ]
+    },
+    {
+      "home_team": "France",
+      "away_team": "Sweden",
+      "commence_time": "2026-06-30T21:00:00Z",
+      "pick": "home",
+      "scoreline": "3-1",
+      "confidence": 4,
+      "market": {"home": 0.75, "draw": 0.162, "away": 0.088},
+      "rationale": "Knockout (Round of 32): market makes France heavy favourites (home ~75%) at MetLife after a perfect Group I (nine points, 10 scored, two conceded), with 97% of outright bets on Les Bleus. Sweden scraped through on four points and were thrashed 5-1 by the Netherlands, exposing the gulf in quality. France's depth and form point to a comfortable win, though a shootout is always a knockout tail-risk.",
+      "sources": [
+        {"title": "DraftKings R32 odds", "url": "https://dknetwork.draftkings.com/2026/06/27/opening-odds-for-france-vs-sweden-in-the-2026-fifa-world-cup-round-of-32/"},
+        {"title": "France24: Group F finale", "url": "https://www.france24.com/en/sport/20260626-world-cup-2026-japan-held-by-sweden-in-dramatic-group-f-finale"}
+      ]
+    },
+    {
+      "home_team": "Mexico",
+      "away_team": "Ecuador",
+      "commence_time": "2026-07-01T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.434, "draw": 0.317, "away": 0.249},
+      "rationale": "Knockout (Round of 32): market favours co-hosts Mexico (home ~43%) in front of a partisan Mexico City crowd after a perfect Group A (three wins, nine points, +6). Ecuador arrive on a high having upset Germany 2-1, so they are no pushovers, but Mexico's altitude/home edge and momentum tip the 90-minute call. Tight enough to carry genuine penalty-shootout risk.",
+      "sources": [
+        {"title": "FOX Sports: Mexico vs Ecuador R32", "url": "https://www.foxsports.com/stories/soccer/mexico-world-cup-ecuador-round-of-32"},
+        {"title": "Bolavip preview", "url": "https://bolavip.com/en/world-cup/when-and-where-are-mexico-vs-ecuador-playing-in-2026-world-cup-round-of-32"}
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "DR Congo",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.746, "draw": 0.176, "away": 0.079},
+      "rationale": "Knockout (Round of 32): market strongly backs England (home ~75%) in Atlanta after they topped Group L despite stuttering (0-0 vs Ghana, 2-0 vs Panama). DR Congo qualified as a best third-placed side and beat Uzbekistan 3-1, but the talent gap is wide and Tuchel's side should control. Expect a comfortable England win once they break through.",
+      "sources": [
+        {"title": "ESPN: England to face DR Congo", "url": "https://www.espn.com/soccer/story/_/id/49202639/england-face-democratic-republic-congo-world-cup-round-32"},
+        {"title": "England Football", "url": "https://www.englandfootball.com/articles/2026/Jun/27/england-place-in-world-cup-knockout-stage-confirmed-20262706"}
+      ]
+    },
+    {
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.446, "draw": 0.295, "away": 0.259},
+      "rationale": "Knockout (Round of 32): a tight tie with Belgium only narrow favourites (home ~45%, ~46% to advance) in Seattle after topping their group with a 5-1 rout of New Zealand. Senegal reached the last 32 as a best third-placed side, hammering Iraq 5-0, and carry serious quality in Mané, Jackson and the Gueyes — just eight FIFA places below Belgium. Lean Belgium on De Bruyne and Lukaku, but this is close with high penalty risk.",
+      "sources": [
+        {"title": "Belga News Agency", "url": "https://www.belganewsagency.eu/2026-world-cup-belgium-to-face-senegal-in-round-of-32"},
+        {"title": "Betfair predictions", "url": "https://betting.betfair.com/football/predictions/fifa-world-cup/belgium-vs-senegal/1tges3bmhq44q1m8ojj9fhr10/"}
+      ],
+      "disagreement": "Senegal are a strong third-placed side and several models rate this near a coin-flip — value on the underdog/draw."
+    },
+    {
+      "home_team": "USA",
+      "away_team": "Bosnia & Herzegovina",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.701, "draw": 0.194, "away": 0.105},
+      "rationale": "Knockout (Round of 32): market strongly favours the co-hosts USA (home ~70%, line drifting their way) after they won Group D, with Pulisic, McKennie and Balogun available and a partisan crowd. Bosnia (FIFA 62nd) scraped through and lean on 40-year-old Edin Džeko. The talent and home-field gap should give the USMNT a controlled win.",
+      "sources": [
+        {"title": "ESPN: USA to face Bosnia", "url": "https://www.espn.com/soccer/story/_/id/49181937/usa-bosnia-herzegovina-world-cup-round-32-knockout"},
+        {"title": "Belga / bracket", "url": "https://www.skysports.com/football/news/12098/13556636/world-cup-2026-bracket-and-knockout-fixtures-whos-facing-who-in-the-last-32-and-route-to-final"}
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.749, "draw": 0.178, "away": 0.073},
+      "rationale": "Knockout (Round of 32): market makes Spain heavy favourites (home ~75%) at SoFi Stadium after winning Group H without conceding (4-0 vs Saudi Arabia, 1-0 vs Uruguay). Austria edged through on a chaotic 3-3 draw with Algeria that exposed defensive frailty. With Yamal, Pedri and Nico Williams in form, Spain's class should be decisive against an open Austrian side.",
+      "sources": [
+        {"title": "Deccan Herald: Spain top Group H", "url": "https://www.deccanherald.com/sports/football/fifa-world-cup-2026-spain-scrape-through-to-finish-atop-group-h-eliminate-uruguay-4053949"},
+        {"title": "Cubaheadlines: Spain vs Austria R32", "url": "https://www.cubaheadlines.com/articles/333612"}
+      ]
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.517, "draw": 0.279, "away": 0.204},
+      "rationale": "Knockout (Round of 32): a heavyweight tie with Portugal favourites (home ~52%, ~62% to advance) in Toronto. Ronaldo is in form (a brace vs Uzbekistan made him the first to score at six World Cups), and Portugal hold a strong all-time record over Croatia. The 40-year-old Modrić remains vintage (assist vs Ghana) and Croatia know how to grind out knockouts, so penalty risk is real, but Portugal's edge tips it.",
+      "sources": [
+        {"title": "CP24: Portugal vs Croatia", "url": "https://www.cp24.com/local/toronto/2026/06/28/ronaldo-portugal-to-face-croatia-at-toronto-stadium-in-world-cup-round-of-32/"},
+        {"title": "SportsBettingDime odds", "url": "https://www.sportsbettingdime.com/news/soccer/portugal-vs-croatia-odds-for-knockout-stage-round-of-32/"}
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.505, "draw": 0.268, "away": 0.227},
+      "rationale": "Knockout (Round of 32): market favours Switzerland (home ~51%) in Vancouver after they won the tight Group B (seven points), with Embolo (four goals) and Xhaka leading. Algeria sneaked through as a best third-placed side despite a -2 goal difference and a leaky 3-3 with Austria, but Mahrez's quality keeps them dangerous. Switzerland's solidity edges it, with penalty risk if Algeria's attack clicks.",
+      "sources": [
+        {"title": "Cubaheadlines: Switzerland vs Algeria", "url": "https://www.cubaheadlines.com/articles/333613"},
+        {"title": "NBC Sports R32 predictions", "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"}
+      ],
+      "disagreement": "NBC Sports tips Algeria 2-1 against the market — Mahrez's form makes the underdog live."
+    },
+    {
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {"home": 0.29, "draw": 0.327, "away": 0.383},
+      "rationale": "Knockout (Round of 32): a near three-way market with Egypt narrow favourites (away ~38%) in Dallas. The swing factor is Mohamed Salah, who came off after 57 minutes vs Iran with his left leg bandaged — his fitness is in genuine doubt and would dent Egypt's edge. Lean Egypt on talent if Salah plays, but this is close to a coin-flip with the draw nearly as likely; very high penalty-shootout risk.",
+      "sources": [
+        {"title": "DraftKings R32 odds", "url": "https://dknetwork.draftkings.com/2026/06/27/opening-odds-for-australia-vs-egypt-in-the-2026-fifa-world-cup-round-of-32/"},
+        {"title": "Al Jazeera schedule & predictions", "url": "https://www.aljazeera.com/sports/2026/6/27/fifa-world-cup-2026-saturday-schedule-round-of-32-standings-predictions"}
+      ],
+      "disagreement": "If Salah is ruled out, this flips toward a true coin-flip and Australia become live."
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "commence_time": "2026-07-03T22:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.838, "draw": 0.116, "away": 0.047},
+      "rationale": "Knockout (Round of 32): market makes Argentina overwhelming favourites (home ~84%) in Miami after a perfect Group J, with Messi still scoring (12 goals in his last nine World Cup games). Cape Verde, the smallest nation ever to reach the knockouts, are stubbornly organised (0-0 with both Spain and Saudi Arabia) but threadbare going forward. Expect a controlled Argentina win that may take patience to break down.",
+      "sources": [
+        {"title": "Al Jazeera: Cape Verde record", "url": "https://www.aljazeera.com/sports/2026/6/27/cape-verde-break-record-as-smallest-nation-to-reach-world-cup-knockouts"},
+        {"title": "DraftKings R32 odds", "url": "https://dknetwork.draftkings.com/2026/06/28/opening-odds-for-argentina-vs-cape-verde-in-the-2026-fifa-world-cup-round-of-32/"}
+      ]
+    },
+    {
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.592, "draw": 0.258, "away": 0.15},
+      "rationale": "Knockout (Round of 32): market favours Colombia (home ~59%) in Kansas City after they topped Group K conceding just once, with Luis Díaz, James and Daniel Muñoz in form. Ghana scraped through as a best third-placed side and bring Iñaki Williams, Ayew and Partey under Queiroz, but Colombia's balance and quality should tell. Penalty risk if Ghana defend deep and frustrate.",
+      "sources": [
+        {"title": "Cubaheadlines: Colombia vs Ghana", "url": "https://www.cubaheadlines.com/articles/333607"},
+        {"title": "NBC Sports R32 predictions", "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"}
+      ]
+    }
+  ]
+}
