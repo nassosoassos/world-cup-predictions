@@ -3,9 +3,9 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 72
-- Correct picks (1X2): 45
-- Hit rate: 63% (45/72)
+- Matches predicted: 73
+- Correct picks (1X2): 46
+- Hit rate: 63% (46/73)
 - Exact scoreline hits: 10
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.9
@@ -85,3 +85,4 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-27 | DR Congo vs Uzbekistan | Home | 2-0 | 3 | 3-1 (home) | ✓ | ✗ |
 | 2026-06-28 | Algeria vs Austria | Draw | 1-1 | 2 | 3-3 (draw) | ✓ | ✗ |
 | 2026-06-28 | Jordan vs Argentina | Away | 0-2 | 4 | 1-3 (away) | ✓ | ✗ |
+| 2026-06-28 | South Africa vs Canada | Away | 1-2 | 3 | 0-1 (away) | ✓ | ✗ |
