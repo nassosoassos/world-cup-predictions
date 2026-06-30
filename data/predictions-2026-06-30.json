@@ -1,0 +1,198 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "Sweden",
+      "commence_time": "2026-06-30T21:00:00Z",
+      "pick": "home",
+      "scoreline": "3-1",
+      "confidence": 4,
+      "market": {"home": 0.7552, "draw": 0.158, "away": 0.0869},
+      "rationale": "Market makes France overwhelming favourites (~76%) and their attack is the tournament's most prolific, with Mbappe and Dembele on four goals each. Sweden lose first-choice centre-back Isak Hien for the rest of the tournament (hamstring), gutting an already leaky defence that hasn't kept a clean sheet in a year. France win and should score freely.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Flashscore — Hien out for tournament", "url": "https://www.flashscore.com/news/soccer-world-championship-isak-hien-to-miss-remainder-of-world-cup-after-suffering-hamstring-injury/CjWWrmLO/"},
+        {"title": "CBS Sports preview", "url": "https://www.cbssports.com/soccer/news/france-sweden-odds-prediction-betting-line-time-2026-world-cup-round-of-32-picks/"}
+      ]
+    },
+    {
+      "home_team": "Mexico",
+      "away_team": "Ecuador",
+      "commence_time": "2026-07-01T01:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 3,
+      "market": {"home": 0.4299, "draw": 0.3339, "away": 0.2362},
+      "rationale": "Market shades Mexico as narrow favourites in a tight tie (43/33/24). Hosts kept three clean sheets in a perfect group with Jimenez rested and back, while Ecuador's miserly back line (Pacho, Hincapie) already stunned Germany 2-1. Home edge and altitude tilt it, but the strong tipster consensus is low-scoring with real draw/extra-time risk.",
+      "disagreement": "Covers projects a 1-0 grind with extra-time risk; several experts lean Under and even a 90-min draw.",
+      "sources": [
+        {"title": "Sports Mole preview", "url": "https://www.sportsmole.co.uk/football/mexico/world-cup-2026/preview/mexico-vs-ecuador-prediction-team-news-lineups_600278.html"},
+        {"title": "Covers prediction", "url": "https://www.covers.com/world-cup/mexico-vs-ecuador-prediction-picks-odds-tuesday-6-30-2026"}
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "DR Congo",
+      "commence_time": "2026-07-01T16:00:00Z",
+      "pick": "home",
+      "scoreline": "1-0",
+      "confidence": 4,
+      "market": {"home": 0.7503, "draw": 0.178, "away": 0.0717},
+      "rationale": "Market backs England strongly (~75%) and Declan Rice returns with Bellingham in form. But England are without Reece James and Quansah, and DR Congo — who held them 0-0 in the group and carry Wissa on the counter — will sit deep. England win against a low block, but a blowout is unlikely, so back a narrow result.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Sports Mole team news", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/team-news/england-vs-dr-congo-injury-suspension-list-predicted-xis_600341.html"},
+        {"title": "Racing Post preview", "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/england-vs-dr-congo-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-arLka8E5CJdU/"}
+      ]
+    },
+    {
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "commence_time": "2026-07-01T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.4346, "draw": 0.2981, "away": 0.2673},
+      "rationale": "The market barely splits them (43/30/27). Senegal's likely loss of keeper Edouard Mendy (knee) behind an error-prone defence helps Belgium, but Lukaku is a fitness doubt and Senegal's athletic forwards (Mane, Sarr, Ndiaye) keep the upset live. Thin lean to Belgium's overall quality with De Bruyne pulling strings. Penalty risk.",
+      "disagreement": "A Covers analyst leans Draw (+218) and Under 2.5, citing Belgium's flat group form and Lukaku's fitness.",
+      "sources": [
+        {"title": "Covers prediction", "url": "https://www.covers.com/world-cup/belgium-vs-senegal-prediction-picks-odds-wednesday-7-1-2026"},
+        {"title": "Goal.com preview", "url": "https://www.goal.com/en-us/news/belgium-senegal-world-cup-preview/blt1c958015a91eebc7"}
+      ]
+    },
+    {
+      "home_team": "USA",
+      "away_team": "Bosnia & Herzegovina",
+      "commence_time": "2026-07-02T00:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.6964, "draw": 0.196, "away": 0.1076},
+      "rationale": "Co-hosts are firm favourites and the Opta supercomputer agrees (USA 67.5%). Pulisic returns from a calf knock alongside in-form Balogun, while Bosnia have never kept a clean sheet in six World Cup matches. Crowd, depth and athleticism see the USA control and win.",
+      "disagreement": "",
+      "sources": [
+        {"title": "The Analyst (Opta) preview", "url": "https://theanalyst.com/articles/usa-vs-bosnia-herzegovina-prediction-world-cup-2026-match-preview"},
+        {"title": "CBS Sports preview", "url": "https://www.cbssports.com/soccer/news/usmnt-bosnia-and-herzegovina-odds-prediction-time-2026-world-cup-round-of-32-picks/"}
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.7213, "draw": 0.1838, "away": 0.0949},
+      "rationale": "Tournament favourites Spain are heavily backed (~72%) and conceded zero in the group. Nico Williams and Yeremy Pino are doubtful and Yamal is carrying a knock, but the depth still dwarfs an Austria side that shipped three to Algeria and lean on knocks of their own (Alaba, Arnautovic). Consensus is a controlled, win-to-nil Spain victory rather than a rout.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Sports Mole preview", "url": "https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-austria-prediction-team-news-lineups_600390.html"},
+        {"title": "Squawka predictions", "url": "https://www.squawka.com/en/news/world-cup/spain-vs-austria-predictions-betting-tips/"}
+      ]
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.5379, "draw": 0.272, "away": 0.1901},
+      "rationale": "A veterans' duel with Portugal modest favourites (~54%) and a full, healthy squad under Martinez behind Ronaldo (two goals already). Croatia leaked four to England but recovered to beat Panama and Ghana, with Modric still orchestrating. Portugal's greater attacking depth edges a tight, experienced contest. Penalty risk.",
+      "disagreement": "Market and tipsters split on goals — Squawka likes Over 2.5/BTTS while SportsLine and Racing Post lean Under, noting Croatia drag knockouts level.",
+      "sources": [
+        {"title": "ESPN preview", "url": "https://www.espn.com/soccer/story/_/id/49221788/"},
+        {"title": "Racing Post preview", "url": "https://www.racingpost.com/sport/football-tips/world-cup-2026/portugal-vs-croatia-world-cup-prediction-team-news-odds-betting-tips-and-bet-builder-ahnPi7x9iFsc/"}
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4637, "draw": 0.2964, "away": 0.2399},
+      "rationale": "Switzerland topped their group unbeaten but the line keeps drifting their way of caution (51 to 46 over two days). Subplot: Algeria's Petkovic faces the Swiss he once led, and Mahrez and Belghali can conjure moments. Swiss organisation should edge a tight one, but the market is increasingly wary. Penalty risk.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Africa Soccer preview", "url": "https://africasoccer.com/switzerland-algeria-yakin-preview/"},
+        {"title": "NBC Sports knockout predictions", "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"}
+      ]
+    },
+    {
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {"home": 0.2839, "draw": 0.3328, "away": 0.3832},
+      "rationale": "Market shades Egypt as narrow favourites in a near-even three-way (28/33/38). The big swing factor is Mohamed Salah, a genuine hamstring doubt facing a late fitness test, with Lasheen suspended and Fattouh injured thinning Egypt further. Australia are organised but lack a match-winner; a tentative lean to Egypt's edge in quality, but this could easily go the distance. Penalty risk.",
+      "disagreement": "Lean is contingent on Salah passing his fitness test — if he sits, the draw (priced ~33%) becomes the live outcome.",
+      "sources": [
+        {"title": "DraftKings opening odds", "url": "https://dknetwork.draftkings.com/2026/06/27/opening-odds-for-australia-vs-egypt-in-the-2026-fifa-world-cup-round-of-32/"},
+        {"title": "NBC Sports knockout predictions", "url": "https://www.nbcsports.com/soccer/news/2026-world-cup-round-of-32-confirmed-schedule-predictions-for-knockout-round"}
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "commence_time": "2026-07-03T22:00:00Z",
+      "pick": "home",
+      "scoreline": "3-0",
+      "confidence": 5,
+      "market": {"home": 0.822, "draw": 0.1257, "away": 0.0523},
+      "rationale": "Argentina are overwhelming favourites (~82%) against a Cape Verde side that managed only a 0-0 with Saudi Arabia. The gulf in quality from Messi's team is vast; expect a comfortable, controlled win.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Goal power rankings", "url": "https://www.goal.com/en/lists/2026-world-cup-power-rankings/blt047305a4117d1161"}
+      ]
+    },
+    {
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.6289, "draw": 0.2439, "away": 0.1272},
+      "rationale": "Colombia were already firm favourites (~63%), unbeaten in the group and led by James Rodriguez and Luis Diaz. The key unpriced edge is Ghana's gutted attack: Kudus and Salisu are ruled out and Partey is carrying a groin issue, leaving Williams and Semenyo isolated. That pushes the lean past the market to a comfortable Colombia win.",
+      "disagreement": "",
+      "sources": [
+        {"title": "GhanaSoccerNet — injury blows", "url": "https://ghanasoccernet.com/the-price-of-casualties-how-injuries-fractured-ghanas-world-cup-2026-squad-balance"},
+        {"title": "Football Tips preview", "url": "https://www.footballtips.com/previews/colombia-vs-ghana-prediction-odds-betting-tips-world-cup-2026/"}
+      ]
+    },
+    {
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-04T17:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.1879, "draw": 0.2692, "away": 0.5429},
+      "rationale": "Market makes Morocco clear favourites (~54%) and the world No. 7 are the strongest side Canada have faced, with Hakimi fit again after a hamstring scare. Canada lack the injured Alphonso Davies but earned a rest edge by winning their R32 in 90 minutes while Morocco needed 120-plus and penalties past the Netherlands. Lean Morocco, but the fresher hosts make this live. Penalty risk.",
+      "disagreement": "Canada's rest advantage and home crowd give a contrarian angle on the underdog; Morocco have never lost to Canada.",
+      "sources": [
+        {"title": "DraftKings opening odds", "url": "https://dknetwork.draftkings.com/2026/06/30/opening-odds-for-canada-vs-morocco-in-the-fifa-2026-world-cup/"},
+        {"title": "Olympics.com head-to-head", "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-canada-vs-morocco-head-to-head-how-to-watch"}
+      ]
+    },
+    {
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.5148, "draw": 0.2683, "away": 0.217},
+      "rationale": "Market makes Brazil favourites but only modestly (51/27/22). Vinicius is flying (four group goals) and Neymar is back on managed minutes, though Rodrygo and Estevao are injured, thinning the attack. Norway are a live underdog: Haaland has four goals in two starts and was rested in the dead-rubber loss to France, so he arrives fresh. Brazil edge a tight one. Penalty risk.",
+      "disagreement": "Haaland's hot form makes Norway a genuine threat against a Brazil attack missing Rodrygo and Estevao.",
+      "sources": [
+        {"title": "FourFourTwo — Brazil squad", "url": "https://www.fourfourtwo.com/team/brazil-world-cup-2026-squad"},
+        {"title": "FourFourTwo — Norway squad", "url": "https://www.fourfourtwo.com/team/norway-world-cup-2026-squad"}
+      ]
+    }
+  ]
+}
