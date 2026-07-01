@@ -3,9 +3,9 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 77
-- Correct picks (1X2): 48
-- Hit rate: 62% (48/77)
+- Matches predicted: 79
+- Correct picks (1X2): 50
+- Hit rate: 63% (50/79)
 - Exact scoreline hits: 12
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.9
@@ -90,3 +90,5 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-29 | Germany vs Paraguay | Home | 2-0 | 4 | 1-1 (draw) | ✗ | ✗ |
 | 2026-06-29 | Netherlands vs Morocco | Home | 2-1 | 2 | 1-1 (draw) | ✗ | ✗ |
 | 2026-06-29 | Ivory Coast vs Norway | Away | 1-2 | 3 | 1-2 (away) | ✓ | ✓ |
+| 2026-06-30 | France vs Sweden | Home | 3-1 | 4 | 3-0 (home) | ✓ | ✗ |
+| 2026-07-01 | Mexico vs Ecuador | Home | 1-0 | 3 | 2-0 (home) | ✓ | ✗ |
