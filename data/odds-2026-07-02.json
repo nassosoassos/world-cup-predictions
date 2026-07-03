@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-07-02T15:04:24.349382+00:00",
+  "matches": [
+    {
+      "match": "Spain vs Austria",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "commence_time": "2026-07-02T19:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.7327,
+        "draw": 0.1831,
+        "away": 0.0841
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Portugal vs Croatia",
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "commence_time": "2026-07-02T23:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.5584,
+        "draw": 0.256,
+        "away": 0.1857
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Switzerland vs Algeria",
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "commence_time": "2026-07-03T03:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.4864,
+        "draw": 0.2934,
+        "away": 0.2202
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Australia vs Egypt",
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-03T18:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.2831,
+        "draw": 0.3309,
+        "away": 0.3861
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Argentina vs Cape Verde",
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "commence_time": "2026-07-03T22:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.8283,
+        "draw": 0.1224,
+        "away": 0.0493
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Colombia vs Ghana",
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "commence_time": "2026-07-04T01:30:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.6307,
+        "draw": 0.2415,
+        "away": 0.1279
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Canada vs Morocco",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-04T17:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.1882,
+        "draw": 0.2772,
+        "away": 0.5345
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Paraguay vs France",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "commence_time": "2026-07-04T21:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.055,
+        "draw": 0.137,
+        "away": 0.808
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Brazil vs Norway",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.5101,
+        "draw": 0.2608,
+        "away": 0.2291
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Mexico vs England",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "commence_time": "2026-07-06T00:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.3058,
+        "draw": 0.304,
+        "away": 0.3902
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "USA vs Belgium",
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.3739,
+        "draw": 0.2781,
+        "away": 0.348
+      },
+      "market_favorite": "home"
+    }
+  ]
+}

@@ -3,10 +3,10 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 79
-- Correct picks (1X2): 50
-- Hit rate: 63% (50/79)
-- Exact scoreline hits: 12
+- Matches predicted: 85
+- Correct picks (1X2): 56
+- Hit rate: 66% (56/85)
+- Exact scoreline hits: 14
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.9
 
@@ -92,3 +92,9 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-06-29 | Ivory Coast vs Norway | Away | 1-2 | 3 | 1-2 (away) | ✓ | ✓ |
 | 2026-06-30 | France vs Sweden | Home | 3-1 | 4 | 3-0 (home) | ✓ | ✗ |
 | 2026-07-01 | Mexico vs Ecuador | Home | 1-0 | 3 | 2-0 (home) | ✓ | ✗ |
+| 2026-07-01 | England vs DR Congo | Home | 1-0 | 4 | 2-1 (home) | ✓ | ✗ |
+| 2026-07-01 | Belgium vs Senegal | Home | 2-1 | 3 | 3-2 (home) | ✓ | ✗ |
+| 2026-07-02 | USA vs Bosnia & Herzegovina | Home | 2-0 | 4 | 2-0 (home) | ✓ | ✓ |
+| 2026-07-02 | Spain vs Austria | Home | 2-0 | 4 | 3-0 (home) | ✓ | ✗ |
+| 2026-07-02 | Portugal vs Croatia | Home | 2-1 | 3 | 2-1 (home) | ✓ | ✓ |
+| 2026-07-03 | Switzerland vs Algeria | Home | 2-1 | 3 | 2-0 (home) | ✓ | ✗ |
