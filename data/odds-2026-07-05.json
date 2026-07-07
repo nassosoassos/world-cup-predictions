@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-07-05T06:47:00.064039+00:00",
+  "matches": [
+    {
+      "match": "Brazil vs Norway",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.5353,
+        "draw": 0.2578,
+        "away": 0.2069
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Mexico vs England",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "commence_time": "2026-07-06T00:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.3003,
+        "draw": 0.3028,
+        "away": 0.3969
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Portugal vs Spain",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "commence_time": "2026-07-06T19:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.2351,
+        "draw": 0.2649,
+        "away": 0.5
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "USA vs Belgium",
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.3569,
+        "draw": 0.283,
+        "away": 0.3601
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Argentina vs Egypt",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-07T16:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.6953,
+        "draw": 0.2021,
+        "away": 0.1026
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Switzerland vs Colombia",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "commence_time": "2026-07-07T20:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.2676,
+        "draw": 0.3076,
+        "away": 0.4248
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "France vs Morocco",
+      "home_team": "France",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-09T20:00:00Z",
+      "books_counted": 39,
+      "prob": {
+        "home": 0.606,
+        "draw": 0.2414,
+        "away": 0.1526
+      },
+      "market_favorite": "home"
+    }
+  ]
+}

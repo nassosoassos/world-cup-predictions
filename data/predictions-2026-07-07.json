@@ -1,0 +1,79 @@
+{
+  "predictions": [
+    {
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-07T16:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 5,
+      "market": {"home": 0.7132, "draw": 0.1948, "away": 0.092},
+      "rationale": "The market is emphatic — Argentina 71% and Opta's supercomputer independently lands at 69% for regulation. Messi is in vintage form (tied top scorer on 7) and the side has looked complete, while Egypt reach the last 16 for the first time and needed penalties to beat Australia. Minor doubts (Gonzalez ankle, Egypt's Fatouh out) don't move the needle; Argentina should control this.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Argentina vs Egypt — Al Jazeera preview", "url": "https://www.aljazeera.com/news/2026/7/6/argentina-vs-egypt-fifa-world-cup-last-16-messi-salah-prediction-kickoff-news"},
+        {"title": "FIFA match preview", "url": "https://www.fifa.com/en/articles/argentina-egypt-preview-live-stream-team-news-tickets"}
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "commence_time": "2026-07-07T20:00:00Z",
+      "pick": "away",
+      "scoreline": "1-0",
+      "confidence": 3,
+      "market": {"home": 0.267, "draw": 0.3074, "away": 0.4257},
+      "rationale": "A genuine coin-flip that the market tips Colombia's way (43% vs 27%), with the draw a live 31% in a knockout tie. Colombia carry more match-winning quality through Luis Diaz and James Rodriguez and have conceded just once in three wins, while Switzerland are organised and dangerous through Embolo and Xhaka. James being subbed at half-time vs Ghana with flu is the one flag, but the market still leans La Sele — expect a tight, low-scoring game.",
+      "disagreement": "Tipsters flag James Rodriguez's fitness (flu) as a reason the gap is closer than 43-27; a cagey draw into extra time is very much on the table.",
+      "sources": [
+        {"title": "Switzerland vs Colombia — FIFA preview", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/switzerland-colombia-preview-live-stream-team-news-tickets"},
+        {"title": "Rotowire picks & odds", "url": "https://www.rotowire.com/soccer/article/switzerland-vs-colombia-picks-tips-odds-best-bets-2026-world-cup-round-of-16-121470"}
+      ]
+    },
+    {
+      "home_team": "France",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-09T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.601, "draw": 0.246, "away": 0.153},
+      "rationale": "France are clear regulation favourites at 60% and have been the tournament's most complete team — five wins from five, 14 scored and only two conceded, with Olise leading the assist chart feeding Mbappe. Morocco are quietly excellent (unbeaten, a 3-0 dismissal of Canada) and Saibari can punish any lapse, but the class gap and France's control point to Les Bleus with a lean toward under 2.5 goals.",
+      "disagreement": "",
+      "sources": [
+        {"title": "France vs Morocco — Squawka QF preview", "url": "https://www.squawka.com/us/news/world-cup/match-preview-france-vs-morocco-07-09-26-world-cup-2026-quarterfinals/"},
+        {"title": "ESPN Round of 16 best bets", "url": "https://www.espn.com/espn/betting/story/_/id/49247972/fifa-world-cup-betting-round-16-best-bets-picks-odds-props-futures-2026"}
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.584, "draw": 0.2407, "away": 0.1753},
+      "rationale": "The market makes Spain a solid 58% and it's easy to see why: unbeaten in 35 straight, Unai Simon on a record 609 World Cup minutes without conceding, and a grinding 1-0 over Portugal via Merino's late header. Belgium arrive full of confidence after routing the USA 4-1 and reaching a first quarter-final since 2018, so their attack must be respected, but Spain's control and defensive record should carry a tight tie.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Spain vs Belgium QF — World Soccer Talk", "url": "https://worldsoccertalk.com/world-cup/who-when-and-where-will-spain-play-in-the-2026-world-cup-quaterfinals/"},
+        {"title": "World Cup roundup — FOX Sports", "url": "https://www.foxsports.com/stories/soccer/world-cup-roundup-belgium-ends-usas-fairytale-spain-sends-portugal-packing"}
+      ]
+    },
+    {
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.2354, "draw": 0.2615, "away": 0.5031},
+      "rationale": "England are the market call at 50% (Squawka's model 65%) on the back of a deeper squad and a calmer route, though nothing has been comfortable — a 3-2 win over Mexico last round. Norway are riding the shock of the tournament, a 2-1 defeat of Brazil, with Haaland scoring in all four games and Odegaard pulling strings. England's defensive reshuffle — Quansah suspended, Reece James into a new-look back four — plus Haaland's form makes this an open, high-scoring tie, but England's greater depth edges it.",
+      "disagreement": "Haaland can win it single-handedly and England are reshuffling their defence after Quansah's red card, so this is far more live than a 50% away line suggests — extra time is a real possibility.",
+      "sources": [
+        {"title": "Norway vs England — Squawka QF preview", "url": "https://www.squawka.com/us/news/world-cup/match-preview-norway-vs-england-07-11-26-world-cup-2026-quarterfinals/"},
+        {"title": "Olympics.com QF guide", "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-watch-norway-england-quarter-finals-head-to-head-full-schedule"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "generated_at": "2026-07-04T07:11:46.577761+00:00",
+  "matches": [
+    {
+      "match": "Canada vs Morocco",
+      "home_team": "Canada",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-04T17:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.188,
+        "draw": 0.2799,
+        "away": 0.5321
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Paraguay vs France",
+      "home_team": "Paraguay",
+      "away_team": "France",
+      "commence_time": "2026-07-04T21:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.0544,
+        "draw": 0.1333,
+        "away": 0.8123
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Brazil vs Norway",
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.5244,
+        "draw": 0.2566,
+        "away": 0.219
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Mexico vs England",
+      "home_team": "Mexico",
+      "away_team": "England",
+      "commence_time": "2026-07-06T00:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.3077,
+        "draw": 0.2995,
+        "away": 0.3928
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Portugal vs Spain",
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "commence_time": "2026-07-06T19:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.2356,
+        "draw": 0.264,
+        "away": 0.5004
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "USA vs Belgium",
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "books_counted": 41,
+      "prob": {
+        "home": 0.3458,
+        "draw": 0.2847,
+        "away": 0.3695
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Argentina vs Egypt",
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-07T16:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.7046,
+        "draw": 0.1962,
+        "away": 0.0992
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Switzerland vs Colombia",
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "commence_time": "2026-07-07T20:00:00Z",
+      "books_counted": 38,
+      "prob": {
+        "home": 0.2741,
+        "draw": 0.2979,
+        "away": 0.4279
+      },
+      "market_favorite": "away"
+    }
+  ]
+}

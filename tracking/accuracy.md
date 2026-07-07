@@ -3,12 +3,12 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 85
-- Correct picks (1X2): 56
-- Hit rate: 66% (56/85)
+- Matches predicted: 94
+- Correct picks (1X2): 63
+- Hit rate: 67% (63/94)
 - Exact scoreline hits: 14
 - Avg confidence of correct picks: 3.4
-- Avg confidence of wrong picks: 2.9
+- Avg confidence of wrong picks: 2.8
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
@@ -98,3 +98,12 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-07-02 | Spain vs Austria | Home | 2-0 | 4 | 3-0 (home) | ✓ | ✗ |
 | 2026-07-02 | Portugal vs Croatia | Home | 2-1 | 3 | 2-1 (home) | ✓ | ✓ |
 | 2026-07-03 | Switzerland vs Algeria | Home | 2-1 | 3 | 2-0 (home) | ✓ | ✗ |
+| 2026-07-03 | Australia vs Egypt | Away | 1-2 | 2 | 1-1 (draw) | ✗ | ✗ |
+| 2026-07-03 | Argentina vs Cape Verde | Home | 3-0 | 5 | 3-2 (home) | ✓ | ✗ |
+| 2026-07-03 | Colombia vs Ghana | Home | 2-0 | 4 | 1-0 (home) | ✓ | ✗ |
+| 2026-07-04 | Canada vs Morocco | Away | 1-2 | 3 | 0-3 (away) | ✓ | ✗ |
+| 2026-07-04 | Paraguay vs France | Away | 0-2 | 5 | 0-1 (away) | ✓ | ✗ |
+| 2026-07-05 | Brazil vs Norway | Home | 2-1 | 3 | 1-2 (away) | ✗ | ✗ |
+| 2026-07-05 | Mexico vs England | Away | 1-2 | 2 | 2-3 (away) | ✓ | ✗ |
+| 2026-07-06 | Portugal vs Spain | Away | 1-2 | 4 | 0-1 (away) | ✓ | ✗ |
+| 2026-07-06 | USA vs Belgium | Away | 1-2 | 2 | 1-4 (away) | ✓ | ✗ |

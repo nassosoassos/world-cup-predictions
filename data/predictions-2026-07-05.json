@@ -1,0 +1,109 @@
+{
+  "predictions": [
+    {
+      "home_team": "Brazil",
+      "away_team": "Norway",
+      "commence_time": "2026-07-05T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.5353, "draw": 0.2578, "away": 0.2069},
+      "rationale": "Market makes Brazil moderate favourites (54/26/21) and firmed them a touch overnight. Brazil lose creator Lucas Paquetá (thigh) and Raphinha's status is contradictory, but crucially Vinícius Jr and Rodrygo are both fit to start and Neymar is available as a game-changing sub. Norway are the round's live underdog — Haaland has five goals and struck late to beat Ivory Coast — so Brazil edge a tight one with real extra-time risk.",
+      "disagreement": "Tipsters back Brazil but pair it with Over 2.5; Haaland's hot form and Norway's counter make them the clearest against-the-favourite lean of the round — high penalty/extra-time risk.",
+      "sources": [
+        {"title": "RotoWire — Brazil vs Norway preview, predicted lineups & team news", "url": "https://www.rotowire.com/soccer/article/brazil-vs-norway-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-16-121006"},
+        {"title": "ESPN — Brazil vs Norway: how to watch, injury news, predicted lineups", "url": "https://www.espn.com/soccer/story/_/id/49256507/"}
+      ]
+    },
+    {
+      "home_team": "Mexico",
+      "away_team": "England",
+      "commence_time": "2026-07-06T00:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {"home": 0.3003, "draw": 0.3028, "away": 0.3969},
+      "rationale": "Market shades England as narrow favourites in a genuine three-way (30/30/40) on Tuchel's structure and Harry Kane's finishing (5 goals). But this is a trap tie: it is played at the Estadio Azteca (~2,200m), where Mexico are unbeaten at World Cups and arrive 4/4 with zero goals conceded, while England were flat against DR Congo. Slim lean to England's quality, heavily tempered by altitude, a hostile crowd and Bellingham sitting one booking from a quarter-final ban.",
+      "disagreement": "Tipsters are split with real value flowing to Mexico; the draw/Mexico route is very live and several previews see it going to penalties. Bellingham and Rice are both one yellow from suspension.",
+      "sources": [
+        {"title": "Sky Sports — Mexico vs England: the 7,000-feet altitude problem", "url": "https://www.skysports.com/football/news/11095/13559666/mexico-vs-england-thomas-tuchels-side-face-a-huge-altitude-problem-by-playing-world-cup-round-of-16-at-7-000-feet"},
+        {"title": "Sports Mole — Mexico vs England prediction, team news, lineups", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/mexico-vs-england-prediction-team-news-lineups_600597.html"}
+      ]
+    },
+    {
+      "home_team": "Portugal",
+      "away_team": "Spain",
+      "commence_time": "2026-07-06T19:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 4,
+      "market": {"home": 0.2351, "draw": 0.2649, "away": 0.5},
+      "rationale": "Market makes Spain clear favourites (~50%) in this Iberian derby and the models go further (~64%): Spain are unbeaten with a clean sheet all tournament (3-0 over Austria) and their Rodri-Pedri midfield controls games, whereas Portugal needed a Ronaldo penalty plus a stoppage-time Ramos header to survive Croatia. Lamine Yamal is fit and starts, though Nico Williams (adductor) and Yeremy Pino are expected to miss. Spain's control and defence edge it; Portugal's threat rests on Ronaldo and Bruno Fernandes set-pieces.",
+      "disagreement": "Ronaldo (41) carries Portugal's hopes despite a barren knockout record; Nico Williams' likely absence trims Spain's width but not the pick.",
+      "sources": [
+        {"title": "ESPN — Portugal vs Spain: how to watch, predicted line-ups", "url": "https://www.espn.com/soccer/story/_/id/49266158/fifa-world-cup-2026-portugal-vs-spain-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups"},
+        {"title": "Sports Mole — Portugal vs Spain prediction, team news, lineups", "url": "https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-spain-prediction-team-news-lineups_600650.html"}
+      ]
+    },
+    {
+      "home_team": "USA",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-07T00:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 2,
+      "market": {"home": 0.3569, "draw": 0.283, "away": 0.3601},
+      "rationale": "The market is a near coin-flip (36/28/36) with Belgium the thinnest of favourites, and it has tightened toward the USA on the Seattle home crowd. I stay a hair with Belgium: leading scorer Folarin Balogun is suspended (confirmed, no appeal), Ricardo Pepi replaces him, and Belgium beat the USA 5-2 in March with the superior spine of Courtois-De Bruyne-Doku. Pulisic is fit and starts, but Belgium's individual quality shades a genuine 50/50.",
+      "disagreement": "Deliberate near-market call: tipsters are split (Racing Post likes USA at home; Squawka's model has Belgium 57%). A tired, flat Belgium plus the crowd make this a real coin-flip with high penalty risk.",
+      "sources": [
+        {"title": "Sports Mole — USA vs Belgium prediction, team news, lineups", "url": "https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/usa-vs-belgium-prediction-team-news-lineups_600664.html"},
+        {"title": "ESPN — USMNT cannot appeal Balogun red card", "url": "https://www.espn.com/soccer/story/_/id/49248052/usmnt-cannot-appeal-folarin-balogun-red-card-face-extended-world-cup-ban-sources"}
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Egypt",
+      "commence_time": "2026-07-07T16:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.6953, "draw": 0.2021, "away": 0.1026},
+      "rationale": "Market makes the holders heavy favourites (~70%) and the models agree (~75%). Argentina needed extra time to see off Cape Verde 3-2 but Messi is in Golden Boot form, Romero's knee has cleared and De Paul is back in midfield. Egypt reached the last 16 for the first time via penalties over Australia with Salah playing through a hamstring strain; their disciplined low block points to a low-scoring, controlled Argentina win.",
+      "disagreement": "Both sides played 120 minutes in the R32, so fatigue is mutual; Egypt's low block and Salah give a live extra-time longshot, and tipsters lean Under 2.5 on the goal volume.",
+      "sources": [
+        {"title": "BetMGM — Argentina vs Egypt prediction, odds & preview", "url": "https://sports.betmgm.com/en/blog/world-cup/argentina-vs-egypt-prediction-odds-preview-world-cup-july-7-bm16/"},
+        {"title": "ESPN — Salah recovers from hamstring for Egypt", "url": "https://www.espn.com/soccer/story/_/id/49252258/mohamed-salah-recovers-hamstring-egypt-australia"}
+      ]
+    },
+    {
+      "home_team": "Switzerland",
+      "away_team": "Colombia",
+      "commence_time": "2026-07-07T20:00:00Z",
+      "pick": "away",
+      "scoreline": "0-1",
+      "confidence": 2,
+      "market": {"home": 0.2676, "draw": 0.3076, "away": 0.4248},
+      "rationale": "Market and models both make Colombia narrow favourites (27/31/42; model ~52%) in what previews call the tightest tie of the round — two disciplined, low-scoring, unbeaten sides. Colombia may lose Jhon Córdoba (knock vs Ghana) with Luis Suárez ready, and James Rodríguez's freshness is the selection story, while Luis Díaz is fit but cold. Switzerland are healthy with Xhaka controlling midfield and Embolo their xG leader; a cagey Colombia edge with a real chance of extra time.",
+      "disagreement": "The draw is very live (31%) and at least one model has it 1-1 to Colombia on penalties — the highest shootout risk on the card.",
+      "sources": [
+        {"title": "Squawka — Switzerland vs Colombia: predictions, picks, odds & lineups", "url": "https://www.squawka.com/us/news/world-cup/match-preview-switzerland-vs-colombia-07-07-26-world-cup-2026-round-of-16/"},
+        {"title": "Fantasy Football Scout — Díaz unlucky again + Córdoba injury update", "url": "https://www.fantasyfootballscout.co.uk/2026/07/04/world-cup-fantasy-diaz-unlucky-again-cordoba-injury-update"}
+      ]
+    },
+    {
+      "home_team": "France",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-09T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.606, "draw": 0.2414, "away": 0.1526},
+      "rationale": "Market makes France clear favourites (~61%) in a rematch of the 2022 semi-final (France won 2-0). France ground past Paraguay 1-0 on a Mbappé penalty, and Tchouaméni (groin) is projected to return; Mbappé is level atop the Golden Boot race and in form. Morocco, the first African side to reach back-to-back quarter-finals, thumped Canada 3-0 and are resilient and well-drilled, but France's depth and quality should tell — the goals market leans Under.",
+      "disagreement": "Morocco's grind-out pedigree keeps extra-time/penalties live if France don't score early; team news is still four days out, so lineups may shift.",
+      "sources": [
+        {"title": "ESPN — WC 2026 R16 recap: Mbappé penalty takes France past Paraguay; Morocco thump Canada", "url": "https://www.espn.com/espn/story/_/id/49271700/2026-fifa-world-cup-recap-france-paraguay-morocco-canada-kylian-mbappe"},
+        {"title": "DraftKings — France vs Morocco opening odds", "url": "https://dknetwork.draftkings.com/2026/07/04/world-cup-2026-france-vs-morocco-opening-odds/"}
+      ]
+    }
+  ]
+}
