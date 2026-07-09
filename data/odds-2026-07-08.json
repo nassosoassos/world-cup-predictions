@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-07-08T06:16:47.497143+00:00",
+  "matches": [
+    {
+      "match": "France vs Morocco",
+      "home_team": "France",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-09T20:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.6037,
+        "draw": 0.2443,
+        "away": 0.152
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Spain vs Belgium",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.5869,
+        "draw": 0.2414,
+        "away": 0.1716
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Norway vs England",
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "books_counted": 40,
+      "prob": {
+        "home": 0.2322,
+        "draw": 0.2592,
+        "away": 0.5086
+      },
+      "market_favorite": "away"
+    },
+    {
+      "match": "Argentina vs Switzerland",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "books_counted": 39,
+      "prob": {
+        "home": 0.5554,
+        "draw": 0.272,
+        "away": 0.1727
+      },
+      "market_favorite": "home"
+    }
+  ]
+}

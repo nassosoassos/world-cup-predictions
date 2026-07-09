@@ -1,0 +1,64 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "Morocco",
+      "commence_time": "2026-07-09T20:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.6067, "draw": 0.246, "away": 0.1473},
+      "rationale": "France are firm regulation favourites at 61% and have been the tournament's most complete side — five wins from five, 14 scored and only two conceded, with Mbappe (7 goals) fit and no reported injury concerns behind a settled Kante-Tchouameni-Rabiot midfield. Morocco are unbeaten and superbly organised, dangerous on the counter and capable of making this uncomfortable, so the goals should stay low, but the class gap and France's control point to Les Bleus.",
+      "disagreement": "",
+      "sources": [
+        {"title": "France vs Morocco preview & team news — RotoWire", "url": "https://www.rotowire.com/soccer/article/france-vs-morocco-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121621"},
+        {"title": "France vs Morocco prediction — Squawka", "url": "https://www.squawka.com/ca/news/world-cup/match-preview-france-vs-morocco-world-cup-2026/"}
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.5841, "draw": 0.2437, "away": 0.1722},
+      "rationale": "The market makes Spain a clear 58% and the profile backs it: four straight clean sheets since the opening 0-0 with Cape Verde, beating Uruguay, Saudi Arabia, Austria and Portugal, with Oyarzabal leading the scoring charts and a midfield of Rodri, Pedri and Fabian controlling games. Belgium arrive off a 4-1 rout of the USA and carry real menace through De Bruyne, Lukaku and Doku, but they drew three group games and Spain's defensive record and possession should carry a tight tie.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Spain vs Belgium prediction — Squawka", "url": "https://www.squawka.com/ca/news/world-cup/match-preview-spain-vs-belgium-world-cup-2026-quarterfinals/"},
+        {"title": "Belgium vs Spain how to watch, head-to-head — Olympics.com", "url": "https://www.olympics.com/en/news/fifa-world-cup-2026-how-to-watch-belgium-vs-spain-in-the-quarter-finals-head-to-head-full-schedule"}
+      ]
+    },
+    {
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "pick": "away",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.2282, "draw": 0.2585, "away": 0.5133},
+      "rationale": "England are the market call at 51% and the line firmed slightly on the week, backed by a deeper squad, though nothing has been comfortable. A concrete edge may be unpriced: a flu bug has spread through Norway's camp (manager Solbakken confirmed it), even if Haaland — who scored twice to sink Brazil — is expected fit. Haaland can win it single-handedly so this stays live, but England's depth and Norway's illness disruption edge it, with real extra-time/penalty risk.",
+      "disagreement": "Haaland's form makes this far more live than a 51% away line implies; a shootout is very much on the table.",
+      "sources": [
+        {"title": "Norway hit by sickness ahead of England QF — Yahoo Sports", "url": "https://sports.yahoo.com/articles/norway-reportedly-hit-sickness-ahead-165755089.html"},
+        {"title": "Which England defender can stop Haaland — TNT Sports", "url": "https://www.tntsports.co.uk/football/world-cup/2026/england-norway-quarter-final-erling-haaland-dan-burn-marc-guehi-ezri-konsa-trevoh-chalobah-john-stones-last-eight-miami_sto23317088/story.shtml"}
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.5616, "draw": 0.2677, "away": 0.1707},
+      "rationale": "The defending champions are a solid 56% market favourite and the line firmed toward them across the week, with Messi in extraordinary form — eight goals and leading the Golden Boot — behind a squad with quality in every department. Switzerland are organised and ground out a 0-0 (penalties) over Colombia to reach their deepest run since 1954, and will try to congest midfield and force Argentina wide, but the gulf in match-winners points to Argentina, likely by a low-scoring margin.",
+      "disagreement": "Switzerland's defensive discipline (a clean sheet over Colombia) means a cagey, tight game into the closing stages is plausible if Freuler and Zakaria smother Mac Allister.",
+      "sources": [
+        {"title": "Argentina vs Switzerland prediction & best bets — OneFootball", "url": "https://onefootball.com/en/news/world-cup-2026-quarter-final-argentina-vs-switzerland-prediction-best-bets-43112859"},
+        {"title": "Argentina vs Switzerland QF preview — Al Jazeera", "url": "https://www.aljazeera.com/sports/2026/7/8/fifa-world-cup-2026-quarterfinal-fixtures-match-previews-schedule"}
+      ]
+    }
+  ]
+}
