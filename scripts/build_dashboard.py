@@ -802,7 +802,44 @@ if(!MATCHES.length){
 """
 
 
+def validate_predictions() -> list[str]:
+    """Flag predictions whose scoreline contradicts the pick.
+
+    Scorelines are ALWAYS home-away order, so a 'home' pick needs home>away
+    goals, 'away' needs away>home, 'draw' needs equal. A mismatch (e.g. an
+    away pick written '2-1') is a data-entry bug — catch it every build.
+
+    Only the newest predictions file is checked: that's the current run, the
+    one place the error is introduced. Past files are immutable and stay put.
+    """
+    problems = []
+    files = sorted(glob.glob("data/predictions-*.json"))
+    for path in files[-1:]:
+        for p in load_json(path).get("predictions", []):
+            pick = p.get("pick")
+            score = (p.get("scoreline") or "").strip()
+            try:
+                h, a = (int(x) for x in score.split("-"))
+            except (ValueError, AttributeError):
+                continue
+            ok = ((pick == "home" and h > a)
+                  or (pick == "away" and a > h)
+                  or (pick == "draw" and h == a))
+            if not ok:
+                problems.append(
+                    f"{os.path.basename(path)}: {p.get('home_team')} vs "
+                    f"{p.get('away_team')} pick={pick} scoreline={score} "
+                    f"(home-away order — pick and scoreline disagree)")
+    return problems
+
+
 def main():
+    problems = validate_predictions()
+    if problems:
+        print("\n!! SCORELINE/PICK MISMATCH — fix before publishing:")
+        for msg in problems:
+            print(f"   - {msg}")
+        print()
     data = build_data()
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     html = HTML.replace("__DATA__", payload)
