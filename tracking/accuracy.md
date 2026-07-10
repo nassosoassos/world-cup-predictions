@@ -3,10 +3,10 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 96
-- Correct picks (1X2): 64
-- Hit rate: 67% (64/96)
-- Exact scoreline hits: 14
+- Matches predicted: 97
+- Correct picks (1X2): 65
+- Hit rate: 67% (65/97)
+- Exact scoreline hits: 15
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.8
 
@@ -109,3 +109,4 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-07-06 | USA vs Belgium | Away | 1-2 | 2 | 1-4 (away) | ✓ | ✗ |
 | 2026-07-07 | Argentina vs Egypt | Home | 2-0 | 5 | 3-2 (home) | ✓ | ✗ |
 | 2026-07-07 | Switzerland vs Colombia | Away | 0-1 | 3 | 0-0 (draw) | ✗ | ✗ |
+| 2026-07-09 | France vs Morocco | Home | 2-0 | 4 | 2-0 (home) | ✓ | ✓ |

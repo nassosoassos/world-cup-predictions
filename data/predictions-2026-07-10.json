@@ -1,0 +1,49 @@
+{
+  "predictions": [
+    {
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.5843, "draw": 0.2432, "away": 0.1725},
+      "rationale": "The market makes Spain a clear 58% and the profile backs it: they have reached the last eight without conceding a single goal, with a Rodri-anchored midfield and the wide threat of Yamal and Baena (deputising for a not-fully-fit Nico Williams). Belgium hammered the USA 4-1 and have De Bruyne back after resting him, but they lost Amadou Onana to a tournament-ending ACL in the Round of 16, thinning a midfield that already looked fragile — Spain's control and clean-sheet run should carry a tight tie.",
+      "disagreement": "",
+      "sources": [
+        {"title": "Spain vs Belgium preview & team news — RotoWire", "url": "https://www.rotowire.com/soccer/article/spain-vs-belgium-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121774"},
+        {"title": "Belgium predicted lineup vs Spain — Sports Illustrated", "url": "https://www.si.com/soccer/belgium-predicted-lineup-vs-spain-world-cup-quarterfinal-7-10-26"}
+      ]
+    },
+    {
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.2309, "draw": 0.2594, "away": 0.5097},
+      "rationale": "England are the market call at 51% for their 11th quarter-final, backed by squad depth, though the line has drifted a fraction toward Norway on the week. Norway are in their first-ever last eight riding Haaland, who has seven goals in five games — including a brace to sink Brazil — and is fit and firing, which keeps this far more live than the price implies. England's depth still edges it, but with real extra-time/penalty risk against a striker who can win it alone.",
+      "disagreement": "Bettors are increasingly backing Norway as the round's upset pick; Haaland's form makes a shootout very much on the table.",
+      "sources": [
+        {"title": "World Cup bettors back Norway as quarterfinal upset pick — Yahoo Sports", "url": "https://sports.yahoo.com/articles/world-cup-bettors-back-norway-165700981.html"},
+        {"title": "Haaland: chances 'really low', pressure on England — ESPN", "url": "https://www.espn.com/soccer/story/_/id/49317174/norway-erling-haaland-chances-really-low-world-cup-pressure-england-quarterfinal"}
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.5643, "draw": 0.2674, "away": 0.1683},
+      "rationale": "The defending champions are a solid 56% market favourite with Messi in extraordinary form — eight goals and level at the top of the Golden Boot race — behind a settled, deep XI. Switzerland are organised and ground their way past Colombia and Algeria to reach their deepest run in decades, and Argentina's knockout path has been jittery (extra time vs Cape Verde, a 3-2 escape over Egypt), so a cagey game is plausible, but the gulf in match-winners points to Argentina by a low-scoring margin.",
+      "disagreement": "Switzerland's defensive discipline (Xhaka-Freuler screening) means a tight, low-block game into the closing stages is a real risk if they smother Mac Allister and Messi.",
+      "sources": [
+        {"title": "Argentina vs Switzerland preview, team news, lineups — Yahoo Sports", "url": "https://sports.yahoo.com/articles/preview-argentina-vs-switzerland-team-010500069.html"},
+        {"title": "Argentina vs Switzerland: how to watch, injury, predicted line-ups — ESPN", "url": "https://www.espn.com/soccer/story/_/id/49313407/argentina-vs-switzerland-fifa-world-cup-2026-tv-channel-how-watch-kick-live-stream-injury-predicted-line-ups"}
+      ]
+    }
+  ]
+}
