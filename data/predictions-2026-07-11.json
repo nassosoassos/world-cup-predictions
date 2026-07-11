@@ -1,0 +1,49 @@
+{
+  "predictions": [
+    {
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:00:00Z",
+      "pick": "away",
+      "scoreline": "1-2",
+      "confidence": 3,
+      "market": {"home": 0.2437, "draw": 0.2599, "away": 0.4964},
+      "rationale": "England are the market call at 50% for a semi place and the Opta supercomputer agrees almost exactly (50.4% England in regulation), backed by Kane's six goals, Bellingham and superior squad depth. But Norway are in their first-ever quarter-final riding an Erling Haaland who has scored in all four of his World Cup games (seven goals, including the double that sank Brazil), keeping this far more live than the price implies. England's depth should edge it, but with genuine extra-time/penalty risk against a striker who can win it alone.",
+      "disagreement": "Bettors keep backing Norway as the round's upset pick; a Haaland-led shootout is very much on the table.",
+      "sources": [
+        {"title": "Norway vs England World Cup quarterfinal preview — Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/10/norway-vs-england-world-cup-quarterfinal-haaland-kane-prediction-news"},
+        {"title": "World Cup bettors back Norway as quarterfinal upset pick — Yahoo Sports", "url": "https://sports.yahoo.com/articles/world-cup-bettors-back-norway-165700981.html"}
+      ]
+    },
+    {
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "pick": "home",
+      "scoreline": "2-0",
+      "confidence": 4,
+      "market": {"home": 0.5677, "draw": 0.2666, "away": 0.1657},
+      "rationale": "The defending champions are a solid 57% market favourite with Messi in extraordinary form — eight goals and leading the Golden Boot race despite missing two penalties — behind a settled, deep XI. Switzerland have been the tournament's stealth story, conceding zero in regulation across two knockout wins before edging Colombia on penalties, but they are sweating on the fitness of Manzambi, Jaquez and Aebischer. Argentina's own knockout path has been jittery (extra time vs Cape Verde, a 3-2 escape over Egypt), so a cagey game is plausible, but the gulf in match-winners points to Argentina by a low-scoring margin.",
+      "disagreement": "Switzerland's Xhaka-Freuler screen makes a smothering low-block into the closing stages a real risk if they neutralise Messi and Mac Allister.",
+      "sources": [
+        {"title": "Argentina v Switzerland quarter-final preview — FIFA", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/argentina-switzerland-preview-live-stream-team-news-tickets"},
+        {"title": "Argentina vs Switzerland predicted lineups & team news — RotoWire", "url": "https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924"}
+      ]
+    },
+    {
+      "home_team": "France",
+      "away_team": "Spain",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4094, "draw": 0.292, "away": 0.2985},
+      "rationale": "The market makes France a narrow favourite (41% vs Spain 30%, 29% draw over 90 minutes) and the profile backs a slight lean: France are a perfect 6-0-0, cutting teams open with Mbappe, an in-form Dembele (five goals) and Michael Olise's tournament-high six assists. Spain have ground through — five wins by a single goal — and their record six-match clean-sheet streak was finally broken by Belgium, while Yamal has gone quiet; Rodri is back near his best but the Euro 2024 semi (Spain 2-1) shows how small the gap is. France's form and cutting edge just tip a very tight tie, with real penalty risk in a no-draw knockout.",
+      "disagreement": "Spain's knockout resilience and the Euro 2024 head-to-head win are the case against the market — closer to a coin-flip than 41/30 suggests.",
+      "sources": [
+        {"title": "France vs Spain semifinal — what to know — FOX Sports", "url": "https://www.foxsports.com/stories/soccer/france-vs-spain-confirmed-semifinals-heres-what-know"},
+        {"title": "World Cup quarterfinal injury tracker (France/Spain) — ESPN", "url": "https://www.espn.com/soccer/story/_/id/49305374/world-cup-quarterfinal-injury-tracker-england-norway-france-spain-belgium"}
+      ]
+    }
+  ]
+}
