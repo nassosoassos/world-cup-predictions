@@ -1,0 +1,34 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "Spain",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4116, "draw": 0.2944, "away": 0.294},
+      "rationale": "The market makes France a narrow favourite (41% vs Spain 29%, 29% draw over 90 minutes) and the profile backs a slight lean: France are a perfect 6-0-0, spearheaded by a red-hot Mbappe (tournament-high eight goals, the first to score 8+ in back-to-back World Cups) and Olise's six assists, and are close to full strength with Tchouameni over his groin scare. Spain are also in fine shape — Yamal fully fit and starting, Rodri back near his best — and their knockout pedigree is the real counterweight. France's form and cutting edge just tip a very tight tie, with genuine penalty risk in a no-draw knockout.",
+      "disagreement": "Yamal has beaten France in both prior knockout meetings (Euro 2024 SF 2-1, 2025 Nations League SF 5-4) and leads Mbappe 5-0 head-to-head in knockouts; that psychological edge makes this closer to a coin-flip than 41/29 implies.",
+      "sources": [
+        {"title": "France vs Spain semifinal — what to know — FOX Sports", "url": "https://www.foxsports.com/stories/soccer/france-vs-spain-confirmed-semifinals-heres-what-know"},
+        {"title": "Lamine Yamal has won all five knockout meetings vs Mbappe — World Soccer Talk", "url": "https://worldsoccertalk.com/amp/world-cup/lamine-yamal-has-won-all-five-knockout-meetings-against-kylian-mbappe-ahead-of-2026-world-cup-semifinal/"}
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.3779, "draw": 0.3116, "away": 0.3105},
+      "rationale": "This is a near dead-heat — England 38% vs Argentina 31%, 31% draw over 90 minutes, and the pair have traded ~50/52c to reach the final all week. England carry the slim edge on form and depth: Bellingham is on fire (braces vs both Mexico and Norway, and he cleared his yellow-card suspension risk), Kane leads with six goals, and their bench has repeatedly bailed them out. Argentina have ground through every knockout tie narrowly (Cape Verde, Egypt, Switzerland) and lean on a 38-year-old Messi who has admitted fatigue and saw his nine-game scoring streak end — so England edge a coin-flip, but with heavy extra-time/penalty risk in a no-draw knockout against a Messi playing his last-ever World Cup.",
+      "disagreement": "The market barely separates them and Messi's farewell motivation plus Argentina's champion-mentality knockout record are a live case for the underdog price; a shootout is very much on the table.",
+      "sources": [
+        {"title": "England vs Argentina confirmed for semifinals — what to know — FOX Sports", "url": "https://www.foxsports.com/stories/soccer/england-vs-argentina-confirmed-semifinals-heres-what-know"},
+        {"title": "World Cup 2026 yellow card watch: Bellingham, Rice — ESPN", "url": "https://www.espn.com/soccer/story/_/id/49306154/world-cup-2026-yellow-card-watch-walking-tightrope-quarterfinals"}
+      ]
+    }
+  ]
+}
