@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-07-13T07:40:57.855789+00:00",
+  "matches": [
+    {
+      "match": "Spain vs Belgium",
+      "home_team": "Spain",
+      "away_team": "Belgium",
+      "commence_time": "2026-07-10T19:00:00Z",
+      "completed": true,
+      "home_score": "2",
+      "away_score": "1",
+      "final_score": "2-1",
+      "result": "home",
+      "last_update": "2026-07-12T02:08:30Z"
+    },
+    {
+      "match": "Norway vs England",
+      "home_team": "Norway",
+      "away_team": "England",
+      "commence_time": "2026-07-11T21:01:00Z",
+      "completed": true,
+      "home_score": "1",
+      "away_score": "2",
+      "final_score": "1-2",
+      "result": "away",
+      "last_update": "2026-07-12T04:05:39Z"
+    },
+    {
+      "match": "Argentina vs Switzerland",
+      "home_team": "Argentina",
+      "away_team": "Switzerland",
+      "commence_time": "2026-07-12T01:00:00Z",
+      "completed": true,
+      "home_score": "3",
+      "away_score": "1",
+      "final_score": "3-1",
+      "result": "home",
+      "last_update": "2026-07-12T04:05:39Z"
+    },
+    {
+      "match": "France vs Spain",
+      "home_team": "France",
+      "away_team": "Spain",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "completed": false,
+      "home_score": null,
+      "away_score": null,
+      "final_score": null,
+      "result": null,
+      "last_update": "2026-07-12T09:13:56Z"
+    },
+    {
+      "match": "England vs Argentina",
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "completed": false,
+      "home_score": null,
+      "away_score": null,
+      "final_score": null,
+      "result": null,
+      "last_update": "2026-07-12T09:13:56Z"
+    }
+  ]
+}

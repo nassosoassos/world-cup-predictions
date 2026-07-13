@@ -1,0 +1,34 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "Spain",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.411, "draw": 0.2958, "away": 0.2933},
+      "rationale": "France remain the narrow market favourite (41% vs 29%, 30% draw over 90 minutes) and the profile still backs a slight lean: a perfect 6-0-0 run, a tournament-high eight Mbappe goals, Olise's six assists, and Tchouameni set to return from his thigh scare. The one fresh worry is Mbappe's ankle, a Grade 1 sprain from the Morocco win that he calls 'completely fine' but which could dull his edge. Spain are without wingers Nico Williams and Yeremy Pino, though Yamal is back near his best and their knockout pedigree — a rematch of the Euro 2024 semi Spain won 2-1 — is the real counterweight; France's cutting edge just tips a very tight tie, with genuine penalty risk in a no-draw knockout.",
+      "disagreement": "Yamal has beaten France in both prior knockout meetings (Euro 2024 SF 2-1, 2025 Nations League SF 5-4) and leads Mbappe head-to-head in knockouts; that psychological edge, magnified if Mbappe's ankle limits him, makes this closer to a coin-flip than 41/29 implies.",
+      "sources": [
+        {"title": "France vs Spain preview, team news & predicted lineups — RotoWire", "url": "https://www.rotowire.com/soccer/article/france-vs-spain-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-semifinal-122319"},
+        {"title": "Mbappe downplays ankle injury as France advance — CBS Sports", "url": "https://www.cbssports.com/soccer/news/kylian-mbappe-downplays-ankle-injury-france-advance-to-world-cup-semifinals/"}
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.3639, "draw": 0.3198, "away": 0.3163},
+      "rationale": "A genuine dead-heat that has tightened a touch — England 36% vs Argentina 32% (32% draw), with England drifting and Argentina firming since yesterday. England still carry the slim edge on form and depth: Bellingham is on fire (braces vs both Mexico and Norway), Kane leads their scoring, and the bench keeps bailing them out, though Tuchel's right-back slot is unsettled with Jarell Quansah suspended (second game of a two-match ban for his Mexico red card) and Konsa, Reece James or Djed Spence in line to fill in. Argentina have ground through every knockout tie narrowly (Cape Verde, Egypt, Switzerland in extra time) and lean on a 38-year-old Messi in his last-ever World Cup — so England edge the coin-flip, but with heavy extra-time/penalty risk in a no-draw knockout.",
+      "disagreement": "The market barely separates them and is drifting toward Argentina; Messi's farewell motivation plus Argentina's champion-mentality knockout record are a live case for the underdog price, and a shootout is firmly on the table.",
+      "sources": [
+        {"title": "England injury & suspension list vs Argentina — Sports Mole", "url": "https://www.sportsmole.co.uk/football/england/injury-news/injuries-and-suspensions/rice-konsa-henderson-latest-england-injury-suspension-list-vs-argentina_601109.html"},
+        {"title": "England vs Argentina World Cup 2026 prediction — Squawka", "url": "https://www.squawka.com/us/news/world-cup/match-preview-england-vs-argentina-07-15-26-world-cup-2026-semifinals/"}
+      ]
+    }
+  ]
+}

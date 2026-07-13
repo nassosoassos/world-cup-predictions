@@ -1,0 +1,252 @@
+{
+  "lock_deadline": "2026-06-11T22:00:00",
+  "generated_at": "2026-07-13",
+  "markets": [
+    {
+      "key": "champion",
+      "question": "World Champion",
+      "pick": "Spain",
+      "confidence": 3,
+      "note": "Locked pick. Spain won Group H without conceding (4-0 Saudi Arabia, 1-0 Uruguay) after the early 0-0 vs Cape Verde; face Austria in R32. Still leads market and Opta. Unresolved.",
+      "alternatives": [
+        "France (+500)",
+        "England (+700)",
+        "Argentina (+900)",
+        "Brazil (+900)"
+      ],
+      "result": null
+    },
+    {
+      "key": "top_scorer_team",
+      "question": "Top scorer's team",
+      "pick": "France (Mbappé)",
+      "confidence": 3,
+      "note": "Locked pick. France went 3-0 in Group I (10 goals); Mbappé tracking well. Haaland (Norway) and the Brazil front line are the chasers. Unresolved.",
+      "alternatives": [
+        "England (Kane +700)",
+        "Argentina (Messi +1600)",
+        "Spain (Yamal/Oyarzabal)"
+      ],
+      "result": null
+    },
+    {
+      "key": "group_a",
+      "question": "Group A winner",
+      "pick": "Mexico",
+      "confidence": 4,
+      "field": [
+        "Mexico",
+        "South Korea",
+        "Czechia",
+        "South Africa"
+      ],
+      "note": "Resolved: Mexico won Group A with a perfect nine points.",
+      "result": {
+        "actual": "Mexico",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_b",
+      "question": "Group B winner",
+      "pick": "Switzerland",
+      "confidence": 2,
+      "field": [
+        "Canada",
+        "Switzerland",
+        "Qatar",
+        "Bosnia & Herzegovina"
+      ],
+      "note": "Resolved: Switzerland topped a tight Group B on seven points.",
+      "result": {
+        "actual": "Switzerland",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_c",
+      "question": "Group C winner",
+      "pick": "Brazil",
+      "confidence": 4,
+      "field": [
+        "Brazil",
+        "Morocco",
+        "Scotland",
+        "Haiti"
+      ],
+      "note": "Resolved: Brazil won Group C, sealed with a 3-0 win over Scotland.",
+      "result": {
+        "actual": "Brazil",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_d",
+      "question": "Group D winner",
+      "pick": "USA",
+      "confidence": 2,
+      "field": [
+        "USA",
+        "Paraguay",
+        "Türkiye",
+        "Australia"
+      ],
+      "note": "Resolved: USA won Group D with home advantage.",
+      "result": {
+        "actual": "USA",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_e",
+      "question": "Group E winner",
+      "pick": "Germany",
+      "confidence": 4,
+      "field": [
+        "Germany",
+        "Ecuador",
+        "Ivory Coast",
+        "Curaçao"
+      ],
+      "note": "Resolved: Germany won Group E (the late 1-2 vs Ecuador came after top spot was secured).",
+      "result": {
+        "actual": "Germany",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_f",
+      "question": "Group F winner",
+      "pick": "Netherlands",
+      "confidence": 2,
+      "field": [
+        "Netherlands",
+        "Japan",
+        "Sweden",
+        "Tunisia"
+      ],
+      "note": "Resolved: Netherlands topped Group F on seven points after back-to-back wins over Sweden and Tunisia.",
+      "result": {
+        "actual": "Netherlands",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_g",
+      "question": "Group G winner",
+      "pick": "Belgium",
+      "confidence": 2,
+      "field": [
+        "Belgium",
+        "Egypt",
+        "Iran",
+        "New Zealand"
+      ],
+      "note": "Resolved: Belgium won the wide-open Group G, clinched with a 5-1 rout of New Zealand.",
+      "result": {
+        "actual": "Belgium",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_h",
+      "question": "Group H winner",
+      "pick": "Spain",
+      "confidence": 5,
+      "field": [
+        "Spain",
+        "Uruguay",
+        "Cape Verde",
+        "Saudi Arabia"
+      ],
+      "note": "Resolved: Spain won Group H without conceding after the opening 0-0 vs Cape Verde.",
+      "result": {
+        "actual": "Spain",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_i",
+      "question": "Group I winner",
+      "pick": "France",
+      "confidence": 4,
+      "field": [
+        "France",
+        "Senegal",
+        "Norway",
+        "Iraq"
+      ],
+      "note": "Resolved: France won Group I with a perfect nine points (10 scored, 2 conceded).",
+      "result": {
+        "actual": "France",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_j",
+      "question": "Group J winner",
+      "pick": "Argentina",
+      "confidence": 5,
+      "field": [
+        "Argentina",
+        "Algeria",
+        "Austria",
+        "Jordan"
+      ],
+      "note": "Resolved: Argentina won Group J with a perfect nine points.",
+      "result": {
+        "actual": "Argentina",
+        "correct": true
+      }
+    },
+    {
+      "key": "group_k",
+      "question": "Group K winner",
+      "pick": "Portugal",
+      "confidence": 3,
+      "field": [
+        "Portugal",
+        "Colombia",
+        "DR Congo",
+        "Uzbekistan"
+      ],
+      "note": "Resolved: Colombia won Group K on six points; Portugal's 0-0 with Colombia left them second. Pick missed.",
+      "result": {
+        "actual": "Colombia",
+        "correct": false
+      }
+    },
+    {
+      "key": "group_l",
+      "question": "Group L winner",
+      "pick": "England",
+      "confidence": 4,
+      "field": [
+        "England",
+        "Croatia",
+        "Ghana",
+        "Panama"
+      ],
+      "note": "Resolved: England won Group L on seven points, sealed with a 2-0 win over Panama.",
+      "result": {
+        "actual": "England",
+        "correct": true
+      }
+    },
+    {
+      "key": "semifinalists",
+      "question": "Reach the semi-finals",
+      "pick": "Spain, France, England, Argentina",
+      "confidence": 3,
+      "note": "Resolved: the four semi-finalists are Spain, France, England and Argentina — exactly the locked pick.",
+      "alternatives": [
+        "Brazil (for England)",
+        "Portugal"
+      ],
+      "result": {
+        "actual": "Spain, France, England, Argentina",
+        "correct": true
+      }
+    }
+  ]
+}
