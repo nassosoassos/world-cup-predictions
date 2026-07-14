@@ -1,0 +1,34 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "Spain",
+      "commence_time": "2026-07-14T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4033, "draw": 0.2965, "away": 0.3002},
+      "rationale": "France stay the narrow market favourite (40% vs 30%, 30% draw over 90 minutes) and fresh team news firms the lean: Deschamps has eased the Mbappe ankle worry and the striker is now expected to START, backed by France's perfect 6-0-0 run, his tournament-high eight goals and Olise's six assists, with Tchouameni back from his thigh scare. The one new negative is Manu Kone withdrawing (knee). Spain arrive unbeaten in 36 with Yamal near his best and a knockout edge over France, so their cutting edge just tips a very tight tie, with genuine penalty risk in a no-draw knockout.",
+      "disagreement": "Yamal has beaten France in both prior knockout meetings (Euro 2024 SF 2-1, 2025 Nations League SF 5-4) and Spain are unbeaten in 36; Sports Mole tips it level after 90 with France edging it on penalties, so this is closer to a coin-flip than 40/30 implies.",
+      "sources": [
+        {"title": "France vs Spain preview, team news & predicted lineups — Sports Mole", "url": "https://www.sportsmole.co.uk/football/france/world-cup-2026/preview/france-vs-spain-prediction-team-news-lineups_601083.html"},
+        {"title": "Deschamps eases Mbappe injury concerns ahead of Spain semi — Deccan Chronicle", "url": "https://www.deccanchronicle.com/sports/fifa-world-cup-2026-deschamps-eases-mbappe-injury-concerns-ahead-of-spain-semi-final-1970738"}
+      ]
+    },
+    {
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.3607, "draw": 0.3243, "away": 0.315},
+      "rationale": "A genuine dead-heat: England 36% vs Argentina 32% (32% draw), the market essentially flat day-on-day. England keep the slimmest edge on their set-piece threat (Rice deliveries onto Kane and Stones) and a bench that keeps bailing them out, but the defence is thinning: Quansah suspended at right-back, Henderson out after wrist surgery, Reece James a doubt, and Rice only just shaking off the illness that dulled him vs Norway. Argentina are fully intact on a long winning streak with a 38-year-old Messi in his last World Cup, so England edge the coin-flip on paper but only just, with heavy extra-time/penalty risk.",
+      "disagreement": "The tipster consensus leans Argentina against the sharp market: Sports Mole (1-2), Squawka and others cite England's persistent defensive gaps versus Argentina's intact champion core and knockout know-how, and a shootout is firmly on the table.",
+      "sources": [
+        {"title": "England vs Argentina preview, team news & lineups — Sports Mole", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-argentina-prediction-team-news-lineups_601122.html"},
+        {"title": "England v Argentina semi-final — what to know — Al Jazeera", "url": "https://www.aljazeera.com/sports/2026/7/13/argentina-england-fifa-world-cup-semifinal-prediction-messi-kane-venue"}
+      ]
+    }
+  ]
+}
