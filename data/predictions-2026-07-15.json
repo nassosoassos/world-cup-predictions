@@ -1,0 +1,19 @@
+{
+  "predictions": [
+    {
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 2,
+      "market": {"home": 0.3528, "draw": 0.3292, "away": 0.318},
+      "rationale": "A dead-heat the market can't split: England 35% vs Argentina 32% with the draw at 33% over 90 minutes. England hold the narrowest edge and the day's news firms it slightly: Rice has shaken off his sickness bug and is expected back in the XI, and Bellingham is incandescent with six tournament goals off back-to-back knockout braces. The defence is still patched (Quansah banned, Henderson out, Konsa at right-back) and Argentina are fully intact with a fit Messi leading the tournament on eight goals, so England edge it on paper but only just, with a shootout firmly on the table.",
+      "disagreement": "Tipster consensus leans Argentina against the sharp market: several previews note Argentina are marginally favoured by some books and have never failed to reach a final from a World Cup semi (six from six), citing their intact champion core versus England's thinned-out back line. Sports Mole and others lean 1-2 Argentina.",
+      "sources": [
+        {"title": "England vs Argentina preview, team news & lineups — Sports Mole", "url": "https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/england-vs-argentina-prediction-team-news-lineups_601122.html"},
+        {"title": "England vs Argentina: FIFA World Cup semifinal — Messi, Kane and prediction — Al Jazeera", "url": "https://www.aljazeera.com/sports/2026/7/15/argentina-england-world-cup-semifinal-messi-kane-prediction-time"}
+      ]
+    }
+  ]
+}

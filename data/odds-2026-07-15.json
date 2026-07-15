@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-07-15T08:26:41.252072+00:00",
+  "matches": [
+    {
+      "match": "England vs Argentina",
+      "home_team": "England",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-15T19:00:00Z",
+      "books_counted": 42,
+      "prob": {
+        "home": 0.3528,
+        "draw": 0.3292,
+        "away": 0.318
+      },
+      "market_favorite": "home"
+    }
+  ]
+}
