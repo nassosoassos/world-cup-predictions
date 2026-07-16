@@ -3,9 +3,9 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 101
+- Matches predicted: 102
 - Correct picks (1X2): 68
-- Hit rate: 67% (68/101)
+- Hit rate: 67% (68/102)
 - Exact scoreline hits: 16
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.8
@@ -114,3 +114,4 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-07-11 | Norway vs England | Away | 1-2 | 3 | 1-2 (away) | ✓ | ✓ |
 | 2026-07-12 | Argentina vs Switzerland | Home | 2-0 | 4 | 3-1 (home) | ✓ | ✗ |
 | 2026-07-14 | France vs Spain | Home | 2-1 | 3 | 0-2 (away) | ✗ | ✗ |
+| 2026-07-15 | England vs Argentina | Home | 2-1 | 2 | 1-2 (away) | ✗ | ✗ |

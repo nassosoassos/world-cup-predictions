@@ -1,0 +1,34 @@
+{
+  "predictions": [
+    {
+      "home_team": "France",
+      "away_team": "England",
+      "commence_time": "2026-07-18T21:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4821, "draw": 0.2548, "away": 0.2631},
+      "rationale": "The market makes France the favourite for the third-place play-off at 48% to England's 26%, with Squawka's model even firmer at 57%. France were arguably the tournament's most complete side (16 goals, beaten only by Spain's shutout) while England needed extra time to see off Norway before falling to Argentina, and the biggest live incentive belongs to France's Mbappe, joint-top of the Golden Boot on eight and — with Messi in Sunday's final — using this as his last chance to add to it. Third-place games invite rotation and a shootout is on the table, but France's edge in quality plus Mbappe's motivation tips it their way.",
+      "disagreement": "Bronze-medal matches are notoriously loose, low-stakes affairs where rested legs and dead-rubber energy can flatten the favourite; both attacks (Mbappe/Dembele vs Kane/Bellingham) can score, so a high-scoring draw settled on penalties is very much in play.",
+      "sources": [
+        {"title": "France vs England: World Cup 2026 Third-Place Play-Off Prediction — Squawka", "url": "https://www.squawka.com/ca/news/world-cup/match-preview-france-vs-england-world-cup-2026-third-place-play-off/"},
+        {"title": "England to face France in World Cup third place match — England Football", "url": "https://www.englandfootball.com/articles/2026/Jul/15/england-fixture-details-knockout-stage-20261107"}
+      ]
+    },
+    {
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-19T19:00:00Z",
+      "pick": "home",
+      "scoreline": "2-1",
+      "confidence": 3,
+      "market": {"home": 0.4139, "draw": 0.3177, "away": 0.2684},
+      "rationale": "The market frames the final as a narrow Spain win — 41% Spain, 32% draw, 27% Argentina — and Spain arrive on a six-match winning run having conceded just a single goal in the entire tournament, with Yamal orchestrating the sharpest attack. Argentina are the value side and no soft touch: they are the highest scorers of the tournament (17 goals), the defending champions, and Messi now sits atop the Golden Boot race (level on eight goals with Mbappe but ahead on assists) after setting up both goals in the late comeback against England. Spain's suffocating defence versus Argentina's firepower and Scaloni's decisive bench points to a tight, open final that Spain shade — matching our locked champion pick.",
+      "disagreement": "Tipsters flag Argentina as the genuine value bet: holders with tournament-winning DNA, a Messi in vintage form and a habit of late comebacks (Enzo and Lautaro's stoppage-time turnaround vs England). Several previews expect both teams to score, and over 90 minutes this is close to a coin-flip that could easily swing Argentina's way or into extra time.",
+      "sources": [
+        {"title": "Spain vs Argentina confirmed for World Cup final: what to know — FOX Sports", "url": "https://www.foxsports.com/stories/soccer/spain-vs-england-argentina-confirmed-world-cup-final-heres-what-know"},
+        {"title": "Spain v Argentina — FIFA World Cup final match preview — FIFA", "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-v-argentina-live-stream-team-news-tickets-and-more"}
+      ]
+    }
+  ]
+}
