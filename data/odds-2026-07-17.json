@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-17T06:02:59.723931+00:00",
+  "matches": [
+    {
+      "match": "France vs England",
+      "home_team": "France",
+      "away_team": "England",
+      "commence_time": "2026-07-18T21:00:00Z",
+      "books_counted": 43,
+      "prob": {
+        "home": 0.5028,
+        "draw": 0.2467,
+        "away": 0.2505
+      },
+      "market_favorite": "home"
+    },
+    {
+      "match": "Spain vs Argentina",
+      "home_team": "Spain",
+      "away_team": "Argentina",
+      "commence_time": "2026-07-19T19:00:00Z",
+      "books_counted": 43,
+      "prob": {
+        "home": 0.4182,
+        "draw": 0.3153,
+        "away": 0.2665
+      },
+      "market_favorite": "home"
+    }
+  ]
+}

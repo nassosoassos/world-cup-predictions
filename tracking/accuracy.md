@@ -3,12 +3,14 @@
 Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 
 ## Running tally
-- Matches predicted: 102
-- Correct picks (1X2): 68
-- Hit rate: 67% (68/102)
+- Matches predicted: 104
+- Correct picks (1X2): 69
+- Hit rate: 66% (69/104)
 - Exact scoreline hits: 16
 - Avg confidence of correct picks: 3.4
 - Avg confidence of wrong picks: 2.8
+
+*Tournament complete — final tally after the 2026 World Cup final (19 Jul).*
 
 ## Log
 | Date | Match | Pick | Score guess | Conf | Actual | Pick hit? | Score hit? |
@@ -115,3 +117,5 @@ Immutable record of calls vs outcomes. Never edit a prediction after kickoff.
 | 2026-07-12 | Argentina vs Switzerland | Home | 2-0 | 4 | 3-1 (home) | ✓ | ✗ |
 | 2026-07-14 | France vs Spain | Home | 2-1 | 3 | 0-2 (away) | ✗ | ✗ |
 | 2026-07-15 | England vs Argentina | Home | 2-1 | 2 | 1-2 (away) | ✗ | ✗ |
+| 2026-07-18 | France vs England | Home | 2-1 | 3 | 4-6 (away) | ✗ | ✗ |
+| 2026-07-19 | Spain vs Argentina | Home | 2-1 | 3 | 1-0 (home) | ✓ | ✗ |
