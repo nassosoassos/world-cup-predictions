@@ -69,6 +69,27 @@ def all_predictions() -> list[dict]:
     return days
 
 
+def implied_result(scoreline: str) -> str | None:
+    """The 1X2 result a scoreline implies, in home-away order. None if unparseable."""
+    try:
+        h, a = (int(x) for x in (scoreline or "").split("-"))
+    except (ValueError, AttributeError):
+        return None
+    return "home" if h > a else ("away" if a > h else "draw")
+
+
+def scoreline_usable(p: dict) -> bool:
+    """False when a prediction's scoreline contradicts its own pick.
+
+    Scorelines are home-away order, so `pick: away` with `scoreline: "1-0"` is
+    self-contradictory and we can't tell which half was meant. Such a scoreline
+    must never be credited an exact hit just because the string happens to match
+    the final score — that would reward a call that named the wrong winner.
+    """
+    imp = implied_result(p.get("scoreline"))
+    return imp is not None and imp == p.get("pick")
+
+
 def grade(days: list[dict], scores: dict) -> dict:
     """Attach actual results to predictions and compute an accuracy summary."""
     seen = set()
@@ -85,7 +106,8 @@ def grade(days: list[dict], scores: dict) -> dict:
                     "final_score": sc.get("final_score"),
                     "result": sc.get("result"),
                     "pick_hit": p.get("pick") == sc.get("result"),
-                    "score_hit": (p.get("scoreline") or "").replace(" ", "")
+                    "score_hit": scoreline_usable(p)
+                    and (p.get("scoreline") or "").replace(" ", "")
                     == (sc.get("final_score") or "").replace(" ", ""),
                 }
                 if key not in seen:
@@ -191,6 +213,92 @@ def derive_groups(futures: dict) -> tuple[dict, list[dict]]:
     return team_group, groups
 
 
+def postmortem(days: list[dict], scores: dict) -> dict | None:
+    """Measure the method against itself.
+
+    Two questions the headline hit rate can't answer: did deviating from the
+    market favourite add anything, and did the scoreline guesses beat a
+    brain-dead fixed guess? Everything here is derived, never hardcoded — if a
+    late result lands, the numbers move with it.
+    """
+    seen, rows = set(), []
+    for day in reversed(days):  # oldest first; keep the pick we actually stood on
+        for p in day["predictions"]:
+            key = f"{p.get('home_team')}|{p.get('away_team')}"
+            sc = scores.get(key)
+            if not (sc and sc.get("completed") and sc.get("result")):
+                continue
+            mkt = p.get("market") or {}
+            if not mkt:
+                continue
+            try:
+                ph, pa = (int(x) for x in (p.get("scoreline") or "").split("-"))
+                ah, aa = (int(x) for x in (sc.get("final_score") or "").split("-"))
+            except (ValueError, AttributeError):
+                continue
+            seen.add(key)
+            rows.append({
+                "pick": p.get("pick"), "res": sc["result"],
+                "fav": max(mkt, key=mkt.get), "favp": mkt[max(mkt, key=mkt.get)],
+                "ph": ph, "pa": pa, "ah": ah, "aa": aa,
+                "ok": scoreline_usable(p),
+                "match": f"{p.get('home_team')} v {p.get('away_team')}",
+            })
+    # de-dupe: one row per fixture, keeping the last (final) pick we published
+    dedup = {}
+    for r in rows:
+        dedup[r["match"]] = r
+    rows = list(dedup.values())
+    if not rows:
+        return None
+
+    def points(ph, pa, res, r, pick=None):
+        """Kicktipp-style: 4 exact score / 3 goal difference / 2 correct winner.
+
+        `pick` overrides the winner implied by the scoreline — used for our own
+        rows, where the recorded pick is what we actually stood behind.
+        """
+        pr = pick or ("home" if ph > pa else ("away" if pa > ph else "draw"))
+        exact = ph == r["ah"] and pa == r["aa"]
+        gd = (ph - pa) == (r["ah"] - r["aa"])
+        win = pr == res
+        return (4 if exact else (3 if (gd and win) else (2 if win else 0)),
+                exact, gd, win)
+
+    # A scoreline that contradicts its own pick is unusable: it can't earn an
+    # exact or goal-difference credit, and the pick decides the winner.
+    ours = [points(r["ph"], r["pa"], r["res"], r, pick=r["pick"]) if r["ok"]
+            else (2 if r["pick"] == r["res"] else 0, False, False,
+                  r["pick"] == r["res"])
+            for r in rows]
+    baselines = []
+    for gh, ga in ((2, 1), (1, 0), (2, 0), (1, 1)):
+        b = [points(gh, ga, r["res"], r) for r in rows]
+        baselines.append({
+            "label": f"{gh}-{ga} every match",
+            "pts": sum(x[0] for x in b), "exact": sum(x[1] for x in b),
+            "gd": sum(x[2] for x in b), "win": sum(x[3] for x in b),
+        })
+    baselines.sort(key=lambda b: -b["pts"])
+
+    devs = [r for r in rows if r["pick"] != r["fav"]]
+    return {
+        "n": len(rows),
+        "ours": {"pts": sum(x[0] for x in ours), "exact": sum(x[1] for x in ours),
+                 "gd": sum(x[2] for x in ours), "win": sum(x[3] for x in ours)},
+        "baselines": baselines,
+        "followed": sum(1 for r in rows if r["pick"] == r["fav"]),
+        "blind_fav": sum(1 for r in rows if r["fav"] == r["res"]),
+        "deviations": [{"match": r["match"], "pick": r["pick"], "fav": r["fav"],
+                        "favp": r["favp"], "res": r["res"],
+                        "hit": r["pick"] == r["res"]} for r in devs],
+        "dev_hits": sum(1 for r in devs if r["pick"] == r["res"]),
+        "draws_actual": sum(1 for r in rows if r["res"] == "draw"),
+        "draws_picked": sum(1 for r in rows if r["pick"] == "draw"),
+        "draws_hit": sum(1 for r in rows if r["pick"] == "draw" == r["res"]),
+    }
+
+
 def build_data() -> dict:
     scores = latest_scores()
     days = all_predictions()
@@ -207,6 +315,7 @@ def build_data() -> dict:
         "futures": futures,
         "groups": groups,
         "teams": TEAMS,
+        "postmortem": postmortem(days, scores),
     }
 
 
@@ -444,6 +553,65 @@ HTML = """<!DOCTYPE html>
     border-radius:18px; font-family:"Space Mono"; font-size:13px;}
   .hidden{display:none !important;}
 
+  /* ---- post-mortem: did the method actually work? ---- */
+  .pm{border:1px solid var(--line); border-radius:18px; margin:34px 0 4px;
+    background:linear-gradient(180deg,var(--panel),var(--bg2)); box-shadow:var(--shadow);
+    overflow:hidden;}
+  .pm summary{list-style:none; cursor:pointer; padding:19px 22px; display:flex;
+    align-items:center; gap:14px; flex-wrap:wrap;}
+  .pm summary::-webkit-details-marker{display:none;}
+  .pm summary:focus-visible{outline:2px solid var(--lime); outline-offset:-3px;}
+  .pm .pmttl{font-family:"Anton"; font-size:21px; letter-spacing:.5px; text-transform:uppercase;}
+  .pm .pmsub{font-family:"Space Mono"; font-size:11.5px; color:var(--muted); letter-spacing:.4px;}
+  .pm .chev{margin-left:auto; color:var(--muted); font-size:13px; font-family:"Space Mono";
+    transition:.2s;}
+  .pm[open] .chev{transform:rotate(90deg);}
+  .pmbody{padding:2px 22px 24px; display:flex; flex-direction:column; gap:22px;}
+  .pmbody p{margin:0; color:var(--muted); font-size:14px; max-width:62ch;}
+  .pmbody p b{color:var(--ink); font-weight:700;}
+  .pmh{font-family:"Space Mono"; font-size:10.5px; letter-spacing:1.6px; text-transform:uppercase;
+    color:var(--lime); margin:0 0 10px; padding-bottom:8px; border-bottom:1px solid var(--line);}
+
+  /* the headline verdict */
+  .verdict{display:flex; align-items:center; gap:20px; flex-wrap:wrap;
+    background:var(--panel2); border:1px solid var(--line2); border-radius:14px; padding:17px 20px;}
+  .verdict .big{font-family:"Anton"; font-size:44px; line-height:.9; color:var(--loss);
+    letter-spacing:.5px;}
+  .verdict .vtx{font-size:14px; color:var(--muted); max-width:46ch;}
+  .verdict .vtx b{color:var(--ink);}
+
+  /* A/B comparison bars */
+  .ab{display:flex; flex-direction:column; gap:11px;}
+  .abrow{display:grid; grid-template-columns:minmax(120px,1.3fr) 1fr auto; gap:14px;
+    align-items:center;}
+  .abrow .abl{font-size:13px; color:var(--muted);}
+  .abrow.win .abl{color:var(--ink); font-weight:600;}
+  .abtrack{height:9px; border-radius:999px; background:var(--panel2);
+    border:1px solid var(--line); overflow:hidden;}
+  .abfill{height:100%; border-radius:999px; background:var(--faint);}
+  .abrow.win .abfill{background:linear-gradient(90deg,var(--lime2),var(--lime));}
+  .abv{font-family:"Space Mono"; font-size:12.5px; color:var(--muted); font-variant-numeric:tabular-nums;
+    white-space:nowrap;}
+  .abrow.win .abv{color:var(--lime);}
+
+  /* the deviations ledger */
+  .devs{display:flex; flex-direction:column; gap:0;}
+  .devrow{display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; padding:9px 0;
+    border-bottom:1px solid var(--line); font-family:"Space Mono"; font-size:12px;}
+  .devrow:first-child{border-top:1px solid var(--line);}
+  .devrow .dm{flex:1 1 190px; color:var(--ink);}
+  .devrow .dv{font-weight:700;}
+  .devrow .dv.miss{color:var(--loss);} .devrow .dv.hit{color:var(--win);}
+  .devrow .dd{flex:1 1 100%; color:var(--faint); font-size:11.5px;}
+
+  .pmnote{font-family:"Space Mono"; font-size:11px; color:var(--faint); line-height:1.65;
+    border-top:1px solid var(--line); padding-top:14px; max-width:70ch;}
+  @media (max-width:560px){
+    .verdict .big{font-size:34px;}
+    .abrow{grid-template-columns:1fr auto; }
+    .abrow .abtrack{grid-column:1/-1; order:3;}
+  }
+
   @media (max-width:560px){
     .wordmark .l2{font-size:20px;}
     .rcell .v{font-size:25px;}
@@ -466,6 +634,7 @@ HTML = """<!DOCTYPE html>
 
   <div class="ribbon" id="stats"></div>
   <div class="honours" id="honours"></div>
+  <div id="pmwrap"></div>
 
   <div class="switch" id="switch">
     <button data-v="schedule" class="on"><span class="ic">◳</span> Schedule</button>
@@ -558,6 +727,87 @@ function renderHonours(f){
       ${m.confidence?`<div class="hc">${'\\u2605'.repeat(m.confidence)}${'\\u2606'.repeat(Math.max(0,5-m.confidence))}</div>`:""}
       ${res}</div>`;
   }).join("");
+}
+
+/* ---------- post-mortem: honest audit of the method ---------- */
+function renderPostmortem(pm){
+  const el = document.getElementById("pmwrap");
+  if(!pm || !pm.n){ el.innerHTML=""; return; }
+  const PK = {home:"home", draw:"draw", away:"away"};
+
+  // Did deviating from the market favourite pay?
+  const devN = pm.deviations.length;
+  const verdict = devN
+    ? `<div class="verdict">
+         <div class="big">${pm.dev_hits}/${devN}</div>
+         <div class="vtx">Times the research overruled the betting market — and how
+           often that was <b>right</b>. The other <b>${pm.followed}</b> picks simply backed
+           the market favourite.</div>
+       </div>`
+    : "";
+
+  // Blind-favourite control: what if we'd never read a preview?
+  const diff = pm.blind_fav - pm.ours.win;
+  const ctrl = `<p>Backing the market favourite in all <b>${pm.n}</b> matches without reading a
+    single preview would have returned <b>${pm.blind_fav}</b> correct winners.
+    We got <b>${pm.ours.win}</b> — ${diff>0 ? `<b>${diff} fewer</b>. The qualitative layer
+    was a net cost.` : diff===0 ? `exactly the same. The qualitative layer added nothing.`
+    : `<b>${-diff} more</b>.`}</p>`;
+
+  // Scoreline craft vs fixed-guess baselines
+  const all = [{label:"Our submitted picks", ...pm.ours, us:true}, ...pm.baselines];
+  const max = Math.max(...all.map(b => b.pts)) || 1;
+  const bars = all.map(b => `
+    <div class="abrow ${b.us?'win':''}">
+      <div class="abl">${b.label}</div>
+      <div class="abtrack"><div class="abfill" style="width:${100*b.pts/max}%"></div></div>
+      <div class="abv">${b.pts} pts · ${b.exact} exact</div>
+    </div>`).join("");
+
+  const devs = devN ? `
+    <div>
+      <div class="pmh">Every deviation, in full</div>
+      <div class="devs">${pm.deviations.map(d => `
+        <div class="devrow">
+          <span class="dm">${d.match}</span>
+          <span class="dv ${d.hit?'hit':'miss'}">${d.hit?'\\u2713 hit':'\\u2717 miss'}</span>
+          <span class="dd">picked ${PK[d.pick]||d.pick} · market said ${PK[d.fav]||d.fav}
+            ${Math.round((d.favp||0)*100)}% · finished ${PK[d.res]||d.res}</span>
+        </div>`).join("")}</div>
+    </div>` : "";
+
+  el.innerHTML = `
+  <details class="pm">
+    <summary>
+      <span class="pmttl">Did any of this work?</span>
+      <span class="pmsub">an honest audit of ${pm.n} predictions</span>
+      <span class="chev">\\u276F</span>
+    </summary>
+    <div class="pmbody">
+      ${verdict}
+      ${ctrl}
+      <div>
+        <div class="pmh">Where the points actually came from</div>
+        ${bars}
+        <p style="margin-top:12px">Scored 4 / 3 / 2 for exact score, goal difference and correct
+          winner — highest tier only. The gap over a fixed guess is <b>scoreline craft</b>:
+          matching the shape of the score to how strong the market made the favourite.</p>
+      </div>
+      ${devs}
+      <div>
+        <div class="pmh">The draw blind spot that wasn't</div>
+        <p><b>${pm.draws_actual}</b> matches finished level. We predicted a draw
+          <b>${pm.draws_picked}</b> times and got <b>${pm.draws_hit}</b>. That looks like a flaw,
+          but a draw is rarely the single most likely outcome even when it is the most common
+          result overall — so under-picking draws is correct, and feels wrong all season.</p>
+      </div>
+      <div class="pmnote">
+        All figures recomputed from the prediction and score files on every build — nothing here
+        is hardcoded. The 4/3/2 scheme is an assumption for comparison; other weightings move the
+        totals but not the direction. Predictions for fun, not betting advice.
+      </div>
+    </div>
+  </details>`;
 }
 
 /* ---------- calendar ---------- */
@@ -782,6 +1032,7 @@ document.querySelectorAll("#switch button").forEach(b => {
 document.getElementById("gen").textContent = "updated " + (DATA.generated_at||"");
 renderStats(DATA.summary||{});
 renderHonours(DATA.futures||{});
+renderPostmortem(DATA.postmortem);
 document.getElementById("expandall").onclick = () => setExpandAll(!allOpen);
 if(!MATCHES.length){
   document.getElementById("calwrap").innerHTML =
